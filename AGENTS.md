@@ -1,5 +1,9 @@
 # MyNetWorth production project
 
+## Start here in a new Codex session
+
+Read `HANDOFF.md` in full before planning changes. It records the approved film, migration, exact scene/transition timings, privacy constraints, validation evidence, missing inputs and user preferences from the previous conversation. Then read README.md and manifests/production.json. Do not recreate experiments or alter approved scenes merely to recover context.
+
 ## Architecture and approved baseline
 
 Read README.md first, then manifests/production.json. The approved baseline is 1349 frames, 1280×720 at 24fps (56.208333s). src/index.jsx registers the approved assembly, 1080p assembly and editable scene previews. The same approved-720p.json drives Remotion and FFmpeg. public contains immutable, checksummed production inputs; source videos and approved composites ARE tracked in Git. out is disposable output. references contains optional comparison renders, never runtime dependencies.
