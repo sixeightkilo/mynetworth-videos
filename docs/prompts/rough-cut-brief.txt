@@ -1,0 +1,28 @@
+Create a complete 720p rough cut of the MyNetWorth promotional film using all existing scenes in cleaned folder.
+
+Requirements:
+
+1. Assemble Scenes 1 through 9 in narrative order.
+2. Preserve the existing Scene 6 → 7 transition exactly as implemented. It has already been tested and approved.
+3. Preserve all existing phone-screen overlays, dashboard composites, screen recordings and captions.
+4. Add a simple Scene 10 end card:
+   - MyNetWorth
+   - All Your Investments. One Clean Dashboard.
+   - Available on Android
+5. Crossfade from Scene 9 into the end card over approximately 0.7 seconds.
+6. Hold the end card for approximately 3.5 seconds.
+7. Use existing dialogue audio as temporary audio. Do not attempt voice replacement yet.
+8. Do not regenerate, redesign or otherwise modify existing scenes.
+9. Preserve original aspect ratio, 1280×720 resolution and project frame rate.
+10. Export `mynetworth-rough-cut-720p.mp4`.
+
+Also produce a scene timing report containing:
+- Scene name
+- Start time
+- End time
+- Duration
+- Source video/composition
+- Existing overlays and effects
+
+Keep the rough-cut composition separate from the individual scene compositions so we can revise scenes independently.
+Provide a script so this can be regenerated after replacing content files

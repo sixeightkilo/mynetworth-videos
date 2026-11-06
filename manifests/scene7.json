@@ -1,0 +1,70 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "durationInFrames": 264,
+  "transitionFrames": 4,
+  "phoneCenter": [
+    880,
+    360
+  ],
+  "features": [
+    {
+      "id": "dashboard",
+      "file": "app-recordings/dashboard.mp4",
+      "caption": "All investments. One dashboard.",
+      "fromFrame": 0,
+      "clips": [
+        {
+          "sourceStartSeconds": 1,
+          "durationInFrames": 72
+        }
+      ]
+    },
+    {
+      "id": "sip",
+      "file": "app-recordings/sip.mp4",
+      "caption": "Track your SIPs",
+      "fromFrame": 68,
+      "clips": [
+        {
+          "sourceStartSeconds": 4.75,
+          "durationInFrames": 66
+        }
+      ]
+    },
+    {
+      "id": "reports",
+      "file": "app-recordings/reports.mp4",
+      "caption": "Reports that make sense",
+      "fromFrame": 130,
+      "clips": [
+        {
+          "sourceStartSeconds": 2.75,
+          "durationInFrames": 66
+        }
+      ]
+    },
+    {
+      "id": "cas",
+      "file": "app-recordings/cas-import.mp4",
+      "caption": "Import your CAS. Skip manual entry.",
+      "fromFrame": 192,
+      "clips": [
+        {
+          "sourceStartSeconds": 1.4166666666666667,
+          "durationInFrames": 27
+        },
+        {
+          "stillImage": "screenshots/import-local.png",
+          "durationInFrames": 18
+        },
+        {
+          "stillImage": "screenshots/dashboard-opening.png",
+          "durationInFrames": 27,
+          "label": "Demo portfolio"
+        }
+      ]
+    }
+  ]
+}

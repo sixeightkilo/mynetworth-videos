@@ -1,0 +1,13 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "source": "scenes/6-zoom-on-app.mp4",
+  "approved": "composites/scene6-7-approved-transition.mp4",
+  "takeoverFrame": 120,
+  "approvedStartFrame": 90,
+  "approvedFrameCount": 388,
+  "durationInFrames": 418,
+  "sourceFrameCount": 121,
+  "audioFadeFrames": 6
+}

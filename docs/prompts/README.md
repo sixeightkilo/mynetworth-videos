@@ -1,0 +1,1 @@
+Only existing, relevant instructions are copied here. rough-cut-brief.txt is an assembly brief, not an original Kling generation prompt. Original prompts for the scene footage were not found. The old root prompt and incoming/Scenes/prompt.txt concern superseded tracking/character experiments and were deliberately excluded. Do not reconstruct or invent missing prompts.

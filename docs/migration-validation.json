@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "migrationType": "Selective; original media and source files preserved",
+  "assetCount": 22,
+  "copiedAssetBytes": 73575619,
+  "sourceAssetChecksumsUnchanged": true,
+  "publicAssetsAreRealCopies": true,
+  "remotionBundle": "passed (all five compositions bundled; Chromium render not claimed)",
+  "dependencyInstall": "Pinned lockfile installed offline; --ignore-scripts needed for sandboxed esbuild postinstall. Bundle works.",
+  "approvedRoughCutReproduction": {
+    "status": "passed",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "frames": 1349,
+    "durationSeconds": 56.208333333333336,
+    "fullDecode": "passed",
+    "audio": "present",
+    "sourceChecksums": "passed",
+    "referenceComparison": {
+      "averagePSNRdB": "inf",
+      "status": "passed",
+      "outputFileIdentical": true,
+      "decodedAudioIdentical": true
+    }
+  },
+  "1080p": "Composition bundled; footage upscaled from existing approved ~720p media. No 1080p render performed.",
+  "destinationStatus": "Staged in source workspace; /home/dev/mynetworth-videos is outside permitted write roots",
+  "excluded": "Experiments, tracking diagnostics, old character/cat work, raw CAS recording, source milestone archive, old bundles, caches and dependencies",
+  "sourceDependencyNote": "Initial npm ci mistakenly ran at original root; source node_modules restored from original lockfile with --ignore-scripts. No source/config/media files changed.",
+  "scene6And7Reproduction": {
+    "status": "passed",
+    "outputFileIdentical": true
+  }
+}

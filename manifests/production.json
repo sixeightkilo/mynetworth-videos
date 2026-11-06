@@ -1,0 +1,213 @@
+{
+  "title": "MyNetWorth promotional film",
+  "approvedOn": "2026-11-06",
+  "approvedBaseline": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "durationInFrames": 1349,
+    "durationSeconds": 56.208333333333336,
+    "manifest": "manifests/approved-720p.json",
+    "reference": "references/approved-rough-cut-720p.mp4"
+  },
+  "productionTarget": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "composition": "Production1080p",
+    "status": "Ready to assemble from approved media; existing ~720p footage will be upscaled, not regenerated"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Opening conversation",
+      "startFrame": 0,
+      "durationInFrames": 121,
+      "source": "scenes/1-opening-clean.mp4",
+      "effects": [
+        "existing watermark cleanup",
+        "aspect-preserving fit"
+      ],
+      "promptStatus": "Original Kling generation prompt not found",
+      "endFrame": 121,
+      "audioStatus": "Temporary existing source audio"
+    },
+    {
+      "id": 2,
+      "name": "Notification received",
+      "startFrame": 121,
+      "durationInFrames": 121,
+      "source": "scenes/2-notification-received-clean.mp4",
+      "effects": [
+        "existing watermark cleanup",
+        "aspect-preserving fit"
+      ],
+      "promptStatus": "Original Kling generation prompt not found",
+      "endFrame": 242,
+      "audioStatus": "Temporary existing source audio"
+    },
+    {
+      "id": 3,
+      "name": "Frustration",
+      "startFrame": 242,
+      "durationInFrames": 121,
+      "source": "scenes/3-frustration-clean.mp4",
+      "effects": [
+        "existing watermark cleanup",
+        "aspect-preserving fit"
+      ],
+      "promptStatus": "Original Kling generation prompt not found",
+      "endFrame": 363,
+      "audioStatus": "Temporary existing source audio"
+    },
+    {
+      "id": 4,
+      "name": "Revelation",
+      "startFrame": 363,
+      "durationInFrames": 121,
+      "source": "scenes/4-revelation-clean.mp4",
+      "effects": [
+        "existing watermark cleanup",
+        "aspect-preserving fit"
+      ],
+      "promptStatus": "Original Kling generation prompt not found",
+      "endFrame": 484,
+      "audioStatus": "Temporary existing source audio"
+    },
+    {
+      "id": 5,
+      "name": "Introduction",
+      "startFrame": 484,
+      "durationInFrames": 121,
+      "source": "scenes/5-introduction-clean.mp4",
+      "effects": [
+        "existing watermark cleanup",
+        "aspect-preserving fit"
+      ],
+      "promptStatus": "Original Kling generation prompt not found",
+      "endFrame": 605,
+      "audioStatus": "Temporary existing source audio"
+    },
+    {
+      "id": 6,
+      "name": "MyNetWorth and approved phone transition",
+      "startFrame": 605,
+      "durationInFrames": 154,
+      "source": "scenes/6-zoom-on-app.mp4",
+      "assemblySource": "composites/scene6-7-integrated-approved.mp4",
+      "assemblyRange": [
+        0,
+        154
+      ],
+      "effects": [
+        "dashboard integrated throughout source",
+        "frame 120 maps to approved transition frame 90",
+        "approved camera push-in, perspective settle and rightward handoff"
+      ],
+      "promptStatus": "Original Kling generation prompt not found",
+      "endFrame": 759,
+      "audioStatus": "Temporary existing source audio"
+    },
+    {
+      "id": 7,
+      "name": "Product showcase",
+      "startFrame": 759,
+      "durationInFrames": 264,
+      "source": "composites/scene6-7-integrated-approved.mp4",
+      "assemblyRange": [
+        154,
+        418
+      ],
+      "editableComposition": "EditableScene7",
+      "editableManifest": "manifests/scene7.json",
+      "effects": [
+        "stationary phone frame",
+        "full-colour dashboard, SIP, reports and CAS recordings",
+        "synchronized captions and branding",
+        "CAS local-import hold; no file picker or PAN dialog",
+        "static opening demo dashboard ending"
+      ],
+      "promptStatus": "No generative source prompt needed; approved editable timing retained",
+      "endFrame": 1023,
+      "audioStatus": "Silent"
+    },
+    {
+      "id": 8,
+      "name": "Vijay doubts",
+      "startFrame": 1023,
+      "durationInFrames": 121,
+      "source": "scenes/8-vijay-doubts.mp4",
+      "effects": [
+        "existing footage and temporary dialogue",
+        "aspect-preserving fit"
+      ],
+      "promptStatus": "Original Kling generation prompt not found",
+      "endFrame": 1144,
+      "audioStatus": "Temporary existing source audio"
+    },
+    {
+      "id": 9,
+      "name": "Conclusion",
+      "startFrame": 1144,
+      "durationInFrames": 121,
+      "source": "scenes/9-conclusion.mp4",
+      "effects": [
+        "existing footage and temporary dialogue",
+        "aspect-preserving fit",
+        "17-frame outgoing end-card fade"
+      ],
+      "promptStatus": "Original Kling generation prompt not found",
+      "endFrame": 1265,
+      "audioStatus": "Temporary existing source audio"
+    },
+    {
+      "id": 10,
+      "name": "End card",
+      "startFrame": 1248,
+      "durationInFrames": 101,
+      "source": "branding/end-card-approved.png",
+      "text": [
+        "MyNetWorth",
+        "All Your Investments. One Clean Dashboard.",
+        "Available on Android"
+      ],
+      "effects": [
+        "17-frame crossfade overlaps Scene 9",
+        "84-frame full-opacity hold"
+      ],
+      "promptStatus": "No generative source prompt required",
+      "endFrame": 1349,
+      "audioStatus": "Silent"
+    }
+  ],
+  "missingInputs": [
+    {
+      "input": "Original Kling prompts for Scenes 1\u20136, 8\u20139",
+      "status": "Not located; do not infer from legacy experiment prompts"
+    },
+    {
+      "input": "Native 1080p scene masters and approved composite",
+      "status": "Not located; current sources are 1280x720 or 1284x724. Upscaling is available."
+    },
+    {
+      "input": "Final voice/dialogue replacements",
+      "status": "Not supplied; existing dialogue remains temporary"
+    },
+    {
+      "input": "Redistributable exact Arial font files for editable/native text consistency",
+      "status": "Not bundled. Baseline text is baked; editable Remotion uses Arial with sans-serif fallback."
+    }
+  ],
+  "availablePrompts": [
+    {
+      "file": "docs/prompts/rough-cut-brief.txt",
+      "type": "Existing assembly instructions, copied verbatim; not a Kling generation prompt"
+    }
+  ],
+  "policy": {
+    "approvedAssetsImmutable": true,
+    "sourceRegenerationAuthorized": false,
+    "casPersonalDataMustNotAppear": true,
+    "referencesRequiredAtRuntime": false
+  }
+}

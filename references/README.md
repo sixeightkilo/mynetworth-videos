@@ -1,0 +1,1 @@
+Approval-only comparison videos, ignored by Git. Runtime compositions and render scripts never read this folder. Approved checksums are tracked in manifests/reference-checksums.json. validate:rough-cut compares generated output to approved-rough-cut-720p.mp4 if present.

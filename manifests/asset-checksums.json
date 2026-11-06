@@ -1,0 +1,112 @@
+{
+  "public/scenes/1-opening-clean.mp4": {
+    "sha256": "767f99dbcef2378f25fa98336d3855f49a6b4f84d99b83365c23579b42c32336",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/1-opening-clean.mp4",
+    "bytes": 1293572
+  },
+  "public/scenes/2-notification-received-clean.mp4": {
+    "sha256": "5f9ed9de68100629ad6b980e89e7923ebfec1571cc15ae4431ec9fd66bc2c53e",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/2-notification-received-clean.mp4",
+    "bytes": 1334503
+  },
+  "public/scenes/3-frustration-clean.mp4": {
+    "sha256": "953944100b6b53651092e1d819dda7ae61854fa76313bac4e17bf4119032788b",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/3-frustration-clean.mp4",
+    "bytes": 1265944
+  },
+  "public/scenes/4-revelation-clean.mp4": {
+    "sha256": "e421d72cce12b51a004206f88e30313edf7f08df8c92dc9d940d019eed51be3b",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/4-revelation-clean.mp4",
+    "bytes": 1211565
+  },
+  "public/scenes/5-introduction-clean.mp4": {
+    "sha256": "e7e086805f04467a21266148e0e0115004cf343bfd2e0263c1373dcfc5007a38",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/5-introduction-clean.mp4",
+    "bytes": 1354683
+  },
+  "public/scenes/6-zoom-on-app.mp4": {
+    "sha256": "8f2b7a27c987d79192e68d6c8ab05a5fb375f738eb12ff13b35aa58e86be3f44",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/6-zoom-on-app.mp4",
+    "bytes": 4081986
+  },
+  "public/scenes/8-vijay-doubts.mp4": {
+    "sha256": "e4cd6296f21b13484f44bc9db6dfc5dd2fd0c323d6dd18eec3b5379711354ab1",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/8-vijay-doubts.mp4",
+    "bytes": 2055120
+  },
+  "public/scenes/9-conclusion.mp4": {
+    "sha256": "d8275d80096401037252cade7a271d50e086c2f13f29269c7c3f917706aa6abb",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/9-conclusion.mp4",
+    "bytes": 1847778
+  },
+  "public/composites/scene6-7-approved-transition.mp4": {
+    "sha256": "3ed1d071e3eba2a592ed376200e85e6e5a391feaa46db4ba6fec6177786c09d6",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/6-7-mynetworth.mp4",
+    "bytes": 2648909
+  },
+  "public/composites/scene6-7-integrated-approved.mp4": {
+    "sha256": "4b0d84318f1b6a9af97b3184c99a529f3c41f2c37f8e6f0378e4553358ed7279",
+    "originalSource": "assets/kling-video/scene-6-7-preview/revision-integrated-dashboard/scene-6-7-preview.mp4",
+    "bytes": 2954378
+  },
+  "public/app-recordings/dashboard.mp4": {
+    "sha256": "388f8184b8fdb1a4d1df807abb8b7d6aa033081dd6947a69c23483b8ebba3671",
+    "originalSource": "assets/kling-video/scene-7-videos/dashboard-00.00.01.000-00.00.04.044.mp4",
+    "bytes": 8078555
+  },
+  "public/app-recordings/sip.mp4": {
+    "sha256": "0b5d72cd4ad541fe37f938c2b3a11bb1bf16d53f396e374e3b866b555321f0b5",
+    "originalSource": "assets/kling-video/scene-7-videos/sip-00.00.02.253-00.00.07.553.mp4",
+    "bytes": 14503535
+  },
+  "public/app-recordings/reports.mp4": {
+    "sha256": "1c4da3af92035697e070a326af4d4debf55de27f2bcbbde41cfafcf8d093c3ae",
+    "originalSource": "assets/kling-video/scene-7-videos/reports-00.00.00.980-00.00.06.306.mp4",
+    "bytes": 7284963
+  },
+  "public/app-recordings/cas-import.mp4": {
+    "sha256": "007b75ab4106e6120e8d36b6e28b1767e00bed03c3d9bd6649e20aa8940dc02a",
+    "originalSource": "assets/kling-video/scene-7-videos/nsdl-import-cut-merged-1793871966496.mp4",
+    "bytes": 9382495
+  },
+  "public/app-recordings/dashboard-original.mp4": {
+    "sha256": "9ddeb08552699c95d4988049cccebe6baa60a4bf673aa5842fccefc8e384e4e1",
+    "originalSource": "assets/kling-video/scene-7-videos/dashboard.mp4",
+    "bytes": 12274776
+  },
+  "public/screenshots/import-local.png": {
+    "sha256": "7d92edb2322f188aa85d89ec19d674d918ad0e3344cc728c2e795e1e850b0b84",
+    "originalSource": "assets/kling-video/scene-7-showcase/stills/import-local.png",
+    "bytes": 201272
+  },
+  "public/screenshots/dashboard-opening.png": {
+    "sha256": "db143f5bcc03951fcb9b393eefe5629fe4856aacee1ba9124b512acf502f1c06",
+    "originalSource": "assets/kling-video/scene-7-showcase/stills/dashboard-opening.png",
+    "bytes": 435409
+  },
+  "public/screenshots/dashboard-original.png": {
+    "sha256": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd",
+    "originalSource": "assets/kling-video/watermark-cleanup/cleaned/screenshot-1.png",
+    "bytes": 172112
+  },
+  "public/screenshots/scene6-approved-takeover.png": {
+    "sha256": "61a068c4c6e35757c8448f7e830b69c9d07ddb5d18d6c8d443438fa7ad29de5b",
+    "originalSource": "assets/kling-video/Scene-6 -end-dashboard.png",
+    "bytes": 833793
+  },
+  "public/branding/logo.png": {
+    "sha256": "bb02ead4ce57049f74c78804b27c2e2fd7ea9b24062ab44a928ba0bbe664a3f8",
+    "originalSource": "assets/kling-video/scene-7-showcase/branding/logo.png",
+    "bytes": 274523
+  },
+  "public/phone/phone-chassis.png": {
+    "sha256": "74dff612d7758158b6a5be3dbdff684feb343ccc93a2a2ecbbeb1c1ee82ade0e",
+    "originalSource": "assets/kling-video/scene6-scene7-transition/revision-phone-frame/phone-chassis.png",
+    "bytes": 37400
+  },
+  "public/branding/end-card-approved.png": {
+    "sha256": "37b3a156fd726d0074c7d90cc34c541b35f414f9999f35e0ce659589a1906836",
+    "originalSource": "assets/kling-video/full-rough-cut/revision-integrated-dashboard/public/end-card.png",
+    "bytes": 48348
+  }
+}

@@ -1,0 +1,18 @@
+# Revised MyNetWorth rough cut
+
+1280×720 · 24 fps · 1349 frames · 56.208333 seconds
+
+Uses 6-zoom-on-app.mp4, joining its frame-120 pose to the approved transition at original frame 90. The new camera approach takes 30 frames longer; the tested transition and product showcase are otherwise unchanged. End times are exclusive. Scene 10 overlaps Scene 9 for 17 frames, followed by a 3.5-second full-opacity hold.
+
+| Scene name | Start time (s) | End time (s) | Duration (s) | Source video/composition | Existing overlays and effects |
+|---|---|---|---|---|---|
+| Scene 1 — Opening conversation | 0.000000 | 5.041667 | 5.041667 | assets/kling-video/watermark-cleanup/cleaned/1-opening-clean.mp4 | Existing watermark cleanup; dialogue retained; aspect-preserving fit |
+| Scene 2 — Notification received | 5.041667 | 10.083333 | 5.041667 | assets/kling-video/watermark-cleanup/cleaned/2-notification-received-clean.mp4 | Existing watermark cleanup; dialogue retained; aspect-preserving fit |
+| Scene 3 — Frustration | 10.083333 | 15.125000 | 5.041667 | assets/kling-video/watermark-cleanup/cleaned/3-frustration-clean.mp4 | Existing watermark cleanup; dialogue retained; aspect-preserving fit |
+| Scene 4 — Revelation | 15.125000 | 20.166667 | 5.041667 | assets/kling-video/watermark-cleanup/cleaned/4-revelation-clean.mp4 | Existing watermark cleanup; dialogue retained; aspect-preserving fit |
+| Scene 5 — Introduction | 20.166667 | 25.208333 | 5.041667 | assets/kling-video/watermark-cleanup/cleaned/5-introduction-clean.mp4 | Existing watermark cleanup; dialogue retained; aspect-preserving fit |
+| Scene 6 — MyNetWorth and phone transition | 25.208333 | 31.625000 | 6.416667 | assets/kling-video/scene-6-7-preview/revision-integrated-dashboard/scene-6-7-preview.mp4 [frames 0–153] | Dashboard integrated throughout new Scene 6; existing zoom, perspective settle, rightward handoff retained; no duplicate screen overlay |
+| Scene 7 — Product showcase | 31.625000 | 42.625000 | 11.000000 | assets/kling-video/scene-6-7-preview/revision-integrated-dashboard/scene-6-7-preview.mp4 [frames 154–417] | Existing smartphone frame; dashboard, SIP, reports, CAS recordings and captions; import hold and static opening demo dashboard; baked video preserved |
+| Scene 8 — Vijay doubts | 42.625000 | 47.666667 | 5.041667 | assets/kling-video/watermark-cleanup/cleaned/8-vijay-doubts.mp4 | Existing footage and dialogue; aspect-preserving fit |
+| Scene 9 — Conclusion | 47.666667 | 52.708333 | 5.041667 | assets/kling-video/watermark-cleanup/cleaned/9-conclusion.mp4 | Existing footage and dialogue; aspect-preserving fit; outgoing 17-frame crossfade to end card |
+| Scene 10 — End card | 52.000000 | 56.208333 | 4.208333 | full-rough-cut/public/end-card.png | 17-frame / 0.708333s crossfade, then 84-frame / 3.5s full-opacity hold |

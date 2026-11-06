@@ -1,0 +1,60 @@
+{
+  "video": "scenes/6-zoom-on-app.mp4",
+  "flattenedPng": "screenshots/scene6-approved-takeover.png",
+  "dashboard": "screenshots/dashboard-original.png",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "sourceFrameCount": 121,
+  "takeoverFrame": 120,
+  "takeoverTimeSeconds": 5.0,
+  "pushFrames": 17,
+  "handoffFrames": 18,
+  "scene7HoldFrames": 48,
+  "screenQuad": [
+    [
+      516.1608367796896,
+      14.017911506356178
+    ],
+    [
+      731.9168177007587,
+      11.100272832667232
+    ],
+    [
+      694.8039561370891,
+      580.942562973331
+    ],
+    [
+      470.69662840551103,
+      557.4855700840085
+    ]
+  ],
+  "focalPoint": [
+    601.3067230531349,
+    296.0214179029991
+  ],
+  "screenBoundsHeight": 569.8422901406637,
+  "targetCenter": [
+    640,
+    360
+  ],
+  "scene7Height": 696,
+  "dashboardSize": [
+    864,
+    1872
+  ],
+  "audioFadeFrames": 6,
+  "screenMatchFrames": 4,
+  "phoneSettleFrames": 15,
+  "backgroundFadeFrames": 6,
+  "mockup": {
+    "height": 640,
+    "bezel": 56,
+    "outerRadius": 128,
+    "screenRadius": 80,
+    "notchWidth": 304,
+    "notchHeight": 72,
+    "notchRadius": 24,
+    "background": "#f7f7f7"
+  }
+}

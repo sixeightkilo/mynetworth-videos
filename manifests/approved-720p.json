@@ -1,0 +1,63 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "clips": [
+    {
+      "file": "scenes/1-opening-clean.mp4",
+      "source": "scenes/1-opening-clean.mp4",
+      "fromFrame": 0,
+      "durationInFrames": 121
+    },
+    {
+      "file": "scenes/2-notification-received-clean.mp4",
+      "source": "scenes/2-notification-received-clean.mp4",
+      "fromFrame": 121,
+      "durationInFrames": 121
+    },
+    {
+      "file": "scenes/3-frustration-clean.mp4",
+      "source": "scenes/3-frustration-clean.mp4",
+      "fromFrame": 242,
+      "durationInFrames": 121
+    },
+    {
+      "file": "scenes/4-revelation-clean.mp4",
+      "source": "scenes/4-revelation-clean.mp4",
+      "fromFrame": 363,
+      "durationInFrames": 121
+    },
+    {
+      "file": "scenes/5-introduction-clean.mp4",
+      "source": "scenes/5-introduction-clean.mp4",
+      "fromFrame": 484,
+      "durationInFrames": 121
+    },
+    {
+      "file": "composites/scene6-7-integrated-approved.mp4",
+      "source": "composites/scene6-7-integrated-approved.mp4",
+      "fromFrame": 605,
+      "durationInFrames": 418
+    },
+    {
+      "file": "scenes/8-vijay-doubts.mp4",
+      "source": "scenes/8-vijay-doubts.mp4",
+      "fromFrame": 1023,
+      "durationInFrames": 121
+    },
+    {
+      "file": "scenes/9-conclusion.mp4",
+      "source": "scenes/9-conclusion.mp4",
+      "fromFrame": 1144,
+      "durationInFrames": 121
+    }
+  ],
+  "endCard": {
+    "file": "branding/end-card-approved.png",
+    "fromFrame": 1248,
+    "fadeFrames": 17,
+    "holdFrames": 84,
+    "durationInFrames": 101
+  },
+  "durationInFrames": 1349
+}

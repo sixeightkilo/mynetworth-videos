@@ -1,0 +1,23 @@
+{
+  "name": "mynetworth-videos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MyNetWorth production project; approved 720p baseline and 1080p assembly",
+  "dependencies": {
+    "@remotion/cli": "4.0.373",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.373"
+  },
+  "scripts": {
+    "studio": "remotion studio src/index.jsx --public-dir=public",
+    "build": "remotion bundle src/index.jsx --out-dir=out/bundle --public-dir=public",
+    "verify": "node scripts/verify-assets.mjs",
+    "render:rough-cut": "python3 scripts/render_rough_cut.py",
+    "render:scene6-7": "python3 scripts/render_scene6_7.py",
+    "render:1080p": "python3 scripts/render_rough_cut.py --1080p",
+    "render:rough-cut:remotion": "remotion render src/index.jsx ApprovedRoughCut720p out/mynetworth-rough-cut-720p.mp4 --public-dir=public --codec=h264 --audio-codec=aac",
+    "render:1080p:remotion": "remotion render src/index.jsx Production1080p out/mynetworth-production-1080p.mp4 --public-dir=public --codec=h264 --audio-codec=aac",
+    "validate:rough-cut": "python3 scripts/validate_render.py"
+  }
+}
