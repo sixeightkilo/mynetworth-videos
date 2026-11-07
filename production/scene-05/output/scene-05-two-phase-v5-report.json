@@ -1,0 +1,102 @@
+{
+  "media": [
+    {
+      "path": "production/scene-05/output/scene-05-two-phase-v5.mp4",
+      "frames": 120,
+      "durationSeconds": 5.0,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "audioPresent": true,
+      "sha256": "f661874b98e7cac582908be4b129b3bb91afc75f6940960fe3eecb26c4ff2bfe"
+    },
+    {
+      "path": "production/scene-05/output/scene-04-05-two-phase-preview-v5.mp4",
+      "frames": 241,
+      "durationSeconds": 10.041667,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "audioPresent": true,
+      "sha256": "7a39a95ae7da70e9a9d56fd2b400a22a3e665b7c6c8d3a481d3f84caa59bfe9a"
+    }
+  ],
+  "preRenderValidation": {
+    "passed": true,
+    "completeDisplayAndOuterBezelInsideViewportAll120Frames": true,
+    "screenAndBezel": "Single shared projective transform",
+    "finalFraming": "Exact existing model, source screenshot, phone center (1320,540), height 960",
+    "edgeInspection": "200% native-pixel crop, supersampled 2x and Lanczos downsampled; original raster bezel excluded",
+    "stills": [
+      {
+        "frame": 0,
+        "path": "production/scene-05/output/scene-05-two-phase-v5-validation-start.png",
+        "sha256": "52aa959614d8d5908abd29ab401362fe8fdc62c4b541081d8c6108bfab63f1be"
+      },
+      {
+        "frame": 60,
+        "path": "production/scene-05/output/scene-05-two-phase-v5-validation-phase-a-end.png",
+        "sha256": "6de2c7b2f46f420e575da7a3bdb47ab7ed487da884222f4b09e9293217508f76"
+      },
+      {
+        "frame": 84,
+        "path": "production/scene-05/output/scene-05-two-phase-v5-validation-phase-b-mid.png",
+        "sha256": "2009cce2a16ffa805eda3261c996e8bf07ec12d474755f691a34e5dca9e4c17d"
+      },
+      {
+        "frame": 119,
+        "path": "production/scene-05/output/scene-05-two-phase-v5-validation-final.png",
+        "sha256": "e95a188b380563bba61be2974bd9cc7796b8359a8d90d7ff442445bbeeb24ffb"
+      }
+    ]
+  },
+  "phaseA": {
+    "framesInclusive": [
+      0,
+      60
+    ],
+    "endCameraScale": 4.375,
+    "displayHeightPixels": 840,
+    "allFourCornersAndBezelInView": true
+  },
+  "phaseB": {
+    "framesInclusive": [
+      60,
+      108
+    ],
+    "backdropClearsAt": 72,
+    "sharedPhoneAndDashboardCornerMorph": [
+      72,
+      108
+    ],
+    "entireDashboardVisible": true,
+    "graphCloseup": false
+  },
+  "minimumDisplayAndOuterBezelViewportMarginPixels": 59.999996185302734,
+  "finalFraming": {
+    "phoneCenter": [
+      1320,
+      540
+    ],
+    "phoneHeight": 960,
+    "matchesExistingShowcase": true,
+    "aspectRatio": "864:1872"
+  },
+  "edgeMethod": "Geometric rounded bezel/display, one shared projective transform, rendered 3840x2160 and Lanczos downsampled to 1920x1080; source raster bezel removed from derived photo layer. No full-phone blur.",
+  "audio": "Scene 5 silent; original Scene 4 AAC copied unchanged in combined preview; decoded PCM identical.",
+  "sourceAndApprovedPOCHashes": "unchanged",
+  "fullDecode": "passed",
+  "limitations": [
+    "Reconstructed bezel uses existing showcase design; it approximates source texture rather than recovering low-resolution physical bezel detail.",
+    "Original fingertip pixels and room retain source softness during magnification. Small matte softness remains at finger overlaps.",
+    "Phase B clears the frozen room/hand before morphing the shared phone plane to the showcase pose."
+  ],
+  "standaloneAudio": {
+    "type": "Silent AAC track",
+    "decodedPeakPCM16": 0
+  }
+}

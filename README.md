@@ -80,3 +80,7 @@ Read AGENTS.md before changing scenes. Preserve approved assets; create reviewed
 ## Preservation
 
 manifests/asset-checksums.json records every migrated production asset and its original provenance. Migration checks are in docs/migration-validation.json. Git tracks code, configurations, documentation and required approved assets; renders, dependencies and reference videos are ignored. The original project's milestone archive remains in the original workspace and is deliberately not duplicated here.
+
+## New Scenes 01–05 review preview
+
+The user accepted a separate 1080p review preview on 7 November 2026, with some wrinkles remaining. `output/scene-01-05-preview-v1.mp4` is 623 frames / 25.958333 seconds at 24fps. Its exact source selections are in `manifests/scene01-05-preview-v1.json`; all runtime inputs and the Scene 05 v5 rendering workflow are versioned. See [reproduction and validation](docs/scenes01-05-preview.md). This partial preview does not replace the approved ten-scene 720p baseline or modify the existing app showcase.

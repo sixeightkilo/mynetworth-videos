@@ -1,10 +1,10 @@
 # Codex handoff — approved MyNetWorth production project
 
-Last updated: 6 November 2026. This document carries the decisions and validated state from the animation/rough-cut conversation into a new Codex session.
+Last updated: 7 November 2026. This document carries the decisions and validated state from the animation/rough-cut conversation into a new Codex session.
 
 ## Read this first
 
-The user has approved the current integrated-dashboard rough cut. Do not redesign or regenerate it to recover context. The project has already been selectively migrated from `/home/dev/mynetworth-video-generator` to `/home/dev/mynetworth-videos`; the new project is the production workspace. Git branch `main`, baseline commit `69c1f74` (`Initialize MyNetWorth production project from approved rough cut`). At handoff preparation the new working tree was clean. This handoff and the AGENTS.md startup link are subsequent documentation changes.
+The user has approved the current integrated-dashboard rough cut. Do not redesign or regenerate it to recover context. The project has already been selectively migrated from `/home/dev/mynetworth-video-generator` to `/home/dev/mynetworth-videos`; the new project is the production workspace. Git branch `master`, baseline commit `69c1f74` (`Initialize MyNetWorth production project from approved rough cut`). At handoff preparation the new working tree was clean. This handoff and the AGENTS.md startup link are subsequent documentation changes.
 
 Read README.md for setup and commands, AGENTS.md for working rules, manifests/production.json for all ten scenes and missing inputs, then docs/migration-validation.json for evidence. Filesystem permissions belong to each session: the previous session could read the destination but write only to the old project and /tmp, so the user moved the staged project. Start future Codex sessions from the production directory with that directory writable.
 
@@ -153,3 +153,11 @@ The user prefers concrete work and few unnecessary confirmation loops. Inspect e
 The old request to keep intermediate files under kling-video applied to the experimental workspace. The approved production migration intentionally replaces it with the documented structure: generated production artifacts belong in out, tracked documentation in docs, immutable inputs in public. Do not nest the old project layout back inside the production repository.
 
 On startup: read this document and AGENTS.md, inspect git status, and retain any user changes. Handoff documents may be uncommitted immediately after the user copies them into the new project; preserve and commit them when appropriate. The migration baseline is complete and proven. Continue from the user's next requested task rather than modifying approved scenes speculatively.
+
+## Latest checkpoint — Scenes 01–05 preview, 7 November 2026
+
+The user reviewed `output/scene-01-05-preview-v1.mp4` and said it looks acceptable with a few wrinkles remaining. They requested a commit of everything required to reproduce it. This is a separate partial review preview: 1920×1080, 24fps, 623 frames / 25.958333 seconds, with original soundtracks and a silent Scene 05. The approved 1349-frame ten-scene baseline remains unchanged.
+
+Read `docs/scenes01-05-preview.md` and `manifests/scene01-05-preview-v1.json` for the current source selections and reproduction commands. Scene 03 keeps [0,110); accepted dashboard Scene 04 v2 keeps [18,121); Scene 05 uses the complete `scene-05-two-phase-v5.mp4`. Scene 04 appears once. Scene 05 v5 stops its push-in while the entire display is visible, then transforms the full screenshot and geometric bezel together into the existing showcase pose. Its final entry/configuration are `src/scene05-two-phase-preview.jsx` and `manifests/scene05-two-phase-v5.json`. Earlier graph-crop and independent screen-rotation experiments are superseded and not required.
+
+The latest assembly and both v5 preparation layers were reproduced byte-for-byte. Review stills, 200% edge checks and render reports are retained beside the v5 media. Pinned npm dependencies and optional OpenCV/NumPy requirements are versioned; environments/caches stay ignored. Nothing depends on the old experimental project or disposable `out/` files. Existing app showcase and approved Remotion assembly were not modified. No publishing, source regeneration or further integration was requested.

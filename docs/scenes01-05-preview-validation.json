@@ -1,0 +1,36 @@
+{
+  "acceptedOn": "2026-11-07",
+  "status": "Accepted review preview with remaining wrinkles; separate from ten-scene baseline",
+  "output": "output/scene-01-05-preview-v1.mp4",
+  "frames": 623,
+  "fps": 24,
+  "durationSeconds": 25.958333333333332,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "reproductionChecks": [
+    {
+      "accepted": "output/scene-01-05-preview-v1.mp4",
+      "sha256": "8db28daee45c78d3b41fdc8f49d3f4dd5ef41d65783f20f67812a448e9227964",
+      "byteIdenticalReproduction": true
+    },
+    {
+      "accepted": "production/scene-05/output/scene-05-v5c-background.png",
+      "sha256": "504ca7bce97b054e9759de8ce29c8ff7456344cc37e05cd35a18d70f9830b485",
+      "byteIdenticalReproduction": true
+    },
+    {
+      "accepted": "production/scene-05/output/scene-05-v5c-fingers.png",
+      "sha256": "5c233b99df3dfbc8944f5d11449b0c9759936142e61f1f84aed78a3483830f02",
+      "byteIdenticalReproduction": true
+    }
+  ],
+  "ffmpeg": "ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers",
+  "fullDecode": "passed",
+  "originalAudioAlignment": "passed; details in output/scene-01-05-preview-v1.json",
+  "sourceHashes": "unchanged",
+  "baselineAssets": "All 22 verified",
+  "scene05Render": "Actual Chromium render at 2x resolution and downsampled; four stills validated before full render; not merely a bundle check",
+  "preservation": "Source clips, previous renders, baseline composition and existing showcase unchanged"
+}

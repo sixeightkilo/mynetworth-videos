@@ -1,0 +1,13 @@
+{
+  "output": "output/scene-01-05-preview-v1.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "clips": [
+    {"scene": "01", "source": "production/scene-01/output/scene-01.mp4", "startFrame": 0, "endFrameExclusive": 121},
+    {"scene": "02", "source": "production/scene-02/output/scene-02.mp4", "startFrame": 0, "endFrameExclusive": 169},
+    {"scene": "03", "source": "production/scene-03/output/scene-03.mp4", "startFrame": 0, "endFrameExclusive": 110},
+    {"scene": "04 dashboard", "source": "production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4", "startFrame": 18, "endFrameExclusive": 121},
+    {"scene": "05 two-phase", "source": "production/scene-05/output/scene-05-two-phase-v5.mp4", "startFrame": 0, "endFrameExclusive": 120}
+  ]
+}

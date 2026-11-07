@@ -1,0 +1,111 @@
+{
+  "output": "output/scene-01-05-preview-v1.mp4",
+  "manifest": "manifests/scene01-05-preview-v1.json",
+  "frames": 623,
+  "fps": 24,
+  "durationSeconds": 25.958333333333332,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "clips": [
+    {
+      "scene": "01",
+      "source": "production/scene-01/output/scene-01.mp4",
+      "startFrame": 0,
+      "endFrameExclusive": 121,
+      "fromFrame": 0,
+      "frames": 121,
+      "sha256": "30b89d8b08cc7cca1c258437d8693d81aec6c854b50e4e7342e74533aa71e0ae"
+    },
+    {
+      "scene": "02",
+      "source": "production/scene-02/output/scene-02.mp4",
+      "startFrame": 0,
+      "endFrameExclusive": 169,
+      "fromFrame": 121,
+      "frames": 169,
+      "sha256": "efdee69242f70727c8b5f17e3bc69dbd67f7e9b2bef63abf080e563cc62e41c4"
+    },
+    {
+      "scene": "03",
+      "source": "production/scene-03/output/scene-03.mp4",
+      "startFrame": 0,
+      "endFrameExclusive": 110,
+      "fromFrame": 290,
+      "frames": 110,
+      "sha256": "df8f1526c920d33c9e857f63dd5f28bf6ee48983f4918cb91339693864ab8feb"
+    },
+    {
+      "scene": "04 dashboard",
+      "source": "production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
+      "startFrame": 18,
+      "endFrameExclusive": 121,
+      "fromFrame": 400,
+      "frames": 103,
+      "sha256": "d824093ee34bc5c2aed6605278c12cc4f6e1afa6d984d92276cfd29c442d9c82"
+    },
+    {
+      "scene": "05 two-phase",
+      "source": "production/scene-05/output/scene-05-two-phase-v5.mp4",
+      "startFrame": 0,
+      "endFrameExclusive": 120,
+      "fromFrame": 503,
+      "frames": 120,
+      "sha256": "f661874b98e7cac582908be4b129b3bb91afc75f6940960fe3eecb26c4ff2bfe"
+    }
+  ],
+  "cuts": "Direct cuts; no overlaps or fades",
+  "audio": "Original clip soundtracks trimmed with video, sample-aligned and concatenated; AAC 44.1kHz stereo",
+  "sourceHashes": "unchanged",
+  "fullDecode": "passed",
+  "audioValidation": {
+    "checks": [
+      {
+        "scene": "01",
+        "audioCorrelation": 0.9999968372547275,
+        "lagSamplesAt24kHz": 0
+      },
+      {
+        "scene": "02",
+        "audioCorrelation": 0.9969519977785141,
+        "lagSamplesAt24kHz": 0
+      },
+      {
+        "scene": "03",
+        "audioCorrelation": 0.9950171376813806,
+        "lagSamplesAt24kHz": -1
+      },
+      {
+        "scene": "04 dashboard",
+        "audioCorrelation": 0.996110197972992,
+        "lagSamplesAt24kHz": -1
+      }
+    ],
+    "scene05": "Digitally silent after AAC join window",
+    "audioPresent": true
+  },
+  "sceneStartsSeconds": [
+    {
+      "scene": "01",
+      "seconds": 0.0
+    },
+    {
+      "scene": "02",
+      "seconds": 5.041666666666667
+    },
+    {
+      "scene": "03",
+      "seconds": 12.083333333333334
+    },
+    {
+      "scene": "04 dashboard",
+      "seconds": 16.666666666666668
+    },
+    {
+      "scene": "05 two-phase",
+      "seconds": 20.958333333333332
+    }
+  ],
+  "boundaryContactSheet": "output/scene-01-05-preview-v1-boundaries.jpg"
+}

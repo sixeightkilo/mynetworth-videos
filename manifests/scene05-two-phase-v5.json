@@ -1,0 +1,207 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "durationInFrames": 120,
+  "sourceScene4": "scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
+  "startImage": "scene-05/output/scene-05-start-exact.png",
+  "dashboard": "references/dashboard-original.png",
+  "dashboardSize": [
+    864,
+    1872
+  ],
+  "screenQuad": [
+    [
+      810.5,
+      303.0
+    ],
+    [
+      888.0,
+      301.0
+    ],
+    [
+      882.5,
+      492.0
+    ],
+    [
+      805.5,
+      493.0
+    ]
+  ],
+  "model": {
+    "height": 640,
+    "bezel": 56,
+    "outerRadius": 128,
+    "screenRadius": 80,
+    "notchWidth": 304,
+    "notchHeight": 72,
+    "notchRadius": 24,
+    "background": "#f7f7f7"
+  },
+  "designScale": 1.5,
+  "targetCenter": [
+    1320.0,
+    540.0
+  ],
+  "sources": {
+    "production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4": "d824093ee34bc5c2aed6605278c12cc4f6e1afa6d984d92276cfd29c442d9c82",
+    "production/references/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
+  },
+  "backgroundImage": "scene-05/output/scene-05-v5c-background.png",
+  "fingerImage": "scene-05/output/scene-05-v5c-fingers.png",
+  "phaseAEndFrame": 60,
+  "phaseBEndFrame": 108,
+  "backdropClearEndFrame": 72,
+  "morphStartFrame": 72,
+  "phaseADisplayHeight": 840,
+  "cameraTargetCenter": [
+    960,
+    540
+  ],
+  "takeoverFrames": 8,
+  "supersampling": 2,
+  "validationFrames": [
+    0,
+    60,
+    84,
+    119
+  ],
+  "foregroundPolygons": [
+    [
+      [
+        787,
+        358
+      ],
+      [
+        810,
+        358
+      ],
+      [
+        820,
+        380
+      ],
+      [
+        807,
+        391
+      ],
+      [
+        787,
+        385
+      ]
+    ],
+    [
+      [
+        777,
+        392
+      ],
+      [
+        809,
+        391
+      ],
+      [
+        820,
+        411
+      ],
+      [
+        807,
+        424
+      ],
+      [
+        778,
+        418
+      ]
+    ],
+    [
+      [
+        775,
+        422
+      ],
+      [
+        809,
+        421
+      ],
+      [
+        820,
+        441
+      ],
+      [
+        808,
+        454
+      ],
+      [
+        776,
+        450
+      ]
+    ],
+    [
+      [
+        778,
+        450
+      ],
+      [
+        810,
+        447
+      ],
+      [
+        820,
+        467
+      ],
+      [
+        807,
+        481
+      ],
+      [
+        781,
+        478
+      ]
+    ],
+    [
+      [
+        884,
+        380
+      ],
+      [
+        907,
+        381
+      ],
+      [
+        924,
+        409
+      ],
+      [
+        922,
+        451
+      ],
+      [
+        904,
+        468
+      ],
+      [
+        883,
+        445
+      ]
+    ],
+    [
+      [
+        794,
+        486
+      ],
+      [
+        893,
+        478
+      ],
+      [
+        914,
+        519
+      ],
+      [
+        865,
+        545
+      ],
+      [
+        810,
+        526
+      ]
+    ]
+  ]
+}
