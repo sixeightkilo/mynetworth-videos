@@ -1,0 +1,82 @@
+## Task: Scene 4 — Perspective-tracked dashboard replacement
+
+We need to integrate the real MyNetWorth dashboard into the **original first-pass Scene 4 Kling video**, before the dashboard was added through Kling keyframes.
+
+Previous attempts using Kling-generated dashboard integration introduced flickering and notch artifacts. We want a deterministic, conventional video-compositing solution using Python/OpenCV and FFmpeg. No AI video generation.
+
+### Inputs
+
+Locate the following in the project:
+
+- Original first-pass Scene 4 video, without dashboard integration. scene-04.mp4
+- Original MyNetWorth dashboard screenshot (864 × 1872).dashboard-original.png
+- Four Scene 4 reference frames previously used for Kling keyframe generation. *dash* in scene-04.
+
+Do not overwrite any existing assets.
+
+### Phase 1 — Inspect and plan
+
+1. Inspect the original video resolution, frame rate and duration.
+2. Identify the frame range where the phone screen becomes visible.
+3. Examine phone movement, perspective, notch position and finger occlusion.
+4. Determine whether the screen can be tracked reliably.
+
+Use a **hybrid manual/automatic approach**. Do not rely exclusively on automatic feature detection.
+
+If necessary, create a simple tool for manually specifying the four screen corners at selected frames.
+
+### Phase 2 — Short proof of concept
+
+Select approximately 1 second of footage where the phone screen is clearly visible.
+
+Implement a perspective-tracked replacement:
+
+- Define four screen corners at several representative frames.
+- Interpolate corner positions between those frames.
+- Calculate a perspective transform using OpenCV.
+- Warp the original dashboard screenshot into the phone display.
+- Preserve the existing phone bezel, notch, fingers and hand.
+- Use masks with minimal feathering to avoid halos.
+- Ensure the dashboard moves rigidly with the phone.
+- Preserve the original frame rate and resolution.
+
+**Important:** The notch must remain visible and must never be covered by the dashboard. Do not use a simple rectangular overlay that covers the entire phone.
+
+Where fingers overlap the screen, preserve them using appropriate occlusion masks.
+
+Do not attempt to sharpen or reconstruct blurred fingers.
+
+### Phase 3 — Evaluate
+
+Produce:
+
+1. A short composited preview video.
+2. A side-by-side comparison with the original.
+3. A contact sheet showing several frames, including close-ups of the phone.
+4. A brief explanation of any remaining tracking or masking problems.
+
+Pay particular attention to:
+
+- Dashboard stability between consecutive frames.
+- Correct perspective and screen boundaries.
+- No flickering around the notch.
+- No dashboard leaking over the bezel or fingers.
+- No visible sliding of the dashboard relative to the phone.
+
+### Constraints
+
+- Work within the existing project structure.
+- Prefer Python/OpenCV for tracking and compositing, FFmpeg for encoding.
+- Keep the original audio intact.
+- Do not modify the Remotion composition yet.
+- Do not regenerate anything through Kling.
+- Do not process the entire scene until the short preview has been reviewed and approved.
+- Keep the implementation reusable for future phone-screen replacements.
+
+### Deliverables
+
+Save the proof-of-concept outputs under `production/scene-04/output/` with clearly distinguishable filenames.
+
+Report the output paths, the tracking method used, and whether the result is sufficiently stable for full-scene processing.
+
+**Stop after the proof of concept and wait for review.**

@@ -1,0 +1,19 @@
+{
+  "source": "production/scene-04/output/scene-04.mp4",
+  "dashboard": "production/references/dashboard-original.png",
+  "startFrame": 84,
+  "endFrameExclusive": 108,
+  "fps": 24,
+  "cornersOrder": "top-left, top-right, bottom-right, bottom-left; inner display",
+  "anchors": {
+    "84": [[840,298],[916.5,295],[914.5,482],[838,484]],
+    "90": [[815.7,303.5],[890.35,299.9],[885.9,489.1],[811.4,489.9]],
+    "96": [[810.4,306.5],[884,303.2],[880.1,492.3],[806.4,493.4]],
+    "102": [[809.3,307.4],[882.7,303.5],[878.9,493.3],[805.3,493.9]],
+    "107": [[810.2,305.9],[883.3,304.5],[879.2,491.5],[805.5,493.8]]
+  },
+  "notchPolygonNormalized": [[0.24,0],[0.72,0],[0.68,0.044],[0.28,0.044]],
+  "roundedCornerRadiusNormalized": [0.085,0.035],
+  "featherPixels": 0.35,
+  "outputStem": "production/scene-04/output/scene-04-dashboard-poc-v2"
+}

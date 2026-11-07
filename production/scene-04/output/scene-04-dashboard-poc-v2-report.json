@@ -1,0 +1,157 @@
+{
+  "config": "manifests/scene04-dashboard-poc.json",
+  "inputHashes": {
+    "production/scene-04/output/scene-04.mp4": "e31da7c955bf1226438d07235995b3555c66e7bec98fe09b6737f830160d0801",
+    "production/references/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
+  },
+  "frames": [
+    84,
+    108
+  ],
+  "durationSeconds": 1.0,
+  "resolution": [
+    1916,
+    1080
+  ],
+  "fps": 24,
+  "tracking": "Manual reviewed inner-display anchors; LK/RANSAC rigid-screen trajectory with interpolated manual corner corrections at five anchors; independent inter-frame flow checks",
+  "mask": "Rounded display aperture, manual notch hole, original-frame skin holdout, 0.35px feather",
+  "trackingDiagnostics": [
+    {
+      "frame": 85,
+      "inliers": 99,
+      "maxCornerMotionResidualPixels": 0.21922941505908966
+    },
+    {
+      "frame": 86,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.3912172019481659
+    },
+    {
+      "frame": 87,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.5099485516548157
+    },
+    {
+      "frame": 88,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.5404319763183594
+    },
+    {
+      "frame": 89,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.603293776512146
+    },
+    {
+      "frame": 90,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.0955888107419014
+    },
+    {
+      "frame": 91,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.16951137781143188
+    },
+    {
+      "frame": 92,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.16048771142959595
+    },
+    {
+      "frame": 93,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.20493875443935394
+    },
+    {
+      "frame": 94,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.10072044283151627
+    },
+    {
+      "frame": 95,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.12170182168483734
+    },
+    {
+      "frame": 96,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.16821791231632233
+    },
+    {
+      "frame": 97,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.21871164441108704
+    },
+    {
+      "frame": 98,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.3358151316642761
+    },
+    {
+      "frame": 99,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.2436491996049881
+    },
+    {
+      "frame": 100,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.16032609343528748
+    },
+    {
+      "frame": 101,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.15525318682193756
+    },
+    {
+      "frame": 102,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.10316304862499237
+    },
+    {
+      "frame": 103,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.35651952028274536
+    },
+    {
+      "frame": 104,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.4342179000377655
+    },
+    {
+      "frame": 105,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.19670510292053223
+    },
+    {
+      "frame": 106,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.31636643409729004
+    },
+    {
+      "frame": 107,
+      "inliers": 100,
+      "maxCornerMotionResidualPixels": 0.36478543281555176
+    }
+  ],
+  "maxMotionResidualPixels": 0.603293776512146,
+  "outputs": {
+    "preview": "production/scene-04/output/scene-04-dashboard-poc-v2.mp4",
+    "comparison": "production/scene-04/output/scene-04-dashboard-poc-v2-comparison.mp4",
+    "contact": "production/scene-04/output/scene-04-dashboard-poc-v2-contact.jpg",
+    "report": "production/scene-04/output/scene-04-dashboard-poc-v2-report.json"
+  },
+  "validation": {
+    "video": "24 frames, 1 second, 1916x1080, 24fps",
+    "audio": "Original 3.5\u20134.5 second segment; no fades or replacement; re-encoded AAC",
+    "audioZeroLagCorrelation": 0.9999908584093956,
+    "fullDecode": "passed",
+    "sourceHashesUnchanged": true,
+    "scope": "Only frames 84\u2013107 were composited; full scene not processed",
+    "assessment": "Stable enough to review this shot segment; early screen turn and reveal still require separate anchors and occlusion review before full-scene use",
+    "remainingLimits": [
+      "Conservative edge inset can retain a narrow dark source rim at magnification.",
+      "Skin-colour holdout preserves original blurred fingertips; not yet tested on the earlier turning-phone interval.",
+      "Native phone display is approximately 75 by 190 pixels; fine dashboard text cannot resolve at full shot scale."
+    ]
+  }
+}
