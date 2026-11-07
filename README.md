@@ -84,3 +84,7 @@ manifests/asset-checksums.json records every migrated production asset and its o
 ## New Scenes 01–05 review preview
 
 The user accepted a separate 1080p review preview on 7 November 2026, with some wrinkles remaining. `output/scene-01-05-preview-v1.mp4` is 623 frames / 25.958333 seconds at 24fps. Its exact source selections are in `manifests/scene01-05-preview-v1.json`; all runtime inputs and the Scene 05 v5 rendering workflow are versioned. See [reproduction and validation](docs/scenes01-05-preview.md). This partial preview does not replace the approved ten-scene 720p baseline or modify the existing app showcase.
+
+## Scenes 01–07 continuity checkpoint
+
+`output/scene-01-07-preview-v1.mp4` extends the accepted Scenes 01–05 preview without changing its decoded video or audio. It adds the final aligned frame of the old Scene 6 and all of Scene 7, upscaled from 720p: 888 frames / 37 seconds at 1920×1080, 24fps. The duplicate old Scene 6 approach/dialogue is skipped. See [selection, limitations and reproduction](docs/scenes01-07-preview.md). Tag: `baseline-scenes-01-07-v1`. This temporary assembly remains separate from the approved ten-scene rough cut.

@@ -1,0 +1,27 @@
+{
+  "checkpoint": "baseline-scenes-01-07-v1",
+  "date": "2026-11-07",
+  "output": "output/scene-01-07-preview-v1.mp4",
+  "sha256": "141c99d5983ab53b1ed679f9c1fa8315b5ba498301bd95f60eda6d36103207d2",
+  "frames": 888,
+  "fps": 24,
+  "durationSeconds": 37,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "reproduction": "byte-identical",
+  "prefixVideo": "All 623 decoded frames identical",
+  "prefixAudio": "decoded PCM identical",
+  "legacySelection": [
+    153,
+    418
+  ],
+  "legacyScene6TailFrames": 1,
+  "legacyScene7Frames": 264,
+  "legacySource": "1280x720 upscaled to 1920x1080; not native 1080p detail",
+  "legacyAudio": "digitally silent in selected tail",
+  "fullDecode": "passed",
+  "baselineAssets": "22 verified",
+  "ffmpeg": "ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers"
+}

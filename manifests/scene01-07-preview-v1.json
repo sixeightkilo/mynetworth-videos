@@ -1,0 +1,15 @@
+{
+  "output": "output/scene-01-07-preview-v1.mp4",
+  "workDir": "out/scene01-07-preview-v1",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "prefix": "output/scene-01-05-preview-v1.mp4",
+  "prefixFrames": 623,
+  "legacy": "public/composites/scene6-7-integrated-approved.mp4",
+  "legacyStartFrame": 153,
+  "legacyEndFrameExclusive": 418,
+  "legacyScene7StartFrame": 154,
+  "selectionNote": "The current Scene 5 already replaces the earlier room-to-phone approach. Reuse the matching final app-facing frame of old Scene 6, then all 264 frames of Scene 7. Skip old Scene 6 frames 0–152 and their dialogue to avoid cutting back to the room and repeating the zoom.",
+  "preservation": "Copy original Scenes 01–05 video packets and audio; upscale only the appended legacy segment. Scene 7 recordings, captions, privacy trims and transitions remain baked and unchanged."
+}

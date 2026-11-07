@@ -1,0 +1,76 @@
+{
+  "output": "output/scene-01-07-preview-v1.mp4",
+  "manifest": "manifests/scene01-07-preview-v1.json",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "frames": 888,
+  "durationSeconds": 37.0,
+  "prefix": {
+    "file": "output/scene-01-05-preview-v1.mp4",
+    "frames": 623,
+    "decodedFramesIdentical": true,
+    "decodedAudioIdentical": true
+  },
+  "legacy": {
+    "file": "public/composites/scene6-7-integrated-approved.mp4",
+    "sourceResolution": [
+      1280,
+      720
+    ],
+    "range": [
+      153,
+      418
+    ],
+    "scene6TailFrames": 1,
+    "scene7Frames": 264,
+    "upscale": "Lanczos 720p to 1080p; not native 1080p detail",
+    "originalRecordingsCaptionsTransitions": "Preserved baked media",
+    "audio": "Selected app-facing tail verified digitally silent"
+  },
+  "selectionNote": "The current Scene 5 already replaces the earlier room-to-phone approach. Reuse the matching final app-facing frame of old Scene 6, then all 264 frames of Scene 7. Skip old Scene 6 frames 0\u2013152 and their dialogue to avoid cutting back to the room and repeating the zoom.",
+  "sourcesSHA256": {
+    "output/scene-01-05-preview-v1.mp4": "8db28daee45c78d3b41fdc8f49d3f4dd5ef41d65783f20f67812a448e9227964",
+    "public/composites/scene6-7-integrated-approved.mp4": "4b0d84318f1b6a9af97b3184c99a529f3c41f2c37f8e6f0378e4553358ed7279"
+  },
+  "sourceHashes": "unchanged",
+  "fullDecode": "passed",
+  "joinCheck": [
+    {
+      "frame": 622,
+      "darkPhoneBounds": [
+        1084,
+        60,
+        1555,
+        1019
+      ],
+      "center": [
+        1319.5,
+        539.5
+      ],
+      "height": 960
+    },
+    {
+      "frame": 623,
+      "darkPhoneBounds": [
+        1085,
+        60,
+        1554,
+        1018
+      ],
+      "center": [
+        1319.5,
+        539.0
+      ],
+      "height": 959
+    }
+  ],
+  "obviousDiscontinuities": [
+    "The legacy 720p app section is softer than the newly rendered Scene 5.",
+    "Small bezel/shadow and rasterization differences at the matched flat-phone handoff; existing showcase screen-recording fade retained.",
+    "The old Scene 6 approach and dialogue are skipped because new Scene 5 already performs the room-to-phone transition; only its final aligned frame is used."
+  ],
+  "contactSheet": "output/scene-01-07-preview-v1-contact.jpg"
+}
