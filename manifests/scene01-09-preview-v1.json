@@ -1,0 +1,12 @@
+{
+  "output": "output/scene-01-09-preview-v1.mp4",
+  "workDir": "out/scene01-09-preview-v1",
+  "prefix": "output/scene-01-08-preview-v1.mp4",
+  "prefixFrames": 1009,
+  "append": "production/scene-09/output/scene-09.mp4",
+  "appendFrames": 121,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "selection": "Complete new production Scene 09, original dialogue retained; direct cut from Scene 08. No trimming or crossfade."
+}

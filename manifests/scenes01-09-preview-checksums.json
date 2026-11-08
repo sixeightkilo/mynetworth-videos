@@ -1,0 +1,46 @@
+{
+  "stage": "Scenes 01\u201309 preview v1",
+  "date": "2026-11-08",
+  "files": [
+    {
+      "path": "output/scene-01-09-preview-v1.mp4",
+      "bytes": 21041836,
+      "sha256": "6cba01472fa95fee8457ed3beb37e105a56a6061191fca773e5b1261460ecef5"
+    },
+    {
+      "path": "output/scene-01-09-preview-v1.json",
+      "bytes": 1402,
+      "sha256": "d7b8c2078a5f91cd44d311d59b1dda0346a1127dfc4c76828004aa44e918e8af"
+    },
+    {
+      "path": "output/scene-01-09-preview-v1-contact.jpg",
+      "bytes": 116737,
+      "sha256": "078d89835918746e1ba3094138d5939358571923375c3858311eff3356ef044b"
+    },
+    {
+      "path": "production/scene-09/output/scene-09.mp4",
+      "bytes": 4419693,
+      "sha256": "e83e4d30df7b01d82784cff3b4a8427932e193ce259836d5e7c86a95e4f995cd"
+    },
+    {
+      "path": "output/scene-01-08-preview-v1.mp4",
+      "bytes": 18650814,
+      "sha256": "3efef5bf7cf5d6ebc70160ea7bd5ae638f242e7004a7a3a9514eda097cf2c182"
+    },
+    {
+      "path": "scripts/append_preview_clip.py",
+      "bytes": 4863,
+      "sha256": "453d044916ae090798f4b12adf6724d9a90f7bd127f87044029c345b9fc4ed78"
+    },
+    {
+      "path": "manifests/scene01-09-preview-v1.json",
+      "bytes": 425,
+      "sha256": "0d5406b6de708e8d321b94f5ae46833b4501f40b88ca523d7a4621b03721c8e4"
+    },
+    {
+      "path": "docs/scenes01-09-preview.md",
+      "bytes": 2922,
+      "sha256": "9b03e9662234209a5ba349fb5534c3be5d59b3c991833590b48a743572b521d3"
+    }
+  ]
+}

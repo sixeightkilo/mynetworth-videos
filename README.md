@@ -92,3 +92,7 @@ The user accepted a separate 1080p review preview on 7 November 2026, with some 
 ## Scenes 01–08 preview
 
 `output/scene-01-08-preview-v1.mp4` appends the complete new `production/scene-08/output/scene-8.mp4` to the current Scenes 01–07 preview: 1009 frames / 42.041667 seconds at 1920×1080, 24fps. All 888 existing decoded video frames are preserved; original dialogue is retained with correctly timed silence through the app showcase. See [dependencies, timing and reproduction](docs/scenes01-08-preview.md). Prior baselines and the original ten-scene rough cut remain unchanged.
+
+## Scenes 01–09 preview
+
+`output/scene-01-09-preview-v1.mp4` adds the full new production Scene 09: 1130 frames / 47.083333 seconds at 1920×1080, 24fps. The earlier 1009 decoded video frames are unchanged; original dialogue is retained. See [dependencies, validation and reproduction](docs/scenes01-09-preview.md). The end card remains to be added.
