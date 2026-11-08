@@ -5,7 +5,7 @@ The user requested appending the new Scene 09 on 8 November 2026, then checking 
 ## Inputs and timing
 
 - Existing prefix: `output/scene-01-08-preview-v1.mp4`, all 1009 frames. Its video packets are copied; every decoded prefix frame was verified identical.
-- Append: `production/scene-09/output/scene-09.mp4`, all 121 native 1920×1080 frames at 24fps, with its original soundtrack. No trimming or crossfade.
+- Append: `production/v1/scene-09/output/scene-09.mp4`, all 121 native 1920×1080 frames at 24fps, with its original soundtrack. No trimming or crossfade.
 - Scene 09 starts at output frame 1009 / 42.041667 seconds. Its opening pose matches Scene 08's ending closely; small source expression/rasterization differences remain. No polishing was performed.
 
 The actual source files and previous preview remain unchanged. Original soundtracks are retained, padded to their respective video durations and concatenated on the frame boundary. Joined AAC audio is re-encoded. Verification found zero measured sample lag, with correlations 0.999979 for the prefix and 0.998133 for Scene 09. Both video/audio timelines start at zero; full decode, dimensions, exact frame count and 24fps checks pass.

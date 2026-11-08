@@ -1,7 +1,7 @@
 {
   "media": [
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5.mp4",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5.mp4",
       "frames": 120,
       "durationSeconds": 5.0,
       "resolution": [
@@ -13,7 +13,7 @@
       "sha256": "f661874b98e7cac582908be4b129b3bb91afc75f6940960fe3eecb26c4ff2bfe"
     },
     {
-      "path": "production/scene-05/output/scene-04-05-two-phase-preview-v5.mp4",
+      "path": "production/v1/scene-05/output/scene-04-05-two-phase-preview-v5.mp4",
       "frames": 241,
       "durationSeconds": 10.041667,
       "resolution": [
@@ -34,22 +34,22 @@
     "stills": [
       {
         "frame": 0,
-        "path": "production/scene-05/output/scene-05-two-phase-v5-validation-start.png",
+        "path": "production/v1/scene-05/output/scene-05-two-phase-v5-validation-start.png",
         "sha256": "52aa959614d8d5908abd29ab401362fe8fdc62c4b541081d8c6108bfab63f1be"
       },
       {
         "frame": 60,
-        "path": "production/scene-05/output/scene-05-two-phase-v5-validation-phase-a-end.png",
+        "path": "production/v1/scene-05/output/scene-05-two-phase-v5-validation-phase-a-end.png",
         "sha256": "6de2c7b2f46f420e575da7a3bdb47ab7ed487da884222f4b09e9293217508f76"
       },
       {
         "frame": 84,
-        "path": "production/scene-05/output/scene-05-two-phase-v5-validation-phase-b-mid.png",
+        "path": "production/v1/scene-05/output/scene-05-two-phase-v5-validation-phase-b-mid.png",
         "sha256": "2009cce2a16ffa805eda3261c996e8bf07ec12d474755f691a34e5dca9e4c17d"
       },
       {
         "frame": 119,
-        "path": "production/scene-05/output/scene-05-two-phase-v5-validation-final.png",
+        "path": "production/v1/scene-05/output/scene-05-two-phase-v5-validation-final.png",
         "sha256": "e95a188b380563bba61be2974bd9cc7796b8359a8d90d7ff442445bbeeb24ffb"
       }
     ]

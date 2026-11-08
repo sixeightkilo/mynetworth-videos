@@ -6,9 +6,11 @@ The approved film is **56.208333 seconds / 1349 frames, 1280×720 at 24fps**, in
 
 ## Setup
 
-Requirements: Node.js 22+ (validated with Node 24), npm, Python 3.10+, FFmpeg and FFprobe on PATH. Python production scripts use only the standard library. No Python packages, external animation libraries or AI models are needed.
+Requirements: Git LFS (for the large lossless review MP4s), Node.js 22+ (validated with Node 24), npm, Python 3.10+, FFmpeg and FFprobe on PATH. Python production scripts use only the standard library. No Python packages, external animation libraries or AI models are needed.
 
 ```sh
+git lfs install
+git lfs pull
 npm ci
 npm run verify
 npm run build
@@ -91,8 +93,18 @@ The user accepted a separate 1080p review preview on 7 November 2026, with some 
 
 ## Scenes 01–08 preview
 
-`output/scene-01-08-preview-v1.mp4` appends the complete new `production/scene-08/output/scene-8.mp4` to the current Scenes 01–07 preview: 1009 frames / 42.041667 seconds at 1920×1080, 24fps. All 888 existing decoded video frames are preserved; original dialogue is retained with correctly timed silence through the app showcase. See [dependencies, timing and reproduction](docs/scenes01-08-preview.md). Prior baselines and the original ten-scene rough cut remain unchanged.
+`output/scene-01-08-preview-v1.mp4` appends the complete new `production/v1/scene-08/output/scene-8.mp4` to the current Scenes 01–07 preview: 1009 frames / 42.041667 seconds at 1920×1080, 24fps. All 888 existing decoded video frames are preserved; original dialogue is retained with correctly timed silence through the app showcase. See [dependencies, timing and reproduction](docs/scenes01-08-preview.md). Prior baselines and the original ten-scene rough cut remain unchanged.
 
 ## Scenes 01–09 preview
 
 `output/scene-01-09-preview-v1.mp4` adds the full new production Scene 09: 1130 frames / 47.083333 seconds at 1920×1080, 24fps. The earlier 1009 decoded video frames are unchanged; original dialogue is retained. See [dependencies, validation and reproduction](docs/scenes01-09-preview.md). The end card remains to be added.
+
+## Production version 1
+
+All scene production work to date is under `production/v1/`, including scene folders, prompts, reference images and rendered scene outputs. Use that root for source assets and Scene 5’s Remotion public directory (`--public-dir=production/v1`). Reusable code remains in `src/` and `scripts/`; manifests retain their existing names with updated asset paths. The original `public/` baseline and existing assembled previews under `output/` remain in place.
+
+Latest full-film review: `output/scene-01-10-preview-v5-scene8-9-color-match.mp4` — 1920×1080, 24fps, 1250 frames / 52.083333 seconds. It includes the Scenes 4–5 color-matrix repair and the same restrained warm-chroma correction on Scenes 8 and 9, carried through Scene 9’s held-image end-card fade. Earlier render revision suffixes remain unchanged inside production version 1. See `production/v1/README.md`.
+
+Production checkpoint tag: `production-v1` (includes the latest v5 full-film review and the versioned production asset layout).
+
+The lossless v3/v4/v5 full-film review videos in `output/` are stored with Git LFS. Their media bytes and validation hashes are unchanged. Install Git LFS before cloning, or run `git lfs pull` after cloning to retrieve the videos.

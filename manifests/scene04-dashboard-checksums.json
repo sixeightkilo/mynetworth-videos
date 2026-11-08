@@ -1,149 +1,149 @@
 {
-  "acceptedOutput": "production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
+  "acceptedOutput": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
   "acceptedOn": "2026-11-07",
   "files": [
     {
-      "path": "production/references/dashboard-original.png",
+      "path": "production/v1/references/dashboard-original.png",
       "bytes": 172112,
       "sha256": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
     },
     {
-      "path": "production/scene-04/prompt.md",
+      "path": "production/v1/scene-04/prompt.md",
       "bytes": 1895,
       "sha256": "19859e52d3fc0e267a6f6207daddff3e61354b1e1e9e8066947517870fd17339"
     },
     {
-      "path": "production/scene-04/output/prompt",
-      "bytes": 3512,
-      "sha256": "6c3185507bc671bbeea542502976c557c1a0e4dd62895d9d07c766b2c678406d"
+      "path": "production/v1/scene-04/output/prompt",
+      "bytes": 3515,
+      "sha256": "922036c6457e93dea31a71f02bbfe1b4f29691427ec78173eb2bc1c010475c4c"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-poc-v1-comparison.mp4",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-poc-v1-comparison.mp4",
       "bytes": 312565,
       "sha256": "b01f05599afbb8c67d75f25ffdeac3261391caeb0a201086c1b0c8bc8d30c75c"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-poc-v1-contact.jpg",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-poc-v1-contact.jpg",
       "bytes": 833314,
       "sha256": "8d95bf492e491cd070d1f2543bddfde146ccde36037d8e75bb99b871e37193e5"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-poc-v1-report.json",
-      "bytes": 3718,
-      "sha256": "98ba799c6f6741eabc31bcb0974059fff57dd18710e84a5eae50ff8b66bc95c0"
+      "path": "production/v1/scene-04/output/scene-04-dashboard-poc-v1-report.json",
+      "bytes": 3736,
+      "sha256": "aca4492c8b28c3b009ed7701453ff21e813349b71ccc95655c67c3eca02498ef"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-poc-v1.mp4",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-poc-v1.mp4",
       "bytes": 752336,
       "sha256": "c8f812c8c84cd943d414f0523ecbec0e2921b56183532c21b347e4ea7bdcfdf1"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-poc-v2-comparison.mp4",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-poc-v2-comparison.mp4",
       "bytes": 311243,
       "sha256": "b27d4e21bf5a3a3086a3554c820b788f505952cb60c381e98746f7f24ed2d4e9"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-poc-v2-contact.jpg",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-poc-v2-contact.jpg",
       "bytes": 833314,
       "sha256": "8d95bf492e491cd070d1f2543bddfde146ccde36037d8e75bb99b871e37193e5"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-poc-v2-report.json",
-      "bytes": 4635,
-      "sha256": "715cc34172333c50801cc14e9d39ac4d9e1534222bccf21feed324171c7b7cd8"
+      "path": "production/v1/scene-04/output/scene-04-dashboard-poc-v2-report.json",
+      "bytes": 4653,
+      "sha256": "b272d283eb57bd5f7add3a874bd9f6e25d0641611b7630c49b22619aefeb91b2"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-poc-v2.mp4",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-poc-v2.mp4",
       "bytes": 748271,
       "sha256": "fbbc8aa9faab8582dbd48109919f92b8792372799dcbd265a8cade3eeb874161"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v1-comparison.mp4",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v1-comparison.mp4",
       "bytes": 1111158,
       "sha256": "50c573e17fb4c264cbc79a132202b1a3f2e379fc3a27fdae9a528ccfdfebf0a5"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v1-contact.jpg",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v1-contact.jpg",
       "bytes": 1980079,
       "sha256": "b2f7b85e42d89209d352ec180f3ee4d8598ea37cfd3be1772944589a59a6ef70"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v1-report.json",
-      "bytes": 19587,
-      "sha256": "838dab6fa26be3eaaa4bb68421c885cbd863cd96b9835b0736163d8008235668"
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v1-report.json",
+      "bytes": 19605,
+      "sha256": "c329513200bd36c427273d19308eaf80d17090ab5dae6a83843c9554205127e7"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v1.mp4",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v1.mp4",
       "bytes": 2810947,
       "sha256": "4d287c0f6e1fd0db600094b3bb46cce6902ad7bfea3a02173d0b74ad7b731b9a"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v2-comparison.mp4",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2-comparison.mp4",
       "bytes": 1110565,
       "sha256": "67c20ab7c533d8ad7a78a42fc63ecd30469552c9260048ccb599e1a2895a03d0"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v2-contact.jpg",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2-contact.jpg",
       "bytes": 1977820,
       "sha256": "1bf304dccb0d7ade34783ee0bd09e2ecc70fc2b7220bfb2c3047869438dbcbcc"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v2-notes.md",
-      "bytes": 1669,
-      "sha256": "bf89101f993ba3a6b693749aa580ece3570721a626ec6e627f44e1b28bf9591d"
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2-notes.md",
+      "bytes": 1672,
+      "sha256": "1f23c33d1578682f14958b0da5d9982a978be4a6543ad9cdba6ae9c94983b97f"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v2-report.json",
-      "bytes": 21031,
-      "sha256": "465b520a3a8810f9e367c677d55b6f95a8b0bb97edfc944e10c9c021c943251a"
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2-report.json",
+      "bytes": 21049,
+      "sha256": "5762028cf426eff3ff9674c14e6e16eb5cf9a70d4265561208483f1efcf58a9c"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
       "bytes": 2809734,
       "sha256": "d824093ee34bc5c2aed6605278c12cc4f6e1afa6d984d92276cfd29c442d9c82"
     },
     {
-      "path": "production/scene-04/output/scene-04-end-dash.png",
+      "path": "production/v1/scene-04/output/scene-04-end-dash.png",
       "bytes": 2417552,
       "sha256": "b80ae2e16951385a050066d19866d6b4f752e2c654dd99fb20b1b06bf86885b0"
     },
     {
-      "path": "production/scene-04/output/scene-04-end.jpg",
+      "path": "production/v1/scene-04/output/scene-04-end.jpg",
       "bytes": 362951,
       "sha256": "871c8093bbedae77654264658bfaa719c08e77369838f5fc624ce0a374ff0c41"
     },
     {
-      "path": "production/scene-04/output/scene-04-middle-dash.png",
+      "path": "production/v1/scene-04/output/scene-04-middle-dash.png",
       "bytes": 2344446,
       "sha256": "2b5198043b58e58d644921b02a5b10a8aeaeeb99a698b154bb1d03f4abce1ade"
     },
     {
-      "path": "production/scene-04/output/scene-04-middle.jpg",
+      "path": "production/v1/scene-04/output/scene-04-middle.jpg",
       "bytes": 345368,
       "sha256": "624df00ccce5107871530dbfabc0361f591dd7d3feec6cd747e131894322b8c0"
     },
     {
-      "path": "production/scene-04/output/scene-04-pre-dash.jpg",
+      "path": "production/v1/scene-04/output/scene-04-pre-dash.jpg",
       "bytes": 340136,
       "sha256": "7bf45092e2d39006b8457edc3323f377f91d3cd9491fd73cf5b24a24f7b4a4da"
     },
     {
-      "path": "production/scene-04/output/scene-04-start-dash.png",
+      "path": "production/v1/scene-04/output/scene-04-start-dash.png",
       "bytes": 2329442,
       "sha256": "0f5d9586744cfe6ecbe3b568ba93eecd943f0ae151b1740eac41622623b7800f"
     },
     {
-      "path": "production/scene-04/output/scene-04-start.jpg",
+      "path": "production/v1/scene-04/output/scene-04-start.jpg",
       "bytes": 341319,
       "sha256": "07ae6f6d3851194c3c4dc3957ce6f01e2beb8e48182a69e56ed18a0f3c6a9e51"
     },
     {
-      "path": "production/scene-04/output/scene-04-with-dash.mp4",
+      "path": "production/v1/scene-04/output/scene-04-with-dash.mp4",
       "bytes": 4355572,
       "sha256": "11fed2c64c532a3e8311c6f074dc8e4b3b3c95cca60c80c505684f2b19a430f0"
     },
     {
-      "path": "production/scene-04/output/scene-04.mp4",
+      "path": "production/v1/scene-04/output/scene-04.mp4",
       "bytes": 4251833,
       "sha256": "e31da7c955bf1226438d07235995b3555c66e7bec98fe09b6737f830160d0801"
     },
@@ -159,18 +159,18 @@
     },
     {
       "path": "manifests/scene04-dashboard-full.json",
-      "bytes": 4269,
-      "sha256": "d7bf70c7dcec8717ab197b9091f69dc3685ceeb1b134e800281ee992ff66531d"
+      "bytes": 4278,
+      "sha256": "f5b9ba6a04251b22856761c429930db33b389b2d10db8006e6c402c89a34a5bd"
     },
     {
       "path": "manifests/scene04-dashboard-poc.json",
-      "bytes": 840,
-      "sha256": "3f32c3191335740dd9cb60cff52d1bdd42686bcd319ab8d693f48393949e0065"
+      "bytes": 849,
+      "sha256": "8c527a06f154b5a635ce0fd9720813566eb8de51d9faab69da19e005b25a8fce"
     },
     {
       "path": "docs/scene04-dashboard-compositing.md",
-      "bytes": 4820,
-      "sha256": "f90350bdd8daff11f83a90825d38dae3a8e3f9e8506875ca07cfc031fa46530b"
+      "bytes": 4826,
+      "sha256": "1b73329dc6d07f5c53abac769eab1e8c8e09787f8cd146f0757bc1033c5ba169"
     }
   ]
 }

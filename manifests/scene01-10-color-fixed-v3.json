@@ -1,0 +1,15 @@
+{
+  "source": "output/scene-01-10-preview-v2.mp4",
+  "output": "output/scene-01-10-preview-v3-color-fixed.mp4",
+  "workDir": "out/scene01-10-color-fixed-v3",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 1250,
+  "correctionStartFrame": 400,
+  "correctionEndFrameExclusive": 623,
+  "inputMatrix": "bt601",
+  "outputMatrix": "bt709",
+  "range": "tv",
+  "encoding": "Lossless H.264 to preserve all unaffected decoded YUV frames; original audio copied"
+}

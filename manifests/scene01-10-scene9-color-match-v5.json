@@ -1,0 +1,17 @@
+{
+  "source": "output/scene-01-10-preview-v4-scene8-color-match.mp4",
+  "output": "output/scene-01-10-preview-v5-scene8-9-color-match.mp4",
+  "workDir": "out/scene01-10-scene9-color-match-v5",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 1250,
+  "correctionStartFrame": 1009,
+  "correctionEndFrameExclusive": 1142,
+  "warmChromaScale": 0.8,
+  "range": "tv",
+  "reference": "production/v1/scene-03/output/scene-03.mp4, source frame 109; static wall samples",
+  "method": "Same warm-side U chroma scale 0.8 as Scene 8, applied to Scene 9 [1009,1130) and its held-image end-card fade [1130,1142). Preserve Y, V, U>=128, and fully opaque card.",
+  "encoding": "Lossless H.264; preserve other decoded video frames and copy audio",
+  "minimumChangedFrames": 122
+}

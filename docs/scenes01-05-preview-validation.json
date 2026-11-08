@@ -16,12 +16,12 @@
       "byteIdenticalReproduction": true
     },
     {
-      "accepted": "production/scene-05/output/scene-05-v5c-background.png",
+      "accepted": "production/v1/scene-05/output/scene-05-v5c-background.png",
       "sha256": "504ca7bce97b054e9759de8ce29c8ff7456344cc37e05cd35a18d70f9830b485",
       "byteIdenticalReproduction": true
     },
     {
-      "accepted": "production/scene-05/output/scene-05-v5c-fingers.png",
+      "accepted": "production/v1/scene-05/output/scene-05-v5c-fingers.png",
       "sha256": "5c233b99df3dfbc8944f5d11449b0c9759936142e61f1f84aed78a3483830f02",
       "byteIdenticalReproduction": true
     }

@@ -4,7 +4,7 @@ The user accepted the full-scene v2 render on 7 November 2026. It remains separa
 
 ## Accepted artifacts
 
-All media is under `production/scene-04/output/`:
+All media is under `production/v1/scene-04/output/`:
 
 - `scene-04-dashboard-tracked-full-v2.mp4`: accepted complete Scene 04.
 - `scene-04-dashboard-tracked-full-v2-comparison.mp4`: original and composite side by side.
@@ -16,7 +16,7 @@ The v1 POC and full-scene outputs are intermediate review history, not the accep
 
 ## Inputs and implementation
 
-`scene-04.mp4` is the untouched first-pass source: 1916×1080, 24fps, 121 frames / 5.041667 seconds. The replacement is `production/references/dashboard-original.png` (864×1872). The original source audio is copied to the full-scene output without re-encoding; decoded PCM was verified identical. The earlier `scene-04-with-dash.mp4` and dashboard keyframe references are preserved for comparison, not used as runtime dependencies.
+`scene-04.mp4` is the untouched first-pass source: 1916×1080, 24fps, 121 frames / 5.041667 seconds. The replacement is `production/v1/references/dashboard-original.png` (864×1872). The original source audio is copied to the full-scene output without re-encoding; decoded PCM was verified identical. The earlier `scene-04-with-dash.mp4` and dashboard keyframe references are preserved for comparison, not used as runtime dependencies.
 
 `scripts/composite_phone_screen.py` uses OpenCV optical flow with forward/backward checks and RANSAC homographies, constrained by manual inner-display corners. Interpolated manual corrections retain the nonlinear tracked movement. The full-scene configuration is `manifests/scene04-dashboard-full.json`; the POC configuration is `manifests/scene04-dashboard-poc.json`.
 

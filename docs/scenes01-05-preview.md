@@ -8,11 +8,11 @@ On 7 November 2026 the user accepted `output/scene-01-05-preview-v1.mp4` as a re
 
 | Scene | Versioned input | Source frames, end-exclusive | Global start |
 |---|---|---|---|
-| 01 | `production/scene-01/output/scene-01.mp4` | [0,121) | 0 |
-| 02 | `production/scene-02/output/scene-02.mp4` | [0,169) | 121 |
-| 03 | `production/scene-03/output/scene-03.mp4` | [0,110) | 290 |
-| 04 | `production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4` | [18,121) | 400 |
-| 05 | `production/scene-05/output/scene-05-two-phase-v5.mp4` | [0,120) | 503 |
+| 01 | `production/v1/scene-01/output/scene-01.mp4` | [0,121) | 0 |
+| 02 | `production/v1/scene-02/output/scene-02.mp4` | [0,169) | 121 |
+| 03 | `production/v1/scene-03/output/scene-03.mp4` | [0,110) | 290 |
+| 04 | `production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4` | [18,121) | 400 |
+| 05 | `production/v1/scene-05/output/scene-05-two-phase-v5.mp4` | [0,120) | 503 |
 
 The Scene 03 endpoint includes frame 109, matching `scene-03-end.jpg`. Scene 04's opening 18 frames are removed to avoid the repeated pocket-reaching action. Scene 04 appears once; the standalone Scene 05 transition follows it.
 
@@ -46,9 +46,9 @@ The accepted Scene 05 is v5, not the superseded digital-zoom or graph-crop exper
 - `src/transitions/scene05-two-phase.mjs`: shared phone/screen camera and perspective motion.
 - `src/components/PhoneMockup.jsx` and `screenTransform.mjs`: existing projective phone model.
 - `manifests/scene05-two-phase-v5.json`: measured corners, phase timings and foreground domains.
-- `production/scene-05/output/scene-05-start-exact.png`: approved Scene 04 frame 120, padded to 1920×1080.
+- `production/v1/scene-05/output/scene-05-start-exact.png`: approved Scene 04 frame 120, padded to 1920×1080.
 - `scene-05-v5c-background.png` and `scene-05-v5c-fingers.png`: accepted derived layers beside that start frame.
-- `production/references/dashboard-original.png`: original 864×1872 screenshot.
+- `production/v1/references/dashboard-original.png`: original 864×1872 screenshot.
 - `scripts/prepare_scene05_two_phase.py`: optional OpenCV asset preparation from the v5 manifest, with no dependency on rejected v1–v4 manifests. It refuses to overwrite existing layers or modify the source/configuration.
 
 The exact prepared v5 layers were reproduced byte-for-byte after making the preparation script read the final manifest directly. They are already supplied in Git, so normal rendering does not need OpenCV. Optional preparation uses the pinned packages in `scripts/requirements-screen-compositing.txt`; Python virtual environments remain under ignored `out/`.
@@ -56,13 +56,13 @@ The exact prepared v5 layers were reproduced byte-for-byte after making the prep
 Install the existing pinned npm dependencies with `npm ci` as described in README. Rendering requires working Chromium; bundling alone is insufficient. The successful render used the existing system Chrome executable:
 
 ```sh
-npx remotion render src/scene05-two-phase-preview.jsx Scene05TwoPhasePreview out/preview-rebuild/scene05-2x.mp4 --public-dir=production --codec=h264 --crf=12 --scale=2 --browser-executable=/opt/google/chrome/chrome --concurrency=2
+npx remotion render src/scene05-two-phase-preview.jsx Scene05TwoPhasePreview out/preview-rebuild/scene05-2x.mp4 --public-dir=production/v1 --codec=h264 --crf=12 --scale=2 --browser-executable=/opt/google/chrome/chrome --concurrency=2
 ffmpeg -n -i out/preview-rebuild/scene05-2x.mp4 -vf scale=1920:1080:flags=lanczos -c:v libx264 -crf 16 -preset fast -pix_fmt yuv420p -movflags +faststart out/preview-rebuild/scene05-v5.mp4
 ```
 
 Select the local Chrome path for other systems. This is 2× graphics supersampling followed by downsampling, not native 4K footage. To use a newly rendered Scene 05 in a comparison assembly, change only the last source in the disposable assembly manifest; preserve the accepted media.
 
-The four pre-render validation stills, 200% edge crops, contact sheets, v5 review report, standalone Scene 05 and combined Scene 04→05 preview are retained under `production/scene-05/output/` with `two-phase-v5` in their names. They establish that all display and outer-bezel corners stay in frame, screen and bezel share one transform, the complete dashboard remains visible, and the endpoint matches the existing app showcase. The background and original hand clear before the phone-plane morph. Original fingertip pixels remain soft; the reconstructed bezel follows the showcase design rather than recovering physical source texture.
+The four pre-render validation stills, 200% edge crops, contact sheets, v5 review report, standalone Scene 05 and combined Scene 04→05 preview are retained under `production/v1/scene-05/output/` with `two-phase-v5` in their names. They establish that all display and outer-bezel corners stay in frame, screen and bezel share one transform, the complete dashboard remains visible, and the endpoint matches the existing app showcase. The background and original hand clear before the phone-plane morph. Original fingertip pixels remain soft; the reconstructed bezel follows the showcase design rather than recovering physical source texture.
 
 Scene 04's source, dashboard replacement code and reports were preserved in the preceding checkpoint; see `docs/scene04-dashboard-compositing.md`. Its accepted v2 composite is the upstream input to Scene 05.
 

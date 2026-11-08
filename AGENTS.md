@@ -10,6 +10,8 @@ Read README.md first, then manifests/production.json. The approved baseline is 1
 
 src/components owns the reusable phone shell and proper projective transform. src/transitions owns approved zoom/settle motion and wrapper positioning. src/scenes owns editable Scene 6/7 implementations. src/compositions owns assembly only. Scene 6/7 approved baked media remains authoritative; editable reconstruction can differ slightly in font/rasterization and is not silently substituted.
 
+Current production scene assets, prompts and references are versioned under `production/v1/`. Resolve production file paths there; do not recreate the previous `production/scene-*` layout. Assembly outputs remain under their existing `output/` paths.
+
 ## Workflow
 
 Run npm ci, npm run verify, npm run build. Reproduce the current film with npm run render:rough-cut and compare with npm run validate:rough-cut. FFmpeg and FFprobe are required; production assembly needs only Python's standard library. Remotion browser renders require working Chromium; the original restricted environment blocked browser startup with SIGTRAP/permission errors. Bundling alone does not prove browser rendering. Keep that distinction in reports.

@@ -7,17 +7,17 @@
       "sha256": "141c99d5983ab53b1ed679f9c1fa8315b5ba498301bd95f60eda6d36103207d2"
     },
     {
-      "path": "production/scene-08/output/scene-8.mp4",
+      "path": "production/v1/scene-08/output/scene-8.mp4",
       "bytes": 4524492,
       "sha256": "83a0b8666bea95dcfed3b5ac0bdc98a71ba910949b423be6f5062239649e5a02"
     },
     {
-      "path": "production/scene-08/prompt.md",
+      "path": "production/v1/scene-08/prompt.md",
       "bytes": 2341,
       "sha256": "185a8c8b4cbafd7ce03570839ec3cb9733aec412ff9a9f66d4f48aca84e0779c"
     },
     {
-      "path": "production/scene-08/references/scene-08-start.jpg",
+      "path": "production/v1/scene-08/references/scene-08-start.jpg",
       "bytes": 367667,
       "sha256": "f94be59bcee0dbc57a4a0d82819475ab0185db91b7e244fb27f1e023242b166f"
     },
@@ -28,18 +28,18 @@
     },
     {
       "path": "manifests/scene01-08-preview-v1.json",
-      "bytes": 440,
-      "sha256": "bf86f5c3ebc31318b8e8f29ad4d8e729f4d82a7b92466cacb5423b4ff6e15058"
+      "bytes": 443,
+      "sha256": "d19f37d797a5dc105b9dce2b01fdc855ef510ea2d44fef06abe5be0a68d6d10e"
     },
     {
       "path": "docs/scenes01-08-preview.md",
-      "bytes": 4580,
-      "sha256": "7bb174919b596e431185bc77df71cd5e4464a269981ff7fb20b643a7761c8403"
+      "bytes": 4589,
+      "sha256": "9447a1c44312965c0c0406c1d555b150db2482905d05326de2e2dbeb04efd844"
     },
     {
       "path": "docs/scenes01-08-preview-validation.json",
-      "bytes": 1050,
-      "sha256": "a5bd88eedbe1e07108807ed5b940dfb40880f492cbbba3a6e2e10e2c32c4cdb0"
+      "bytes": 1053,
+      "sha256": "4255a83fcd46de6cf9366b82d01e63f645503836922f21e52769b939341430a9"
     },
     {
       "path": "output/scene-01-08-preview-v1-contact.jpg",
@@ -48,8 +48,8 @@
     },
     {
       "path": "output/scene-01-08-preview-v1.json",
-      "bytes": 1495,
-      "sha256": "f7672e618534027db80c0cd654820934a1acf2e1e7eab412dc82939335658f4f"
+      "bytes": 1504,
+      "sha256": "15dbdf751a1a4394006e8c9d543998615f53d7934132914f4f291884a46bd890"
     },
     {
       "path": "output/scene-01-08-preview-v1.mp4",

@@ -1,7 +1,7 @@
 {
   "output": "output/scene-01-10-preview-v2.mp4",
-  "standalone": "production/scene-10/output/scene-10-end-card-v2.mp4",
-  "finalStill": "production/scene-10/output/scene-10-end-card-v2-final.png",
+  "standalone": "production/v1/scene-10/output/scene-10-end-card-v2.mp4",
+  "finalStill": "production/v1/scene-10/output/scene-10-end-card-v2-final.png",
   "frames": 1250,
   "fps": 24,
   "resolution": [
@@ -30,7 +30,7 @@
   "fullDecode": "passed",
   "sourceSHA256": {
     "output/scene-01-09-preview-v1.mp4": "6cba01472fa95fee8457ed3beb37e105a56a6061191fca773e5b1261460ecef5",
-    "production/scene-10/output/scene-10-end-card-v2.mp4": "46f4ce2a9813d3665c49ccbdee14401a71747e059929c456e88d45aaaee6c0af",
+    "production/v1/scene-10/output/scene-10-end-card-v2.mp4": "46f4ce2a9813d3665c49ccbdee14401a71747e059929c456e88d45aaaee6c0af",
     "public/branding/logo.png": "bb02ead4ce57049f74c78804b27c2e2fd7ea9b24062ab44a928ba0bbe664a3f8"
   },
   "remotionCompositions": [

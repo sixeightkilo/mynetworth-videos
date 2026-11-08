@@ -9,8 +9,8 @@
     },
     {
       "path": "output/scene-01-09-preview-v1.json",
-      "bytes": 1402,
-      "sha256": "d7b8c2078a5f91cd44d311d59b1dda0346a1127dfc4c76828004aa44e918e8af"
+      "bytes": 1411,
+      "sha256": "6a00631cadf97f8580a4bf31c45d1125232b431cfc3e8d41c12eb5f414611356"
     },
     {
       "path": "output/scene-01-09-preview-v1-contact.jpg",
@@ -18,7 +18,7 @@
       "sha256": "078d89835918746e1ba3094138d5939358571923375c3858311eff3356ef044b"
     },
     {
-      "path": "production/scene-09/output/scene-09.mp4",
+      "path": "production/v1/scene-09/output/scene-09.mp4",
       "bytes": 4419693,
       "sha256": "e83e4d30df7b01d82784cff3b4a8427932e193ce259836d5e7c86a95e4f995cd"
     },
@@ -34,13 +34,13 @@
     },
     {
       "path": "manifests/scene01-09-preview-v1.json",
-      "bytes": 425,
-      "sha256": "0d5406b6de708e8d321b94f5ae46833b4501f40b88ca523d7a4621b03721c8e4"
+      "bytes": 428,
+      "sha256": "415db9a81d92085e28c5c69cca6e0dcffc8b27eb1ddbb034ac553b510e6d07d8"
     },
     {
       "path": "docs/scenes01-09-preview.md",
-      "bytes": 2922,
-      "sha256": "9b03e9662234209a5ba349fb5534c3be5d59b3c991833590b48a743572b521d3"
+      "bytes": 2925,
+      "sha256": "f5400acfc6a27ac5f3ca0821eaae09f5210f2827d1e8c93d2b7b0771b5f49128"
     }
   ]
 }

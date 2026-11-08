@@ -44,8 +44,8 @@
     540.0
   ],
   "sources": {
-    "production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4": "d824093ee34bc5c2aed6605278c12cc4f6e1afa6d984d92276cfd29c442d9c82",
-    "production/references/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
+    "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4": "d824093ee34bc5c2aed6605278c12cc4f6e1afa6d984d92276cfd29c442d9c82",
+    "production/v1/references/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
   },
   "backgroundImage": "scene-05/output/scene-05-v5c-background.png",
   "fingerImage": "scene-05/output/scene-05-v5c-fingers.png",

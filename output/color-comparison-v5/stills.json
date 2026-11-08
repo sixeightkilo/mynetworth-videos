@@ -1,0 +1,36 @@
+{
+  "source": "output/scene-01-10-preview-v5-scene8-9-color-match.mp4",
+  "fps": 24,
+  "stills": [
+    {
+      "scene": "01",
+      "globalFrame": 60,
+      "seconds": 2.5,
+      "file": "output/color-comparison-v5/scene-01-midpoint-frame-60.png"
+    },
+    {
+      "scene": "02",
+      "globalFrame": 205,
+      "seconds": 8.541666666666666,
+      "file": "output/color-comparison-v5/scene-02-midpoint-frame-205.png"
+    },
+    {
+      "scene": "03",
+      "globalFrame": 344,
+      "seconds": 14.333333333333334,
+      "file": "output/color-comparison-v5/scene-03-midpoint-frame-344.png"
+    },
+    {
+      "scene": "08",
+      "globalFrame": 948,
+      "seconds": 39.5,
+      "file": "output/color-comparison-v5/scene-08-midpoint-frame-948.png"
+    },
+    {
+      "scene": "09",
+      "globalFrame": 1069,
+      "seconds": 44.541666666666664,
+      "file": "output/color-comparison-v5/scene-09-midpoint-frame-1069.png"
+    }
+  ]
+}

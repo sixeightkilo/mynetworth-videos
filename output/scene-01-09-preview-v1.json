@@ -10,7 +10,7 @@
   ],
   "prefixFramesCopiedAndDecodedIdentical": 1009,
   "append": {
-    "source": "production/scene-09/output/scene-09.mp4",
+    "source": "production/v1/scene-09/output/scene-09.mp4",
     "frames": 121,
     "startSeconds": 42.041666666666664,
     "trim": "none"
@@ -23,7 +23,7 @@
       "lagSamplesAt24kHz": 0
     },
     {
-      "source": "production/scene-09/output/scene-09.mp4",
+      "source": "production/v1/scene-09/output/scene-09.mp4",
       "correlation": 0.9981327024286527,
       "lagSamplesAt24kHz": 0
     }
@@ -31,7 +31,7 @@
   "fullDecode": "passed",
   "sourceSHA256": {
     "output/scene-01-08-preview-v1.mp4": "3efef5bf7cf5d6ebc70160ea7bd5ae638f242e7004a7a3a9514eda097cf2c182",
-    "production/scene-09/output/scene-09.mp4": "e83e4d30df7b01d82784cff3b4a8427932e193ce259836d5e7c86a95e4f995cd"
+    "production/v1/scene-09/output/scene-09.mp4": "e83e4d30df7b01d82784cff3b4a8427932e193ce259836d5e7c86a95e4f995cd"
   },
   "sourcesUnchanged": true,
   "continuity": "Scene 08 final pose and Scene 09 opening pose match closely. Direct cut retained; small source-raster/expression changes remain. No extra transition or polishing.",

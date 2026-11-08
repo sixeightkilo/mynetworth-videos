@@ -1,8 +1,8 @@
 {
   "config": "manifests/scene04-dashboard-full.json",
   "inputHashes": {
-    "production/scene-04/output/scene-04.mp4": "e31da7c955bf1226438d07235995b3555c66e7bec98fe09b6737f830160d0801",
-    "production/references/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
+    "production/v1/scene-04/output/scene-04.mp4": "e31da7c955bf1226438d07235995b3555c66e7bec98fe09b6737f830160d0801",
+    "production/v1/references/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
   },
   "frames": [
     0,
@@ -1106,9 +1106,9 @@
   ],
   "maxMotionResidualPixels": 5.715092182159424,
   "outputs": {
-    "preview": "production/scene-04/output/scene-04-dashboard-tracked-full-v1.mp4",
-    "comparison": "production/scene-04/output/scene-04-dashboard-tracked-full-v1-comparison.mp4",
-    "contact": "production/scene-04/output/scene-04-dashboard-tracked-full-v1-contact.jpg",
-    "report": "production/scene-04/output/scene-04-dashboard-tracked-full-v1-report.json"
+    "preview": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v1.mp4",
+    "comparison": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v1-comparison.mp4",
+    "contact": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v1-contact.jpg",
+    "report": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v1-report.json"
   }
 }

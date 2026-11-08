@@ -1,6 +1,6 @@
 # Scene 04 full dashboard replacement — review render v2
 
-Output: `production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4`
+Output: `production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4`
 
 Original first-pass video and approved POC preserved. Same manual-anchor/OpenCV/FFmpeg implementation extended to the full shot; Remotion unchanged.
 

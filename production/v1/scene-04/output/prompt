@@ -75,7 +75,7 @@ Pay particular attention to:
 
 ### Deliverables
 
-Save the proof-of-concept outputs under `production/scene-04/output/` with clearly distinguishable filenames.
+Save the proof-of-concept outputs under `production/v1/scene-04/output/` with clearly distinguishable filenames.
 
 Report the output paths, the tracking method used, and whether the result is sufficiently stable for full-scene processing.
 

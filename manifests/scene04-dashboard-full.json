@@ -1,6 +1,6 @@
 {
-  "source": "production/scene-04/output/scene-04.mp4",
-  "dashboard": "production/references/dashboard-original.png",
+  "source": "production/v1/scene-04/output/scene-04.mp4",
+  "dashboard": "production/v1/references/dashboard-original.png",
   "startFrame": 0,
   "endFrameExclusive": 121,
   "fps": 24,
@@ -336,7 +336,7 @@
     0.035
   ],
   "featherPixels": 0.35,
-  "outputStem": "production/scene-04/output/scene-04-dashboard-tracked-full-v2",
+  "outputStem": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2",
   "visibleStartFrame": 73,
   "trackingStartFrame": 77,
   "trackingReferenceFrame": 84,

@@ -11,7 +11,7 @@
   "clips": [
     {
       "scene": "01",
-      "source": "production/scene-01/output/scene-01.mp4",
+      "source": "production/v1/scene-01/output/scene-01.mp4",
       "startFrame": 0,
       "endFrameExclusive": 121,
       "fromFrame": 0,
@@ -20,7 +20,7 @@
     },
     {
       "scene": "02",
-      "source": "production/scene-02/output/scene-02.mp4",
+      "source": "production/v1/scene-02/output/scene-02.mp4",
       "startFrame": 0,
       "endFrameExclusive": 169,
       "fromFrame": 121,
@@ -29,7 +29,7 @@
     },
     {
       "scene": "03",
-      "source": "production/scene-03/output/scene-03.mp4",
+      "source": "production/v1/scene-03/output/scene-03.mp4",
       "startFrame": 0,
       "endFrameExclusive": 110,
       "fromFrame": 290,
@@ -38,7 +38,7 @@
     },
     {
       "scene": "04 dashboard",
-      "source": "production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
+      "source": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
       "startFrame": 18,
       "endFrameExclusive": 121,
       "fromFrame": 400,
@@ -47,7 +47,7 @@
     },
     {
       "scene": "05 two-phase",
-      "source": "production/scene-05/output/scene-05-two-phase-v5.mp4",
+      "source": "production/v1/scene-05/output/scene-05-two-phase-v5.mp4",
       "startFrame": 0,
       "endFrameExclusive": 120,
       "fromFrame": 503,

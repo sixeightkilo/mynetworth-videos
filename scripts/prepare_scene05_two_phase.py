@@ -9,7 +9,7 @@ parser=argparse.ArgumentParser()
 parser.add_argument('manifest',nargs='?',default='manifests/scene05-two-phase-v5.json')
 args=parser.parse_args()
 cfg=json.loads(Path(args.manifest).read_text())
-root=Path('production')
+root=Path('production/v1')
 outputs=[root/cfg['backgroundImage'],root/cfg['fingerImage']]
 for p in outputs:assert not p.exists(),f'Output exists: {p}'
 plate=cv2.imread(str(root/cfg['startImage']));assert plate is not None

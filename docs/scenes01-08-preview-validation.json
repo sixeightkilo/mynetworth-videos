@@ -19,7 +19,7 @@
       "lagSamplesAt24kHz": 0
     },
     {
-      "source": "production/scene-08/output/scene-8.mp4",
+      "source": "production/v1/scene-08/output/scene-8.mp4",
       "correlation": 0.9999253872280921,
       "lagSamplesAt24kHz": 0
     }

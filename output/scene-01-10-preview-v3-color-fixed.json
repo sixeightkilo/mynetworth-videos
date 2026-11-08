@@ -1,0 +1,125 @@
+{
+  "source": "output/scene-01-10-preview-v2.mp4",
+  "output": "output/scene-01-10-preview-v3-color-fixed.mp4",
+  "workDir": "out/scene01-10-color-fixed-v3",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 1250,
+  "correctionStartFrame": 400,
+  "correctionEndFrameExclusive": 623,
+  "inputMatrix": "bt601",
+  "outputMatrix": "bt709",
+  "range": "tv",
+  "encoding": "Lossless H.264 to preserve all unaffected decoded YUV frames; original audio copied",
+  "durationSeconds": 52.083333333333336,
+  "sourceSHA256": "c28861a27d6c9cdfbca74613dde3e9f6dc587c8fcdeee9ba6f26748c056fdd61",
+  "outputSHA256": "b0835ddd111b5190cca04c5a58dc75bd86dbcac8fe1afe3fc3de673ccb7fff9e",
+  "changedFrames": 223,
+  "unaffectedVideoFramesIdentical": 1027,
+  "decodedAudioIdentical": true,
+  "sourceUnchanged": true,
+  "fullDecode": "passed",
+  "videoMetadata": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High 4:4:4 Predictive",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "width": 1920,
+    "height": 1080,
+    "coded_width": 1920,
+    "coded_height": 1080,
+    "closed_captions": 0,
+    "has_b_frames": 0,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "color_range": "tv",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709",
+    "chroma_location": "left",
+    "refs": 1,
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "r_frame_rate": "24/1",
+    "avg_frame_rate": "24/1",
+    "time_base": "1/12288",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 640000,
+    "duration": "52.083333",
+    "bit_rate": "23275337",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "1250",
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "vendor_id": "[0][0][0][0]"
+    }
+  },
+  "visualComparison": [
+    {
+      "globalFrame": 400,
+      "beforeVersusStandalone": {
+        "mae": 3.007,
+        "meanRGBshift": [
+          3.759,
+          2.774,
+          -1.51
+        ],
+        "psnr": 36.965
+      },
+      "afterVersusStandalone": {
+        "mae": 1.186,
+        "meanRGBshift": [
+          -0.255,
+          -0.065,
+          0.029
+        ],
+        "psnr": 43.724
+      }
+    },
+    {
+      "globalFrame": 560,
+      "beforeVersusStandalone": {
+        "mae": 2.764,
+        "meanRGBshift": [
+          3.51,
+          2.413,
+          -1.508
+        ],
+        "psnr": 37.698
+      },
+      "afterVersusStandalone": {
+        "mae": 0.667,
+        "meanRGBshift": [
+          -0.248,
+          -0.174,
+          0.142
+        ],
+        "psnr": 47.837
+      }
+    }
+  ],
+  "contactSheet": "output/scene-01-10-preview-v3-color-comparison.jpg",
+  "noBlackGaps": true
+}

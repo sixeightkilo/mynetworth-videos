@@ -3,7 +3,7 @@
   "workDir": "out/scene01-09-preview-v1",
   "prefix": "output/scene-01-08-preview-v1.mp4",
   "prefixFrames": 1009,
-  "append": "production/scene-09/output/scene-09.mp4",
+  "append": "production/v1/scene-09/output/scene-09.mp4",
   "appendFrames": 121,
   "fps": 24,
   "width": 1920,

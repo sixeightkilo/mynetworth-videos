@@ -1,6 +1,6 @@
 {
-  "source": "production/scene-04/output/scene-04.mp4",
-  "dashboard": "production/references/dashboard-original.png",
+  "source": "production/v1/scene-04/output/scene-04.mp4",
+  "dashboard": "production/v1/references/dashboard-original.png",
   "startFrame": 84,
   "endFrameExclusive": 108,
   "fps": 24,
@@ -15,5 +15,5 @@
   "notchPolygonNormalized": [[0.24,0],[0.72,0],[0.68,0.044],[0.28,0.044]],
   "roundedCornerRadiusNormalized": [0.085,0.035],
   "featherPixels": 0.35,
-  "outputStem": "production/scene-04/output/scene-04-dashboard-poc-v2"
+  "outputStem": "production/v1/scene-04/output/scene-04-dashboard-poc-v2"
 }

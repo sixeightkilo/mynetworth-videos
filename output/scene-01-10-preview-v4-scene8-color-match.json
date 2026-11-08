@@ -1,0 +1,139 @@
+{
+  "source": "output/scene-01-10-preview-v3-color-fixed.mp4",
+  "output": "output/scene-01-10-preview-v4-scene8-color-match.mp4",
+  "workDir": "out/scene01-10-scene8-color-match-v4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 1250,
+  "correctionStartFrame": 888,
+  "correctionEndFrameExclusive": 1009,
+  "warmChromaScale": 0.8,
+  "range": "tv",
+  "reference": "production/v1/scene-03/output/scene-03.mp4, source frame 109; static wall samples",
+  "method": "For U<128 only, scale distance from neutral by 0.8. Preserve Y, V and U>=128. Constant correction throughout Scene 8.",
+  "encoding": "Lossless H.264; preserve other decoded video frames and copy audio",
+  "durationSeconds": 52.083333333333336,
+  "sourceSHA256": "b0835ddd111b5190cca04c5a58dc75bd86dbcac8fe1afe3fc3de673ccb7fff9e",
+  "outputSHA256": "560b5eeca0a898f3fab92baf08c31e5a31b8f6aaed166cb5db61244d2471d4bf",
+  "changedFrames": 121,
+  "unaffectedVideoFramesIdentical": 1129,
+  "decodedAudioIdentical": true,
+  "sourceUnchanged": true,
+  "fullDecode": "passed",
+  "videoMetadata": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High 4:4:4 Predictive",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "width": 1920,
+    "height": 1080,
+    "coded_width": 1920,
+    "coded_height": 1080,
+    "closed_captions": 0,
+    "has_b_frames": 0,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "color_range": "tv",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709",
+    "chroma_location": "left",
+    "refs": 1,
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "r_frame_rate": "24/1",
+    "avg_frame_rate": "24/1",
+    "time_base": "1/12288",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 640000,
+    "duration": "52.083333",
+    "bit_rate": "23246101",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "1250",
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "vendor_id": "[0][0][0][0]"
+    }
+  },
+  "wallComparison": [
+    {
+      "frame": 888,
+      "referenceWallRGB": [
+        216.89794444444445,
+        168.87905555555557,
+        150.2863888888889
+      ],
+      "beforeWallRGB": [
+        218.34416666666667,
+        171.3175,
+        144.3266111111111
+      ],
+      "afterWallRGB": [
+        218.34416666666667,
+        170.59083333333334,
+        150.7546111111111
+      ]
+    },
+    {
+      "frame": 948,
+      "referenceWallRGB": [
+        216.89794444444445,
+        168.87905555555557,
+        150.2863888888889
+      ],
+      "beforeWallRGB": [
+        219.04855555555557,
+        171.665,
+        144.59544444444444
+      ],
+      "afterWallRGB": [
+        219.04855555555557,
+        170.93744444444445,
+        151.00122222222222
+      ]
+    },
+    {
+      "frame": 1008,
+      "referenceWallRGB": [
+        216.89794444444445,
+        168.87905555555557,
+        150.2863888888889
+      ],
+      "beforeWallRGB": [
+        219.56772222222222,
+        171.89038888888888,
+        144.9063888888889
+      ],
+      "afterWallRGB": [
+        219.56772222222222,
+        171.13483333333335,
+        151.2795
+      ]
+    }
+  ],
+  "contactSheet": "output/scene-01-10-preview-v4-scene8-comparison.jpg",
+  "lumaIdentical": true,
+  "vChromaIdentical": true
+}

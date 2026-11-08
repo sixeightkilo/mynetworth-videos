@@ -7,9 +7,9 @@ On 8 November 2026 the user requested extending the current preview through the 
 | Segment | Versioned source | Frames | Output start |
 |---|---|---|---|
 | Existing Scenes 01–07 | `output/scene-01-07-preview-v1.mp4` | All 888 frames | 0 / 0s |
-| New Scene 08 | `production/scene-08/output/scene-8.mp4` | All 121 frames | 888 / 37s |
+| New Scene 08 | `production/v1/scene-08/output/scene-8.mp4` | All 121 frames | 888 / 37s |
 
-Scene 08 is native 1920×1080 at 24fps, with its original Kling dialogue. Its prompt and starting reference are preserved as `production/scene-08/prompt.md` and `production/scene-08/references/scene-08-start.jpg`. The older `public/scenes/8-vijay-doubts.mp4` belongs to the original ten-scene rough cut and remains unchanged.
+Scene 08 is native 1920×1080 at 24fps, with its original Kling dialogue. Its prompt and starting reference are preserved as `production/v1/scene-08/prompt.md` and `production/v1/scene-08/references/scene-08-start.jpg`. The older `public/scenes/8-vijay-doubts.mp4` belongs to the original ten-scene rough cut and remains unchanged.
 
 Scene 08 is used in full, without trimming, a crossfade, source regeneration or scene redesign. The new boundary is a direct cut from the flat app showcase back to the living-room shot, where Nikhil lowers the phone and Vijay raises the privacy concern. The staging/framing change is intentionally retained without polishing.
 

@@ -21,10 +21,10 @@
     "download": "Download link in description"
   },
   "publicDir": "out/scene10-end-card-v2/public",
-  "standaloneOutput": "production/scene-10/output/scene-10-end-card-v2.mp4",
+  "standaloneOutput": "production/v1/scene-10/output/scene-10-end-card-v2.mp4",
   "completeOutput": "output/scene-01-10-preview-v2.mp4",
-  "finalStill": "production/scene-10/output/scene-10-end-card-v2-final.png",
-  "startImageSource": "production/scene-10/output/scene-09-final-frame-srgb-v2.png",
-  "logoDisplaySource": "production/scene-10/references/logo-transparent-srgb-v2.png",
+  "finalStill": "production/v1/scene-10/output/scene-10-end-card-v2-final.png",
+  "startImageSource": "production/v1/scene-10/output/scene-09-final-frame-srgb-v2.png",
+  "logoDisplaySource": "production/v1/scene-10/references/logo-transparent-srgb-v2.png",
   "workDir": "out/scene10-end-card-v2"
 }

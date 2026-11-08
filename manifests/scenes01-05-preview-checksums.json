@@ -4,13 +4,13 @@
   "files": [
     {
       "path": "docs/scenes01-05-preview-validation.json",
-      "bytes": 1470,
-      "sha256": "363cd8e74068ea44790da94962e7fb872de1a8929eaa1e3a345d5bb4eae076ad"
+      "bytes": 1476,
+      "sha256": "972fcc66aeb003a733ea15c78360c17fdeeae10009ab47551ca268c174c3bac3"
     },
     {
       "path": "docs/scenes01-05-preview.md",
-      "bytes": 7019,
-      "sha256": "484263385c1cd2172d0753b86af181841a0ad12033af8b85797ce483e4c4f7b6"
+      "bytes": 7046,
+      "sha256": "1908f333f79c19cdca8f645c989ede80bb1f35b164102e049d89b2048ed44cb9"
     },
     {
       "path": "manifests/phone-transition.json",
@@ -19,18 +19,18 @@
     },
     {
       "path": "manifests/scene01-05-preview-v1.json",
-      "bytes": 762,
-      "sha256": "d2003a2d911c7a691b7bedaa31c8cfb98aeebf0d1352ae9d9f55d24b5cf95e8e"
+      "bytes": 777,
+      "sha256": "b375e5e83e095bf739ace599b94a56e64464d5433372b4b59440d600f44c2e8a"
     },
     {
       "path": "manifests/scene04-dashboard-full.json",
-      "bytes": 4269,
-      "sha256": "d7bf70c7dcec8717ab197b9091f69dc3685ceeb1b134e800281ee992ff66531d"
+      "bytes": 4278,
+      "sha256": "f5b9ba6a04251b22856761c429930db33b389b2d10db8006e6c402c89a34a5bd"
     },
     {
       "path": "manifests/scene05-two-phase-v5.json",
-      "bytes": 2853,
-      "sha256": "51985fd8343df666312444fb870b3a1bf2e3c79a262f82b4febaec7901ab14b6"
+      "bytes": 2859,
+      "sha256": "dfb4dbe457e842a9ebc74593277f20a86b93716dbd39b80da29f399fbe7c992b"
     },
     {
       "path": "manifests/scene7.json",
@@ -44,8 +44,8 @@
     },
     {
       "path": "output/scene-01-05-preview-v1.json",
-      "bytes": 2967,
-      "sha256": "65fbebe0a6075639d4d7335da9fd18564bffdd764385a55ed251fb3733ee4725"
+      "bytes": 2982,
+      "sha256": "83b18b10e6648cd84103eacc55fa2ee549b077c68465d5a17f6d4b128a1f3ac2"
     },
     {
       "path": "output/scene-01-05-preview-v1.mp4",
@@ -63,107 +63,107 @@
       "sha256": "d7f7d62506cb21155e72f7006394a3fc9072f16f066f15405140d66559176479"
     },
     {
-      "path": "production/references/dashboard-original.png",
+      "path": "production/v1/references/dashboard-original.png",
       "bytes": 172112,
       "sha256": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
     },
     {
-      "path": "production/scene-01/output/scene-01.mp4",
+      "path": "production/v1/scene-01/output/scene-01.mp4",
       "bytes": 3999204,
       "sha256": "30b89d8b08cc7cca1c258437d8693d81aec6c854b50e4e7342e74533aa71e0ae"
     },
     {
-      "path": "production/scene-02/output/scene-02.mp4",
+      "path": "production/v1/scene-02/output/scene-02.mp4",
       "bytes": 5102776,
       "sha256": "efdee69242f70727c8b5f17e3bc69dbd67f7e9b2bef63abf080e563cc62e41c4"
     },
     {
-      "path": "production/scene-03/output/scene-03-end.jpg",
+      "path": "production/v1/scene-03/output/scene-03-end.jpg",
       "bytes": 330253,
       "sha256": "bbbe0f40d3f7ae93266740f771cc61792e08777cd7946d322c935d35a87037c5"
     },
     {
-      "path": "production/scene-03/output/scene-03.mp4",
+      "path": "production/v1/scene-03/output/scene-03.mp4",
       "bytes": 4048870,
       "sha256": "df8f1526c920d33c9e857f63dd5f28bf6ee48983f4918cb91339693864ab8feb"
     },
     {
-      "path": "production/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
+      "path": "production/v1/scene-04/output/scene-04-dashboard-tracked-full-v2.mp4",
       "bytes": 2809734,
       "sha256": "d824093ee34bc5c2aed6605278c12cc4f6e1afa6d984d92276cfd29c442d9c82"
     },
     {
-      "path": "production/scene-04/output/scene-04.mp4",
+      "path": "production/v1/scene-04/output/scene-04.mp4",
       "bytes": 4251833,
       "sha256": "e31da7c955bf1226438d07235995b3555c66e7bec98fe09b6737f830160d0801"
     },
     {
-      "path": "production/scene-05/output/scene-04-05-two-phase-preview-v5.mp4",
+      "path": "production/v1/scene-05/output/scene-04-05-two-phase-preview-v5.mp4",
       "bytes": 5871837,
       "sha256": "7a39a95ae7da70e9a9d56fd2b400a22a3e665b7c6c8d3a481d3f84caa59bfe9a"
     },
     {
-      "path": "production/scene-05/output/scene-05-start-exact.png",
+      "path": "production/v1/scene-05/output/scene-05-start-exact.png",
       "bytes": 2858103,
       "sha256": "114e22ff1f26f2ba71d3cc2fa62ea35a58e077464d475c2fcb7bc4b3c8e4a488"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5-contact.jpg",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5-contact.jpg",
       "bytes": 79973,
       "sha256": "f83a942d226d3aaa3255887f4216f2d127cd7d7b37098875dc651635f347f45a"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5-edges-200pct.png",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5-edges-200pct.png",
       "bytes": 210841,
       "sha256": "95d8e9b9a6f8307be4b9c558b7cbe5f2d8d55124337163955010448372350154"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5-notes.md",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5-notes.md",
       "bytes": 4527,
       "sha256": "38440914a020fff1c60c6fc2d849dc443bcfaf08bdb0bc4745e0c6825effd1d5"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5-report.json",
-      "bytes": 3499,
-      "sha256": "3a36795a627c2533ac2207d06e763fc9498ccfe207ce39bdf82667062c907ced"
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5-report.json",
+      "bytes": 3517,
+      "sha256": "2af8d37f0273e96994fd4a19b021d8d3e13292af0dd645ba67dd2643849863ed"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5-validation-contact.jpg",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5-validation-contact.jpg",
       "bytes": 313803,
       "sha256": "1a85ad19671d36df5f0fc149cc191e3f1e2fcc3aa4e3d4cf38694b4ee2b721c4"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5-validation-final.png",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5-validation-final.png",
       "bytes": 129116,
       "sha256": "e95a188b380563bba61be2974bd9cc7796b8359a8d90d7ff442445bbeeb24ffb"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5-validation-phase-a-end.png",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5-validation-phase-a-end.png",
       "bytes": 992644,
       "sha256": "6de2c7b2f46f420e575da7a3bdb47ab7ed487da884222f4b09e9293217508f76"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5-validation-phase-b-mid.png",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5-validation-phase-b-mid.png",
       "bytes": 218736,
       "sha256": "2009cce2a16ffa805eda3261c996e8bf07ec12d474755f691a34e5dca9e4c17d"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5-validation-start.png",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5-validation-start.png",
       "bytes": 3616772,
       "sha256": "52aa959614d8d5908abd29ab401362fe8fdc62c4b541081d8c6108bfab63f1be"
     },
     {
-      "path": "production/scene-05/output/scene-05-two-phase-v5.mp4",
+      "path": "production/v1/scene-05/output/scene-05-two-phase-v5.mp4",
       "bytes": 3036898,
       "sha256": "f661874b98e7cac582908be4b129b3bb91afc75f6940960fe3eecb26c4ff2bfe"
     },
     {
-      "path": "production/scene-05/output/scene-05-v5c-background.png",
+      "path": "production/v1/scene-05/output/scene-05-v5c-background.png",
       "bytes": 2426677,
       "sha256": "504ca7bce97b054e9759de8ce29c8ff7456344cc37e05cd35a18d70f9830b485"
     },
     {
-      "path": "production/scene-05/output/scene-05-v5c-fingers.png",
+      "path": "production/v1/scene-05/output/scene-05-v5c-fingers.png",
       "bytes": 2871553,
       "sha256": "5c233b99df3dfbc8944f5d11449b0c9759936142e61f1f84aed78a3483830f02"
     },
@@ -179,8 +179,8 @@
     },
     {
       "path": "scripts/prepare_scene05_two_phase.py",
-      "bytes": 3480,
-      "sha256": "2bc7012c56d9a68b9af21ee98b7b6159c86a2c4a81b5c948c7b099340741910e"
+      "bytes": 3483,
+      "sha256": "6d7a5ffad7a06d6d1b90cac98c60bb93e1df98505191f889ba4803b2b2c2e2f1"
     },
     {
       "path": "scripts/requirements-screen-compositing.txt",

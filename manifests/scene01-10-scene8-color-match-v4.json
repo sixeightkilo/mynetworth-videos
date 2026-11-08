@@ -1,0 +1,16 @@
+{
+  "source": "output/scene-01-10-preview-v3-color-fixed.mp4",
+  "output": "output/scene-01-10-preview-v4-scene8-color-match.mp4",
+  "workDir": "out/scene01-10-scene8-color-match-v4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 1250,
+  "correctionStartFrame": 888,
+  "correctionEndFrameExclusive": 1009,
+  "warmChromaScale": 0.8,
+  "range": "tv",
+  "reference": "production/v1/scene-03/output/scene-03.mp4, source frame 109; static wall samples",
+  "method": "For U<128 only, scale distance from neutral by 0.8. Preserve Y, V and U>=128. Constant correction throughout Scene 8.",
+  "encoding": "Lossless H.264; preserve other decoded video frames and copy audio"
+}
