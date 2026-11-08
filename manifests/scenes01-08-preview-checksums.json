@@ -1,0 +1,60 @@
+{
+  "stage": "Scenes 01\u201308 preview v1",
+  "files": [
+    {
+      "path": "output/scene-01-07-preview-v1.mp4",
+      "bytes": 15871720,
+      "sha256": "141c99d5983ab53b1ed679f9c1fa8315b5ba498301bd95f60eda6d36103207d2"
+    },
+    {
+      "path": "production/scene-08/output/scene-8.mp4",
+      "bytes": 4524492,
+      "sha256": "83a0b8666bea95dcfed3b5ac0bdc98a71ba910949b423be6f5062239649e5a02"
+    },
+    {
+      "path": "production/scene-08/prompt.md",
+      "bytes": 2341,
+      "sha256": "185a8c8b4cbafd7ce03570839ec3cb9733aec412ff9a9f66d4f48aca84e0779c"
+    },
+    {
+      "path": "production/scene-08/references/scene-08-start.jpg",
+      "bytes": 367667,
+      "sha256": "f94be59bcee0dbc57a4a0d82819475ab0185db91b7e244fb27f1e023242b166f"
+    },
+    {
+      "path": "scripts/append_preview_clip.py",
+      "bytes": 4863,
+      "sha256": "453d044916ae090798f4b12adf6724d9a90f7bd127f87044029c345b9fc4ed78"
+    },
+    {
+      "path": "manifests/scene01-08-preview-v1.json",
+      "bytes": 440,
+      "sha256": "bf86f5c3ebc31318b8e8f29ad4d8e729f4d82a7b92466cacb5423b4ff6e15058"
+    },
+    {
+      "path": "docs/scenes01-08-preview.md",
+      "bytes": 4580,
+      "sha256": "7bb174919b596e431185bc77df71cd5e4464a269981ff7fb20b643a7761c8403"
+    },
+    {
+      "path": "docs/scenes01-08-preview-validation.json",
+      "bytes": 1050,
+      "sha256": "a5bd88eedbe1e07108807ed5b940dfb40880f492cbbba3a6e2e10e2c32c4cdb0"
+    },
+    {
+      "path": "output/scene-01-08-preview-v1-contact.jpg",
+      "bytes": 107473,
+      "sha256": "0908080715a671c162eca8e9e70752390174104f50b1e9574dfb56f2616108c9"
+    },
+    {
+      "path": "output/scene-01-08-preview-v1.json",
+      "bytes": 1495,
+      "sha256": "f7672e618534027db80c0cd654820934a1acf2e1e7eab412dc82939335658f4f"
+    },
+    {
+      "path": "output/scene-01-08-preview-v1.mp4",
+      "bytes": 18650814,
+      "sha256": "3efef5bf7cf5d6ebc70160ea7bd5ae638f242e7004a7a3a9514eda097cf2c182"
+    }
+  ]
+}

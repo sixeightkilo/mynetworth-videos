@@ -1,0 +1,12 @@
+{
+  "output": "output/scene-01-08-preview-v1.mp4",
+  "workDir": "out/scene01-08-preview-v1",
+  "prefix": "output/scene-01-07-preview-v1.mp4",
+  "prefixFrames": 888,
+  "append": "production/scene-08/output/scene-8.mp4",
+  "appendFrames": 121,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "selection": "Complete new production Scene 08, original dialogue retained; direct cut from the existing app showcase. No trimming or crossfade."
+}

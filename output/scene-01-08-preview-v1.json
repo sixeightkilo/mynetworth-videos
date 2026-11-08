@@ -1,0 +1,40 @@
+{
+  "output": "output/scene-01-08-preview-v1.mp4",
+  "manifest": "manifests/scene01-08-preview-v1.json",
+  "frames": 1009,
+  "fps": 24,
+  "durationSeconds": 42.041666666666664,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "prefixFramesCopiedAndDecodedIdentical": 888,
+  "append": {
+    "source": "production/scene-08/output/scene-8.mp4",
+    "frames": 121,
+    "startSeconds": 37.0,
+    "trim": "none"
+  },
+  "audio": "Original soundtracks retained; prefix padded with silence to its video duration; AAC re-encoded for the joined track",
+  "audioChecks": [
+    {
+      "source": "output/scene-01-07-preview-v1.mp4",
+      "correlation": 0.9997813781004251,
+      "lagSamplesAt24kHz": 0
+    },
+    {
+      "source": "production/scene-08/output/scene-8.mp4",
+      "correlation": 0.9999253872280921,
+      "lagSamplesAt24kHz": 0
+    }
+  ],
+  "fullDecode": "passed",
+  "sourceSHA256": {
+    "output/scene-01-07-preview-v1.mp4": "141c99d5983ab53b1ed679f9c1fa8315b5ba498301bd95f60eda6d36103207d2",
+    "production/scene-08/output/scene-8.mp4": "83a0b8666bea95dcfed3b5ac0bdc98a71ba910949b423be6f5062239649e5a02"
+  },
+  "sourcesUnchanged": true,
+  "continuity": "Direct cut from the flat app showcase to the new living-room shot. Scene 08 lowers the phone; source staging/framing change is retained, with no added transition or polishing.",
+  "contactSheet": "output/scene-01-08-preview-v1-contact.jpg",
+  "timestampValidation": "Video and audio start at zero; video is exactly 1009 frames at 24fps."
+}

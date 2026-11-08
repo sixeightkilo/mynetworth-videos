@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-08",
+  "output": "output/scene-01-08-preview-v1.mp4",
+  "sha256": "3efef5bf7cf5d6ebc70160ea7bd5ae638f242e7004a7a3a9514eda097cf2c182",
+  "frames": 1009,
+  "fps": 24,
+  "durationSeconds": 42.041666666666664,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "reproduction": "byte-identical",
+  "prefixFramesCopiedAndDecodedIdentical": 888,
+  "scene08": "All 121 frames retained; starts at frame 888 / 37s",
+  "audioChecks": [
+    {
+      "source": "output/scene-01-07-preview-v1.mp4",
+      "correlation": 0.9997813781004251,
+      "lagSamplesAt24kHz": 0
+    },
+    {
+      "source": "production/scene-08/output/scene-8.mp4",
+      "correlation": 0.9999253872280921,
+      "lagSamplesAt24kHz": 0
+    }
+  ],
+  "audioEncoding": "AAC re-encoded; original dialogue retained and prefix padded with silence through 37s",
+  "zeroVideoStartTime": true,
+  "fullDecode": "passed",
+  "sourceHashes": "unchanged",
+  "baselineAssets": "22 verified",
+  "ffmpeg": "ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers"
+}

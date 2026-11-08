@@ -1,6 +1,6 @@
 # Codex handoff — approved MyNetWorth production project
 
-Last updated: 7 November 2026. This document carries the decisions and validated state from the animation/rough-cut conversation into a new Codex session.
+Last updated: 8 November 2026. This document carries the decisions and validated state from the animation/rough-cut conversation into a new Codex session.
 
 ## Read this first
 
@@ -169,3 +169,11 @@ The user requested committing and tagging `output/scene-01-07-preview-v1.mp4` as
 The appended legacy selection is `public/composites/scene6-7-integrated-approved.mp4` [153,418): one aligned final Scene 6 frame plus the full 264-frame Scene 7. Old Scene 6 [0,153) and its dialogue are intentionally skipped because the new Scene 5 already performs the room-to-phone zoom; the entire old Scene 6 was not appended. Scene 7 recordings, captions, transitions and privacy-safe ending remain baked and unchanged. The 720p tail is upscaled, not native 1080p detail. Small raster/bezel/status-bar differences remain and were not polished.
 
 `scripts/extend_preview_with_legacy.py` reproduces this append with Python standard library and FFmpeg only. The output was reproduced byte-for-byte. Inputs, validation/contact/notes and checksum inventory are versioned; intermediate upscale/concat files remain disposable under `out/`. The original ten-scene baseline and previous Scenes 01–05 tag are untouched. Scenes 08–10 remain to be appended. The user's priority is completing the film before polishing individual scenes; do not redesign or regenerate approved material.
+
+## Latest checkpoint — Scenes 01–08 preview, 8 November 2026
+
+The user requested appending the new production Scene 08 and committing all dependencies for this stage. Current output: `output/scene-01-08-preview-v1.mp4`, 1920×1080, 24fps, 1009 frames / 42.041667 seconds. Read `docs/scenes01-08-preview.md` and `manifests/scene01-08-preview-v1.json` before further assembly work.
+
+The first 888 decoded video frames are identical to `scene-01-07-preview-v1.mp4`. The complete new `production/scene-08/output/scene-8.mp4` (121 native 1080p frames) begins at frame 888 / 37 seconds, with its original dialogue and no trimming. The older public Scene 08 stays with the original ten-scene baseline. The transition is a direct cut from the app showcase to the living room; no polishing or added transition was requested.
+
+`scripts/append_preview_clip.py` uses Python standard library and FFmpeg/FFprobe. It copies prefix video frames, normalizes timestamps through video-only concatenation, pads the shorter prefix audio through its silent showcase to 37s, appends Scene 08 audio, then encodes the joined AAC track. Audio contents are retained and zero-lag correlation verified; compressed audio is re-encoded. The result was reproduced byte-for-byte. All source inputs, prompt/reference, code, manifests, preview and validation evidence are versioned. Disposable work stays under ignored `out/`. Previous previews, baseline tags and approved compositions are untouched. Scenes 09–10 remain to be appended; finish assembly before refining wrinkles.
