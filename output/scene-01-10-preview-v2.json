@@ -1,0 +1,47 @@
+{
+  "output": "output/scene-01-10-preview-v2.mp4",
+  "standalone": "production/scene-10/output/scene-10-end-card-v2.mp4",
+  "finalStill": "production/scene-10/output/scene-10-end-card-v2-final.png",
+  "frames": 1250,
+  "fps": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 52.083333333333336,
+  "scene10": {
+    "frames": 120,
+    "durationSeconds": 5.0,
+    "fadeFrames": 12,
+    "completeHoldFrames": 108,
+    "completeHoldSeconds": 4.5,
+    "audio": "Silent; no new sound"
+  },
+  "prefix": {
+    "frames": 1130,
+    "decodedVideoIdentical": true,
+    "decodedAudioIdentical": true,
+    "sourceUnchanged": true
+  },
+  "logo": {
+    "original": "public/branding/logo.png",
+    "derivative": "Off-white background keyed out for navy placement; original shield artwork retained"
+  },
+  "fullDecode": "passed",
+  "sourceSHA256": {
+    "output/scene-01-09-preview-v1.mp4": "6cba01472fa95fee8457ed3beb37e105a56a6061191fca773e5b1261460ecef5",
+    "production/scene-10/output/scene-10-end-card-v2.mp4": "46f4ce2a9813d3665c49ccbdee14401a71747e059929c456e88d45aaaee6c0af",
+    "public/branding/logo.png": "bb02ead4ce57049f74c78804b27c2e2fd7ea9b24062ab44a928ba0bbe664a3f8"
+  },
+  "remotionCompositions": [
+    "Scene10EndCard1080p",
+    "Scenes01To10Preview1080p"
+  ],
+  "visualValidation": {
+    "heldFrameBrowserRGB": "identical to Scene 9 final frame",
+    "fullOpacityHold": "frames 12\u2013119 identical in rendered stills",
+    "assetReproduction": "source PNG derivatives reproduced byte-for-byte",
+    "export": "H.264 yuv420p TV-range BT.709",
+    "checks": "Remotion browser render, npm build, npm verify and full decode passed"
+  }
+}

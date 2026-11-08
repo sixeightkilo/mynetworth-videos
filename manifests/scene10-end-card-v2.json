@@ -1,0 +1,30 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "durationInFrames": 120,
+  "fadeFrames": 12,
+  "fullOpacityHoldFrames": 108,
+  "prefixFrames": 1130,
+  "prefixSource": "output/scene-01-09-preview-v1.mp4",
+  "prefixVideo": "scene10-review-v2/scenes01-09.mp4",
+  "startImage": "scene10-review-v2/scene09-final.png",
+  "logo": "scene10-review-v2/logo-transparent.png",
+  "logoOriginal": "public/branding/logo.png",
+  "background": "#0A172B",
+  "fontFamily": "DejaVu Sans, sans-serif",
+  "text": {
+    "product": "MyNetWorth",
+    "tagline": "All Your Investments. One Clean Dashboard.",
+    "platform": "Available on Android",
+    "website": "mynetworth.in",
+    "download": "Download link in description"
+  },
+  "publicDir": "out/scene10-end-card-v2/public",
+  "standaloneOutput": "production/scene-10/output/scene-10-end-card-v2.mp4",
+  "completeOutput": "output/scene-01-10-preview-v2.mp4",
+  "finalStill": "production/scene-10/output/scene-10-end-card-v2-final.png",
+  "startImageSource": "production/scene-10/output/scene-09-final-frame-srgb-v2.png",
+  "logoDisplaySource": "production/scene-10/references/logo-transparent-srgb-v2.png",
+  "workDir": "out/scene10-end-card-v2"
+}
