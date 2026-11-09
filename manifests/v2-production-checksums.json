@@ -508,8 +508,8 @@
     },
     {
       "path": "src/v2/Segment2.jsx",
-      "bytes": 6963,
-      "sha256": "cf12cd89a43147c43ab670e2ee0f6eaa13356b0fa0abb6344ef73f46737f8945"
+      "bytes": 7095,
+      "sha256": "1f25c7fced07f2eb3da0270427c3e05ff071ad406e35c13f481586bc0d28ada2"
     },
     {
       "path": "src/v2/end-card-entry.jsx",

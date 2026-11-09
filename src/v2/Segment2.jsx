@@ -67,7 +67,9 @@ export const V2Segment2=({config=defaults})=>{
     </div>
     <div style={{position:'absolute',left:160,top:285,width:900,opacity:aggregationOpacity}}>
       {c.text.investments.map((text,i)=><div key={text} style={{...captionStyle(t.investmentFrames[i]),fontSize:64,lineHeight:'88px',fontWeight:500,letterSpacing:-1}}>{text}</div>)}
-      <div style={{...captionStyle(t.taglineFromFrame),marginTop:38,width:920,fontSize:52,lineHeight:1.22,fontWeight:700,letterSpacing:-1.3}}>{c.text.tagline}</div>
+      <div style={{...captionStyle(t.taglineFromFrame),marginTop:38,width:920,fontSize:52,lineHeight:1.22,fontWeight:700,letterSpacing:-1.3}}>
+        {c.text.taglineLines ? c.text.taglineLines.map((line)=><div key={line} style={{whiteSpace:'nowrap'}}>{line}</div>) : c.text.tagline}
+      </div>
     </div>
     <div style={{position:'absolute',left:160,top:350,width:940,opacity:featureOpacity}}>
       {c.text.features.map((text,i)=><div key={text} style={{...captionStyle([t.sipFromFrame,t.casFromFrame,t.reportsFromFrame][i]),

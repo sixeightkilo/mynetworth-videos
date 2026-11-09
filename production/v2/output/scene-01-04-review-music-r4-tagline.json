@@ -1,0 +1,28 @@
+{
+  "output": "production/v2/output/scene-01-04-review-music-r4-tagline.mp4",
+  "sourceSHA256": {
+    "production/v2/output/scene-01-04-review-music-r3-edge-fixed.mp4": "6c7f439e67640f80e1d3f417d7b292df41dbec124e02b5b2b9172b7776c4966a",
+    "production/v2/scene-02/output/tagline-r5-frames132-201-720p.mp4": "4c9c5c24e5c65ca6675bb2509e922879ac9046eb9fe04039b39275b545ecd67b"
+  },
+  "outputSHA256": "b64ad167dff0397c032acd7771905c20061c4b1a16d9847502948f3e2765cdaf",
+  "frames": 1418,
+  "resolution": [
+    1280,
+    720
+  ],
+  "durationSeconds": 59.083333,
+  "decodedAudioIdentical": true,
+  "patchGlobalFrameRange": [
+    637,
+    707
+  ],
+  "patchRectangle": [
+    96,
+    440,
+    640,
+    110
+  ],
+  "fullDecode": "passed",
+  "sourcesUnchanged": true,
+  "note": "Only the tagline region is replaced; H264 CRF12 recompression introduces minor differences elsewhere."
+}

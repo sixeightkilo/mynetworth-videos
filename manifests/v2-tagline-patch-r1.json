@@ -1,0 +1,14 @@
+{
+  "source": "production/v2/output/scene-01-04-review-music-r3-edge-fixed.mp4",
+  "patch": "production/v2/scene-02/output/tagline-r5-frames132-201-720p.mp4",
+  "patchStartGlobalFrame": 637,
+  "patchFrames": 70,
+  "fps": 24,
+  "rectangle": [
+    96,
+    440,
+    640,
+    110
+  ],
+  "output": "production/v2/output/scene-01-04-review-music-r4-tagline.mp4"
+}

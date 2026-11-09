@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": "src/v2/Segment2.jsx",
+      "bytes": 7095,
+      "sha256": "1f25c7fced07f2eb3da0270427c3e05ff071ad406e35c13f481586bc0d28ada2"
+    },
+    {
+      "path": "manifests/v2-segment2-r5.json",
+      "bytes": 5339,
+      "sha256": "bd14fc03e7dacff5a0b74a59f9b373703fe407a55042db4f8499bce2eb68fe7f"
+    },
+    {
+      "path": "manifests/v2-tagline-patch-r1.json",
+      "bytes": 358,
+      "sha256": "b56c76506930f09c38c810655ed978563a14d23e97ae56fb76357c48a5799f5f"
+    },
+    {
+      "path": "scripts/patch_v2_tagline.py",
+      "bytes": 2265,
+      "sha256": "d9ffded317032d4f2a822194d29f1cadee1ffca7f7a0decf085e2d21956ad0c5"
+    },
+    {
+      "path": "production/v2/scene-02/output/tagline-r5-frames132-201-720p.mp4",
+      "bytes": 143422,
+      "sha256": "4c9c5c24e5c65ca6675bb2509e922879ac9046eb9fe04039b39275b545ecd67b"
+    },
+    {
+      "path": "production/v2/output/scene-01-04-review-music-r3-edge-fixed.mp4",
+      "bytes": 22529771,
+      "sha256": "6c7f439e67640f80e1d3f417d7b292df41dbec124e02b5b2b9172b7776c4966a"
+    },
+    {
+      "path": "production/v2/output/scene-01-04-review-music-r4-tagline.mp4",
+      "bytes": 22520343,
+      "sha256": "b64ad167dff0397c032acd7771905c20061c4b1a16d9847502948f3e2765cdaf"
+    },
+    {
+      "path": "production/v2/output/scene-01-04-review-music-r4-tagline.json",
+      "bytes": 872,
+      "sha256": "13dee725e15a12182ffaf0063aabf31c9b4f9d52fcb7bdebab99bea2ade7e612"
+    },
+    {
+      "path": "docs/v2-tagline-r5.md",
+      "bytes": 2162,
+      "sha256": "ee99647d815cdf1057d2032d25a8c092f5a5483ad7fccae79933d091c8ce84cf"
+    },
+    {
+      "path": "docs/validation/v2-tagline-r5.png",
+      "bytes": 163125,
+      "sha256": "698ae729bfa85901dce5523ceee4144abdda110fd94caf2e17778dd37ae1d1b5"
+    }
+  ]
+}

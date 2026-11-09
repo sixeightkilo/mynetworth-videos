@@ -287,3 +287,11 @@ Full V2 checkpoint committed as `6bd17eb` before correction. New uncommitted rev
 ### V2 edge correction approved for commit
 
 User requested documenting, checking in and committing the edge correction. The current V2 film is `production/v2/output/scene-01-04-review-music-r3-edge-fixed.mp4`. Method/verification remain as above; tracked comparison evidence is now `docs/validation/v2-edge-fix-r1-before-after.png`. Documentation and current-output pointers are updated; `manifests/v2-edge-fix-checksums.json` records the correction dependencies. Original pre-correction media remain preserved. No push or tag requested.
+
+### V2 showcase tagline explicit two lines
+
+User requested “All Your Investments.” / “One Clean Dashboard.” as two deliberate lines. Optional text.taglineLines rendering added in Segment2; r5 config preserves old layout/timing and r4 fallback. A supersampled Remotion render covers local frames 132–201, then only the tagline rectangle is applied to the accepted edge-fixed full film. New preview: `production/v2/output/scene-01-04-review-music-r4-tagline.mp4`. Same 1418 frames / 59.083333s / 720p24; soundtrack copied unchanged. Patch source/config/script are retained and docs/v2-tagline-r5.md explains reproduction. Earlier releases remain untouched. No commit/push requested.
+
+### V2 tagline revision approved for commit
+
+User requested check-in/commit of the two-line tagline revision. Current film: `production/v2/output/scene-01-04-review-music-r4-tagline.mp4`. Updated source/config, native rendered patch, full-film patch script, output/report and documentation are retained. Tracked verification still: docs/validation/v2-tagline-r5.png. Same 1418 frames / 59.083333s / 720p24 and identical decoded soundtrack; no push/tag requested.
