@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "production/v2/output/scene-01-04-review-music-r2.mp4",
+      "bytes": 16139534,
+      "sha256": "b6af149e0c6e38c9c2cd96a3b58c00d7e6bda0cedc5f613d9937fd4025b28ff5"
+    },
+    {
+      "path": "production/v2/output/scene-01-04-review-music-r3-edge-fixed.json",
+      "bytes": 1065,
+      "sha256": "96a1259846ac7e42075a3054e3b5788f0d425ff6c5c321a88e838a147393a667"
+    },
+    {
+      "path": "production/v2/output/scene-01-04-review-music-r3-edge-fixed.mp4",
+      "bytes": 22529771,
+      "sha256": "6c7f439e67640f80e1d3f417d7b292df41dbec124e02b5b2b9172b7776c4966a"
+    },
+    {
+      "path": "scripts/fix_v2_edges.py",
+      "bytes": 2115,
+      "sha256": "804d361a4a79ef796da0f891667af07e15462b980cdac9fce69e18e5ffbdef2e"
+    },
+    {
+      "path": "manifests/v2-edge-fix-r1.json",
+      "bytes": 385,
+      "sha256": "140b128792f5c9e48b0fe03959bbedbdd2c322d2dae069432874e14c35c56bf7"
+    },
+    {
+      "path": "docs/v2-edge-fix-r1.md",
+      "bytes": 2960,
+      "sha256": "1f1bc3a67f0613d6d12c07452917a2ad42d8c7b9c05cfcde9d10f8295cae768d"
+    },
+    {
+      "path": "docs/validation/v2-edge-fix-r1-before-after.png",
+      "bytes": 164157,
+      "sha256": "ee332bba60784982a9731db86c08602832ba2e80c9aa7d8af51ebf5e0a215034"
+    }
+  ]
+}

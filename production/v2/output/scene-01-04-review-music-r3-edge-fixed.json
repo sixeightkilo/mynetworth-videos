@@ -1,0 +1,29 @@
+{
+  "source": "production/v2/output/scene-01-04-review-music-r2.mp4",
+  "sourceSHA256": "b6af149e0c6e38c9c2cd96a3b58c00d7e6bda0cedc5f613d9937fd4025b28ff5",
+  "output": "production/v2/output/scene-01-04-review-music-r3-edge-fixed.mp4",
+  "outputSHA256": "6c7f439e67640f80e1d3f417d7b292df41dbec124e02b5b2b9172b7776c4966a",
+  "method": "FFmpeg fillborders smear; replace narrow padding and chroma fringe with adjacent interior pixels, with no crop/zoom/geometry change.",
+  "filter": "fillborders=left=4:right=4:mode=smear",
+  "frames": 1418,
+  "fps": "24/1",
+  "resolution": [
+    1280,
+    720
+  ],
+  "durationSeconds": 59.083333,
+  "noCropZoomOrReposition": true,
+  "originalAudioStreamCopied": true,
+  "decodedAudioIdentical": true,
+  "sourceUnchanged": true,
+  "fullDecode": "passed",
+  "encoding": "H264 CRF12; slight recompression differences beyond the corrected edge strips are possible.",
+  "interiorPSNRdB": 54.799588,
+  "edgeReviewFrames": [
+    240,
+    505,
+    1000,
+    1350
+  ],
+  "edgeComparison": "docs/validation/v2-edge-fix-r1-before-after.png"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "production/v2/output/scene-01-04-review-music-r2.mp4",
+  "output": "production/v2/output/scene-01-04-review-music-r3-edge-fixed.mp4",
+  "workDir": "out/v2-edge-fix-r1",
+  "leftPixels": 4,
+  "rightPixels": 4,
+  "crf": 12,
+  "method": "FFmpeg fillborders smear; replace narrow padding and chroma fringe with adjacent interior pixels, with no crop/zoom/geometry change."
+}

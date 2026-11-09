@@ -126,3 +126,5 @@ Preparation and rendering refuse to overwrite existing output/staging paths. On 
 ## Complete V2 checkpoint
 
 Current V2 review: `production/v2/output/scene-01-04-review-music-r2.mp4`, 1418 frames / 59.083333s, 1280×720 at 24fps. Four scenes, original dialogue/notification and updated user-composed soundtrack. Accepted scene masters and required sources are versioned. Run `python3 scripts/reproduce_v2.py` to verify inputs and reproduce into a fresh out/ directory. See [V2 dependencies and authoring](production/v2/README.md). The small white edge padding is retained in this checkpoint; its correction is a separate review.
+
+Latest approved V2 edge correction: `production/v2/output/scene-01-04-review-music-r3-edge-fixed.mp4`. See [method, validation and reproduction](docs/v2-edge-fix-r1.md). Duration, framing and soundtrack are retained; the earlier checkpoint remains preserved.
