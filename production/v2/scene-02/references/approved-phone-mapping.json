@@ -1,0 +1,58 @@
+{
+  "reference": "production/v2/scene-01/output/scene-01-end.png",
+  "mask": "production/v2/scene-01/output/Scene-01- end-mask.png",
+  "dashboard": "public/screenshots/dashboard-original.png",
+  "output": "out/v2-mask-still-r1/scene-01-end-dashboard.png",
+  "resolution": [
+    1280,
+    720
+  ],
+  "cornersOrder": "top-left, top-right, bottom-right, bottom-left",
+  "corners": [
+    [
+      567.767578125,
+      251.62118530273438
+    ],
+    [
+      609.678955078125,
+      256.0089416503906
+    ],
+    [
+      585.0624389648438,
+      363.7218322753906
+    ],
+    [
+      542.471435546875,
+      357.6971130371094
+    ]
+  ],
+  "perspectiveTransform": [
+    [
+      0.03877528714505969,
+      -0.020468743135508123,
+      567.767578125
+    ],
+    [
+      0.0009736356882745623,
+      0.052112963675148505,
+      251.62118530273438
+    ],
+    [
+      -1.6056746137502054e-05,
+      -1.2809198186177844e-05,
+      1.0
+    ]
+  ],
+  "alphaUsedWithoutResizing": true,
+  "referenceUsedWithoutResizingCroppingOrMoving": true,
+  "outsideMaskPixelsIdentical": true,
+  "originalAlphaPreserved": true,
+  "dashboardLayerSupersampling": 4,
+  "addedNotchOrBezel": false,
+  "videoProcessed": false,
+  "inputSHA256": {
+    "production/v2/scene-01/output/scene-01-end.png": "93c5307f557d06eeae21b3a7cb5b2523ca248fe67d34df1427c7dacb8ad94ecb",
+    "production/v2/scene-01/output/Scene-01- end-mask.png": "7714b2c4bc7236be168ba147169d26b7843cf94fb537f0e0a145f6de78cff8ef",
+    "public/screenshots/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
+  }
+}

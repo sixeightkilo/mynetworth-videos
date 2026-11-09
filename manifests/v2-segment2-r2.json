@@ -1,0 +1,155 @@
+{
+  "version": "v2",
+  "revision": "r2",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "durationInFrames": 384,
+  "publicDir": "out/v2-segment2-r2/public",
+  "workDir": "out/v2-segment2-r2",
+  "outputDir": "production/v2/scene-02/output",
+  "segment1": {
+    "source": "production/v2/scene-01/output/scene-01.mp4",
+    "file": "v2/segment1.mp4",
+    "finalImage": "v2/segment1-final.png",
+    "frames": 505,
+    "width": 1284,
+    "height": 724,
+    "screenQuad": [
+      [
+        572,
+        255
+      ],
+      [
+        610,
+        260
+      ],
+      [
+        584,
+        364
+      ],
+      [
+        549,
+        358
+      ]
+    ],
+    "sha256": "0260e671fd1757db2b030a22cfa82642ded971f7debe59f32faa3420a73b67af"
+  },
+  "logo": "v2/logo.png",
+  "logoSource": "production/v1/scene-10/references/logo-transparent-srgb-v2.png",
+  "fontFamily": "DejaVu Sans, sans-serif",
+  "background": "#FFFFFF",
+  "ink": "#142238",
+  "green": "#16804A",
+  "dashboardSize": [
+    864,
+    1872
+  ],
+  "transition": {
+    "phaseAEndFrame": 18,
+    "phaseBEndFrame": 36,
+    "morphStartFrame": 24,
+    "backdropClearEndFrame": 24,
+    "phaseADisplayHeight": 600,
+    "cameraTargetCenter": [
+      1000,
+      490
+    ],
+    "targetCenter": [
+      1390,
+      490
+    ],
+    "designScale": 1,
+    "takeoverFrames": 5,
+    "dashboardFromFirstFrame": true
+  },
+  "phoneModel": {
+    "height": 800,
+    "bezel": 24,
+    "outerRadius": 94,
+    "screenRadius": 70,
+    "notchWidth": 450,
+    "notchHeight": 95,
+    "notchRadius": 24,
+    "background": "#FFFFFF"
+  },
+  "timeline": {
+    "captionFadeFrames": 10,
+    "screenFadeFrames": 3,
+    "brandFromFrame": 24,
+    "aggregationEndFrame": 192,
+    "investmentFrames": [
+      36,
+      60,
+      84,
+      108
+    ],
+    "taglineFromFrame": 132,
+    "sipFromFrame": 192,
+    "casFromFrame": 228,
+    "reportsFromFrame": 264,
+    "privacyFromFrame": 300
+  },
+  "text": {
+    "brand": "MyNetWorth",
+    "investments": [
+      "Stocks.",
+      "Mutual Funds.",
+      "ETFs.",
+      "Bonds."
+    ],
+    "tagline": "All Your Investments. One Clean Dashboard.",
+    "features": [
+      "SIP Tracking",
+      "CAS Import",
+      "Custom Reports"
+    ],
+    "privacyFirst": "No Phone Number. No Email.",
+    "privacySecond": "No Registration Required."
+  },
+  "recordings": {
+    "dashboard": {
+      "file": "app-recordings/dashboard-original.mp4",
+      "sourceStartSeconds": 0,
+      "fromFrame": 0,
+      "durationInFrames": 192
+    },
+    "sip": {
+      "file": "app-recordings/sip.mp4",
+      "sourceStartSeconds": 4.75,
+      "fromFrame": 192,
+      "durationInFrames": 36
+    },
+    "cas": {
+      "file": "app-recordings/cas-import.mp4",
+      "sourceStartSeconds": 1.4166666666666667,
+      "fromFrame": 228,
+      "durationInFrames": 27
+    },
+    "casHold": {
+      "image": "screenshots/import-local.png",
+      "fromFrame": 255,
+      "durationInFrames": 9
+    },
+    "reports": {
+      "file": "app-recordings/reports.mp4",
+      "sourceStartSeconds": 4,
+      "fromFrame": 264,
+      "durationInFrames": 36
+    },
+    "reportsHold": {
+      "image": "v2/reports-custom-hold.png",
+      "sourceFile": "public/app-recordings/reports.mp4",
+      "sourceSeconds": 5.458333333333333,
+      "fromFrame": 300,
+      "durationInFrames": 84
+    }
+  },
+  "music": {
+    "file": null,
+    "volume": 0.14,
+    "fadeInFrames": 18,
+    "fadeOutFrames": 24
+  },
+  "recordingFit": "cover"
+}

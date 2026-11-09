@@ -1,0 +1,29 @@
+{
+  "approvedMusicPreview": "production/v2/output/scene-01-04-review-music-r2.mp4",
+  "preMusicAssembly": "production/v2/output/scene-01-04-review-r1.mp4",
+  "musicManifest": "manifests/v2-soundtrack-r2.json",
+  "fps": 24,
+  "frames": 1418,
+  "scenes": [
+    {
+      "id": 1,
+      "frames": 505,
+      "approvedMedia": "production/v2/scene-01/output/scene-01-dashboard-720p-r1.mp4"
+    },
+    {
+      "id": 2,
+      "frames": 384,
+      "approvedMedia": "production/v2/scene-02/output/segment-02-r4-preview-720p.mp4"
+    },
+    {
+      "id": 3,
+      "frames": 409,
+      "approvedMedia": "production/v2/scene-03/output/scene-03-fit-720p-r1.mp4"
+    },
+    {
+      "id": 4,
+      "frames": 120,
+      "approvedMedia": "production/v2/scene-04/output/scene-04-end-card-r1-720p.mp4"
+    }
+  ]
+}

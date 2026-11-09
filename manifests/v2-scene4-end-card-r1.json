@@ -1,0 +1,46 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "durationInFrames": 120,
+  "background": "#FFFFFF",
+  "ink": "#142238",
+  "blue": "#237BAE",
+  "fontFamily": "DejaVu Sans, sans-serif",
+  "logo": "branding/logo.png",
+  "logoSource": "production/v1/scene-10/references/logo-transparent-srgb-v2.png",
+  "music": {
+    "file": null,
+    "volume": 0.12,
+    "fadeOutFrames": 24
+  },
+  "text": {
+    "brand": "MyNetWorth",
+    "primary": "All Your Investments. One Clean Dashboard.",
+    "secondary": "Private by design",
+    "website": "mynetworth.in",
+    "instruction": "Download link in description"
+  },
+  "timing": {
+    "brand": [
+      0,
+      10
+    ],
+    "primary": [
+      8,
+      18
+    ],
+    "secondary": [
+      16,
+      26
+    ],
+    "underline": [
+      20,
+      36
+    ],
+    "details": [
+      26,
+      36
+    ]
+  }
+}

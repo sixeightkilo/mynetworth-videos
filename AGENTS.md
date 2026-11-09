@@ -10,7 +10,7 @@ Read README.md first, then manifests/production.json. The approved baseline is 1
 
 src/components owns the reusable phone shell and proper projective transform. src/transitions owns approved zoom/settle motion and wrapper positioning. src/scenes owns editable Scene 6/7 implementations. src/compositions owns assembly only. Scene 6/7 approved baked media remains authoritative; editable reconstruction can differ slightly in font/rasterization and is not silently substituted.
 
-Current production scene assets, prompts and references are versioned under `production/v1/`. Resolve production file paths there; do not recreate the previous `production/scene-*` layout. Assembly outputs remain under their existing `output/` paths.
+V1 production scene assets, prompts and references are versioned under `production/v1/`. New V2 work uses `production/v2/` with exactly four scene folders; segment and scene are synonymous there. V2 Segment 1 is approved and immutable. Resolve production file paths there; do not recreate the previous `production/scene-*` layout. Assembly outputs remain under their existing `output/` paths.
 
 ## Workflow
 
@@ -37,3 +37,5 @@ End card crossfades over 17 frames and holds fully opaque for 84 frames; overlap
 No absolute filesystem paths or symlinks to the original project. Asset-checksums records provenance strings for audit only. References and old milestone notes may name historical paths but are not executable dependencies. No OpenCV, NumPy, Pillow, automatic tracking, or AI models are required for production assembly. Never copy the whole experimental project back in.
 
 Git ignores dependencies, caches, temporary files, references and renders. Public approved media is versioned. Verify checksums before and after rendering. Before completion, report actual build/render checks, duration, frame count, audio presence and any limitations. The original project and approved milestone remain untouched.
+
+V2 Scene 2 currently targets native 1280×720 using the approved alpha-mask reference. The user explicitly prohibits a notch or camera cutout anywhere in that regenerated scene. Preserve V1 historical defaults and the approved original V2 Scene 1 video.

@@ -1,0 +1,13 @@
+{
+  "inputs": [
+    "out/v2-scene1-dashboard-full-r1/review/scene-01-dashboard-720p-r1.mp4",
+    "out/v2-segment2-r4/review/segment-02-r4-preview-720p.mp4"
+  ],
+  "frames": [
+    505,
+    384
+  ],
+  "fps": 24,
+  "output": "production/v2/output/scene-01-02-review-r1.mp4",
+  "workDir": "out/v2-scenes01-02-r1"
+}

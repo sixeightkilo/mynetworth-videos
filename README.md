@@ -108,3 +108,21 @@ Latest full-film review: `output/scene-01-10-preview-v5-scene8-9-color-match.mp4
 Production checkpoint tag: `production-v1` (includes the latest v5 full-film review and the versioned production asset layout).
 
 The lossless v3/v4/v5 full-film review videos in `output/` are stored with Git LFS. Their media bytes and validation hashes are unchanged. Install Git LFS before cloning, or run `git lfs pull` after cloning to retrieve the videos.
+
+## V2 Segment 2 review
+
+V2 uses four segments/scenes. Approved Segment 1 is `production/v2/scene-01/output/scene-01.mp4`; do not alter it. Segment 2 uses a separate entry `src/v2/index.jsx`, configuration `manifests/v2-segment2-r4.json`, and real existing app recordings.
+
+```sh
+npm run prepare:v2:segment2
+npm run studio:v2
+npm run render:v2:segment2:preview
+npm run render:v2:segment2:boundary
+python3 scripts/validate_v2_segment2.py
+```
+
+Preparation and rendering refuse to overwrite existing output/staging paths. On this checkout the reviewed paths already exist; use Studio to inspect them. For a fresh revision, update the centralized manifest and render filenames before rendering. The browser can be selected with `REMOTION_BROWSER_EXECUTABLE` or the preview helper’s `--browser-executable` argument. Only 720p review videos are authorized so far. Music is configurable but no licensed music asset was found. Current r4 retains the approved 1280×720 reference but uses fitted geometric screen edges rendered at their final zoomed size, with 2× antialiasing and a notch-free phone. Final review output is 720p under `out/v2-segment2-r4/review/`; see `docs/v2-segment2-r4.md`. Earlier revisions remain preserved.
+
+## Complete V2 checkpoint
+
+Current V2 review: `production/v2/output/scene-01-04-review-music-r2.mp4`, 1418 frames / 59.083333s, 1280×720 at 24fps. Four scenes, original dialogue/notification and updated user-composed soundtrack. Accepted scene masters and required sources are versioned. Run `python3 scripts/reproduce_v2.py` to verify inputs and reproduce into a fresh out/ directory. See [V2 dependencies and authoring](production/v2/README.md). The small white edge padding is retained in this checkpoint; its correction is a separate review.

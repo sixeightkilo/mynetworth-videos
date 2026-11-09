@@ -1,0 +1,66 @@
+{
+  "output": "production/v2/output/scene-01-04-review-music-r1.mp4",
+  "manifest": "manifests/v2-soundtrack-r1.json",
+  "inputSHA256": {
+    "production/v2/output/scene-01-04-review-r1.mp4": "c1f6c80330292e9f5c5e00ced844fa6b4c980e43004c9fe8def9379c00604716",
+    "production/v2/audio/mynetworth-theme.wav": "7e0404a53ccef02b4e3d9ee2be64c4a75463f87ec119654af763a59a43483a0f"
+  },
+  "sourcesUnchanged": true,
+  "frames": 1418,
+  "fps": 24,
+  "durationSeconds": 59.083333333333336,
+  "resolution": [
+    1280,
+    720
+  ],
+  "allDecodedVideoFramesIdentical": true,
+  "musicDurationSeconds": 43.63755102040816,
+  "musicCopies": 2,
+  "loopOverlapSeconds": 1.0,
+  "loopCrossfadeIntervals": [
+    [
+      42.63755102040816,
+      43.63755102040816
+    ]
+  ],
+  "musicGainDb": {
+    "dialogue": -10,
+    "showcase": 4,
+    "endCard": 6
+  },
+  "sceneBoundariesSeconds": [
+    0.0,
+    21.041666666666668,
+    37.041666666666664,
+    54.083333333333336,
+    59.083333333333336
+  ],
+  "originalAudioGainBeforeMaster": 1,
+  "masterGainDb": -0.5,
+  "limiterOrDialogueNormalizationApplied": false,
+  "unencodedMixPeakDbFS": -0.399502291845963,
+  "musicStem": "out/v2-soundtrack-r1-review/music-stem.wav",
+  "fullDecode": "passed",
+  "audio": "Unity original soundtrack plus independently rendered music stem, followed by a configurable shared headroom trim; combined AAC 256kbps/48kHz. No audio timing changes.",
+  "verification": {
+    "originalAudioHasNoTimeOffsetInUnencodedMix": true,
+    "dialoguePlusMusicSumMaximumFloatError": 6.94657826816325e-08,
+    "loopJoinSampleChecks": [
+      {
+        "seconds": 42.63755102040816,
+        "boundarySampleJump": 0.002503880299627781,
+        "surrounding100msMaximumSampleJump": 0.004889822565019131
+      },
+      {
+        "seconds": 43.63755102040816,
+        "boundarySampleJump": 0.00037328421603888273,
+        "surrounding100msMaximumSampleJump": 0.0012995442375540733
+      }
+    ],
+    "musicFinalStereoSample": [
+      5.98717349475919e-07,
+      8.062068559411273e-07
+    ],
+    "decodedOutputPeakDbFS": -0.38860990979521587
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "sourceVideo": "production/v2/output/scene-01-04-review-r1.mp4",
+  "musicSource": "production/v2/audio/mynetworth-theme.wav",
+  "output": "production/v2/output/scene-01-04-review-music-r1.mp4",
+  "workDir": "out/v2-soundtrack-r1-review",
+  "fps": 24,
+  "frames": 1418,
+  "sampleRate": 48000,
+  "loopCrossfadeSeconds": 1.0,
+  "fadeInSeconds": 0.8,
+  "fadeOutSeconds": 2.0,
+  "sceneGainTransitionSeconds": 0.6,
+  "musicGainDb": {
+    "dialogue": -10,
+    "showcase": 4,
+    "endCard": 6
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "startFrame": 0,
+      "endFrame": 505,
+      "gain": "dialogue"
+    },
+    {
+      "id": 2,
+      "startFrame": 505,
+      "endFrame": 889,
+      "gain": "showcase"
+    },
+    {
+      "id": 3,
+      "startFrame": 889,
+      "endFrame": 1298,
+      "gain": "dialogue"
+    },
+    {
+      "id": 4,
+      "startFrame": 1298,
+      "endFrame": 1418,
+      "gain": "endCard"
+    }
+  ],
+  "masterGainDb": -0.5
+}

@@ -18,6 +18,10 @@
     "render:1080p": "python3 scripts/render_rough_cut.py --1080p",
     "render:rough-cut:remotion": "remotion render src/index.jsx ApprovedRoughCut720p out/mynetworth-rough-cut-720p.mp4 --public-dir=public --codec=h264 --audio-codec=aac",
     "render:1080p:remotion": "remotion render src/index.jsx Production1080p out/mynetworth-production-1080p.mp4 --public-dir=public --codec=h264 --audio-codec=aac",
-    "validate:rough-cut": "python3 scripts/validate_render.py"
+    "validate:rough-cut": "python3 scripts/validate_render.py",
+    "prepare:v2:segment2": "python3 scripts/prepare_v2_segment2.py",
+    "studio:v2": "remotion studio src/v2/index.jsx --public-dir=out/v2-segment2-r4/public",
+    "render:v2:segment2:preview": "python3 scripts/render_v2_segment2_preview.py",
+    "render:v2:segment2:boundary": "python3 scripts/render_v2_segment2_preview.py --boundary"
   }
 }

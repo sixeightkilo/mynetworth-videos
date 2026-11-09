@@ -1,0 +1,182 @@
+{
+  "version": "v2",
+  "revision": "r3",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "durationInFrames": 384,
+  "publicDir": "out/v2-segment2-r3/public",
+  "workDir": "out/v2-segment2-r3",
+  "outputDir": "out/v2-segment2-r3/review",
+  "segment1": {
+    "source": "production/v2/scene-01/output/scene-01.mp4",
+    "file": "v2/segment1.mp4",
+    "finalImage": "v2/segment1-final.png",
+    "frames": 505,
+    "width": 1284,
+    "height": 724,
+    "screenQuad": [
+      [
+        567.767578125,
+        251.62118530273438
+      ],
+      [
+        609.678955078125,
+        256.0089416503906
+      ],
+      [
+        585.0624389648438,
+        363.7218322753906
+      ],
+      [
+        542.471435546875,
+        357.6971130371094
+      ]
+    ],
+    "sha256": "0260e671fd1757db2b030a22cfa82642ded971f7debe59f32faa3420a73b67af"
+  },
+  "logo": "v2/logo.png",
+  "logoSource": "production/v1/scene-10/references/logo-transparent-srgb-v2.png",
+  "fontFamily": "DejaVu Sans, sans-serif",
+  "background": "#FFFFFF",
+  "ink": "#142238",
+  "green": "#16804A",
+  "dashboardSize": [
+    864,
+    1872
+  ],
+  "transition": {
+    "phaseAEndFrame": 18,
+    "phaseBEndFrame": 36,
+    "morphStartFrame": 24,
+    "backdropClearEndFrame": 24,
+    "phaseADisplayHeight": 400.0,
+    "cameraTargetCenter": [
+      666.6666666666666,
+      326.6666666666667
+    ],
+    "targetCenter": [
+      926.6666666666666,
+      326.6666666666667
+    ],
+    "designScale": 1,
+    "takeoverFrames": 5,
+    "dashboardFromFirstFrame": true,
+    "screenOverlayStartFrame": 18,
+    "screenOverlayFadeFrames": 6
+  },
+  "phoneModel": {
+    "height": 533.3333333333334,
+    "bezel": 24,
+    "outerRadius": 94,
+    "screenRadius": 70,
+    "notchWidth": 0,
+    "notchHeight": 0,
+    "notchRadius": 0,
+    "background": "#FFFFFF",
+    "showNotch": false
+  },
+  "timeline": {
+    "captionFadeFrames": 10,
+    "screenFadeFrames": 3,
+    "brandFromFrame": 24,
+    "aggregationEndFrame": 192,
+    "investmentFrames": [
+      36,
+      60,
+      84,
+      108
+    ],
+    "taglineFromFrame": 132,
+    "sipFromFrame": 192,
+    "casFromFrame": 228,
+    "reportsFromFrame": 264,
+    "privacyFromFrame": 300
+  },
+  "text": {
+    "brand": "MyNetWorth",
+    "investments": [
+      "Stocks.",
+      "Mutual Funds.",
+      "ETFs.",
+      "Bonds."
+    ],
+    "tagline": "All Your Investments. One Clean Dashboard.",
+    "features": [
+      "SIP Tracking",
+      "CAS Import",
+      "Custom Reports"
+    ],
+    "privacyFirst": "No Phone Number. No Email.",
+    "privacySecond": "No Registration Required."
+  },
+  "recordings": {
+    "dashboardStill": {
+      "image": "v2/dashboard-approved.png",
+      "fromFrame": 0,
+      "durationInFrames": 36
+    },
+    "dashboard": {
+      "file": "app-recordings/dashboard-original.mp4",
+      "sourceStartSeconds": 0,
+      "fromFrame": 36,
+      "durationInFrames": 156
+    },
+    "sip": {
+      "file": "app-recordings/sip.mp4",
+      "sourceStartSeconds": 4.75,
+      "fromFrame": 192,
+      "durationInFrames": 36
+    },
+    "cas": {
+      "file": "app-recordings/cas-import.mp4",
+      "sourceStartSeconds": 1.4166666666666667,
+      "fromFrame": 228,
+      "durationInFrames": 27
+    },
+    "casHold": {
+      "image": "screenshots/import-local.png",
+      "fromFrame": 255,
+      "durationInFrames": 9
+    },
+    "reports": {
+      "file": "app-recordings/reports.mp4",
+      "sourceStartSeconds": 4,
+      "fromFrame": 264,
+      "durationInFrames": 36
+    },
+    "reportsHold": {
+      "image": "v2/reports-custom-hold.png",
+      "sourceFile": "public/app-recordings/reports.mp4",
+      "sourceSeconds": 5.458333333333333,
+      "fromFrame": 300,
+      "durationInFrames": 84
+    }
+  },
+  "music": {
+    "file": null,
+    "volume": 0.14,
+    "fadeInFrames": 18,
+    "fadeOutFrames": 24
+  },
+  "recordingFit": "cover",
+  "layoutScale": 0.6666666666666666,
+  "approvedReference": {
+    "width": 1280,
+    "height": 720,
+    "compositeSource": "production/v2/scene-02/references/approved-phone-composite-720p.png",
+    "referenceSource": "production/v2/scene-02/references/approved-phone-reference-720p.png",
+    "maskSource": "production/v2/scene-02/references/approved-phone-mask-720p.png",
+    "mappingSource": "production/v2/scene-02/references/approved-phone-mapping.json",
+    "maskFile": "v2/approved-phone-mask.png",
+    "dashboardSource": "public/screenshots/dashboard-original.png",
+    "dashboardFile": "v2/dashboard-approved.png",
+    "expectedSHA256": {
+      "production/v2/scene-02/references/approved-phone-composite-720p.png": "d198deb84df6d8680c72610c746daf4645307309571a5ae807fbd1f6d82f1672",
+      "production/v2/scene-02/references/approved-phone-reference-720p.png": "93c5307f557d06eeae21b3a7cb5b2523ca248fe67d34df1427c7dacb8ad94ecb",
+      "production/v2/scene-02/references/approved-phone-mask-720p.png": "7714b2c4bc7236be168ba147169d26b7843cf94fb537f0e0a145f6de78cff8ef",
+      "production/v2/scene-02/references/approved-phone-mapping.json": "5640c434f66d1bb014c175cada3ef3cb826befc932ce16b1beeeeb48c00a6562",
+      "public/screenshots/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
+    }
+  }
+}

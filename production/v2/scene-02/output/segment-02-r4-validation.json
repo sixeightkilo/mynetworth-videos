@@ -1,0 +1,53 @@
+{
+  "inputsUnchanged": true,
+  "inputSHA256": {
+    "production/v2/scene-01/output/scene-01.mp4": "0260e671fd1757db2b030a22cfa82642ded971f7debe59f32faa3420a73b67af",
+    "production/v1/scene-10/references/logo-transparent-srgb-v2.png": "ccb20e33461d9d0ae27d2a64936adb8360bcdacbeec4b2473b741bb061b12d4d",
+    "public/app-recordings/dashboard-original.mp4": "9ddeb08552699c95d4988049cccebe6baa60a4bf673aa5842fccefc8e384e4e1",
+    "public/app-recordings/reports.mp4": "1c4da3af92035697e070a326af4d4debf55de27f2bcbbde41cfafcf8d093c3ae",
+    "public/app-recordings/sip.mp4": "0b5d72cd4ad541fe37f938c2b3a11bb1bf16d53f396e374e3b866b555321f0b5",
+    "public/app-recordings/dashboard.mp4": "388f8184b8fdb1a4d1df807abb8b7d6aa033081dd6947a69c23483b8ebba3671",
+    "public/app-recordings/cas-import.mp4": "007b75ab4106e6120e8d36b6e28b1767e00bed03c3d9bd6649e20aa8940dc02a",
+    "public/screenshots/import-local.png": "7d92edb2322f188aa85d89ec19d674d918ad0e3344cc728c2e795e1e850b0b84",
+    "production/v2/scene-02/references/approved-phone-composite-720p.png": "d198deb84df6d8680c72610c746daf4645307309571a5ae807fbd1f6d82f1672",
+    "production/v2/scene-02/references/approved-phone-reference-720p.png": "93c5307f557d06eeae21b3a7cb5b2523ca248fe67d34df1427c7dacb8ad94ecb",
+    "production/v2/scene-02/references/approved-phone-mask-720p.png": "7714b2c4bc7236be168ba147169d26b7843cf94fb537f0e0a145f6de78cff8ef",
+    "production/v2/scene-02/references/approved-phone-mapping.json": "5640c434f66d1bb014c175cada3ef3cb826befc932ce16b1beeeeb48c00a6562",
+    "public/screenshots/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
+  },
+  "renders": [
+    {
+      "file": "out/v2-segment2-r4/review/segment-02-r4-preview-720p.mp4",
+      "frames": 384,
+      "fps": 24,
+      "videoSeconds": 16.0,
+      "containerSeconds": 16.043,
+      "resolution": [
+        1280,
+        720
+      ],
+      "audioPresent": true,
+      "segment2AudioPeakAfterCodecGuard": 0,
+      "audioCodecGuardSeconds": 0.0,
+      "fullDecode": "passed",
+      "sha256": "cdfa645d73f755fe142c575653e4d75afc3bdde139d4490bb402833fb8d66ef1"
+    }
+  ],
+  "compositionResolution": [
+    1280,
+    720
+  ],
+  "renderedAbove720p": false,
+  "music": "Missing licensed asset; configurable, preview silent",
+  "casSelection": "1.416667\u20132.541667 seconds, followed by static Secure Local Import; no file picker/PAN entry or personal import completion",
+  "reportsSelection": "4.0\u20135.5 seconds, then original Custom-range frame at 5.458333 seconds",
+  "transition": "Approved native 720p alpha-mask composite and fitted corners; mask-clipped high-resolution dashboard; existing two-phase projective transform; no moving-video tracking or source modification",
+  "nativeFrameMatchesApprovedCompositeRGB": true,
+  "maxRGBDifference": 0,
+  "notchEnabled": false,
+  "cameraCutoutEnabled": false,
+  "r3Preserved": true,
+  "referenceGeometryTimingAndSelectionsUnchanged": true,
+  "geometricEdgeSampling": 2,
+  "comparison": "out/v2-segment2-r4/review/frame20-before-after.jpg"
+}

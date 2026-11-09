@@ -1,0 +1,38 @@
+[
+  {
+    "segment2Frame": 0,
+    "meanAbsoluteRGBDifference": 1.2603747106481482
+  },
+  {
+    "segment2Frame": 18,
+    "meanAbsoluteRGBDifference": 0.6574287471064815
+  },
+  {
+    "segment2Frame": 36,
+    "meanAbsoluteRGBDifference": 0.11271918402777778
+  },
+  {
+    "segment2Frame": 168,
+    "meanAbsoluteRGBDifference": 0.1461787471064815
+  },
+  {
+    "segment2Frame": 210,
+    "meanAbsoluteRGBDifference": 0.10694552951388889
+  },
+  {
+    "segment2Frame": 246,
+    "meanAbsoluteRGBDifference": 0.11512297453703704
+  },
+  {
+    "segment2Frame": 282,
+    "meanAbsoluteRGBDifference": 0.07415907118055555
+  },
+  {
+    "segment2Frame": 336,
+    "meanAbsoluteRGBDifference": 0.09358940972222222
+  },
+  {
+    "segment2Frame": 383,
+    "meanAbsoluteRGBDifference": 0.09326967592592593
+  }
+]

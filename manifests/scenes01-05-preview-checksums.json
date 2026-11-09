@@ -59,8 +59,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 1114,
-      "sha256": "d7f7d62506cb21155e72f7006394a3fc9072f16f066f15405140d66559176479"
+      "bytes": 1453,
+      "sha256": "37e581617ec36224deb18a128ce38de9106ba3f5c8ae57a4536ab03d62907ea6"
     },
     {
       "path": "production/v1/references/dashboard-original.png",
@@ -189,8 +189,8 @@
     },
     {
       "path": "src/components/PhoneMockup.jsx",
-      "bytes": 2057,
-      "sha256": "d65e384f06b74208ce6eb447b438495557c40e4b3f7cf3a8926c73cae04b0b71"
+      "bytes": 2167,
+      "sha256": "7baf75eb201ea8b5941393772e3b7f6df34502eb2ffc5be8a0c7f8f9532c7bea"
     },
     {
       "path": "src/components/screenTransform.mjs",

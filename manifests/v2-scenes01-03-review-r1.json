@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    "production/v2/output/scene-01-02-review-r1.mp4",
+    "out/v2-scenes01-03-r1/scene-03-fit-720p.mp4"
+  ],
+  "frames": [
+    889,
+    409
+  ],
+  "fps": 24,
+  "output": "production/v2/output/scene-01-03-review-r1.mp4",
+  "workDir": "out/v2-scenes01-03-r1/assembly",
+  "originalScene3": "production/v2/scene-03/output/scene-03.mp4",
+  "originalScene3SHA256": "cfc06d12f74064774b8bc99808094453e3fc238990195af0e29f82d019bfb7b2",
+  "scene3Preparation": "FFmpeg aspect-preserving Lanczos fit into 1280x720 with small white side margins, H264 CRF16, BT709 limited; original audio copied. Full 409 frames."
+}

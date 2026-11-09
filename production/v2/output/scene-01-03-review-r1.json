@@ -1,0 +1,20 @@
+{
+  "output": "production/v2/output/scene-01-03-review-r1.mp4",
+  "sourceSHA256": {
+    "production/v2/output/scene-01-02-review-r1.mp4": "883a833695b97588a9cfceff4e4c0efd82de333057d1e43b8ccf1f0b422a97c6",
+    "out/v2-scenes01-03-r1/scene-03-fit-720p.mp4": "723dcd14f5af18950491c85fe63de227c6178cdad823ee8c9a2e0760da40ff2f"
+  },
+  "frames": 1298,
+  "fps": 24,
+  "durationSeconds": 54.083333333333336,
+  "resolution": [
+    1280,
+    720
+  ],
+  "cutFrame": 889,
+  "cutSeconds": 37.041666666666664,
+  "decodedVideoIdenticalToInputs": true,
+  "fullDecode": "passed",
+  "audio": "Original soundtracks retained; each padded/trimmed to its exact video duration; AAC re-encoded at 48kHz/192kbps. No music added.",
+  "sourcesUnchanged": true
+}

@@ -1,0 +1,59 @@
+{
+  "inputsUnchanged": true,
+  "inputSHA256": {
+    "production/v2/scene-01/output/scene-01.mp4": "0260e671fd1757db2b030a22cfa82642ded971f7debe59f32faa3420a73b67af",
+    "production/v1/scene-10/references/logo-transparent-srgb-v2.png": "ccb20e33461d9d0ae27d2a64936adb8360bcdacbeec4b2473b741bb061b12d4d",
+    "public/app-recordings/dashboard-original.mp4": "9ddeb08552699c95d4988049cccebe6baa60a4bf673aa5842fccefc8e384e4e1",
+    "public/app-recordings/reports.mp4": "1c4da3af92035697e070a326af4d4debf55de27f2bcbbde41cfafcf8d093c3ae",
+    "public/app-recordings/sip.mp4": "0b5d72cd4ad541fe37f938c2b3a11bb1bf16d53f396e374e3b866b555321f0b5",
+    "public/app-recordings/dashboard.mp4": "388f8184b8fdb1a4d1df807abb8b7d6aa033081dd6947a69c23483b8ebba3671",
+    "public/app-recordings/cas-import.mp4": "007b75ab4106e6120e8d36b6e28b1767e00bed03c3d9bd6649e20aa8940dc02a",
+    "public/screenshots/import-local.png": "7d92edb2322f188aa85d89ec19d674d918ad0e3344cc728c2e795e1e850b0b84"
+  },
+  "renders": [
+    {
+      "file": "production/v2/scene-02/output/segment-02-r2-preview-720p.mp4",
+      "frames": 384,
+      "fps": 24,
+      "videoSeconds": 16.0,
+      "containerSeconds": 16.043,
+      "resolution": [
+        1280,
+        720
+      ],
+      "audioPresent": true,
+      "segment2AudioPeakAfterCodecGuard": 0,
+      "audioCodecGuardSeconds": 0.0,
+      "fullDecode": "passed",
+      "sha256": "28aa40df064124eba7a846a2e788e10e24c166e674e9a672975ae2ffccf786c5"
+    },
+    {
+      "file": "production/v2/scene-02/output/segment-01-to-02-r2-boundary-720p.mp4",
+      "frames": 432,
+      "fps": 24,
+      "videoSeconds": 18.0,
+      "containerSeconds": 18.048,
+      "resolution": [
+        1280,
+        720
+      ],
+      "audioPresent": true,
+      "segment2AudioPeakAfterCodecGuard": 0,
+      "audioCodecGuardSeconds": 0.042666666666666665,
+      "fullDecode": "passed",
+      "sha256": "2135e94d8846448800d9cd0c3377c14375d8bee691d30a0ff6fcba89eb356c9c"
+    }
+  ],
+  "fullResolutionRendered": false,
+  "music": "Missing licensed asset; configurable, preview silent",
+  "casSelection": "1.416667\u20132.541667 seconds, followed by static Secure Local Import; no file picker/PAN entry or personal import completion",
+  "reportsSelection": "4.0\u20135.5 seconds, then original Custom-range frame at 5.458333 seconds",
+  "transition": "Frozen exact Segment 1 final frame; manually measured display corners; existing two-phase projective transform; no moving-video tracking or source modification",
+  "fitReview": {
+    "oldStraightBezelPixels": 14,
+    "newStraightBezelPixels": 6,
+    "dashboardVisibleFromSegment2Frame": 0,
+    "approvedSegment1Ending": "Original placeholder retained; approved file untouched",
+    "timingTextAndRecordingSelectionsUnchanged": true
+  }
+}

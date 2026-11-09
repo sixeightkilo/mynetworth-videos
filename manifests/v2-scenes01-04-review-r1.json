@@ -1,0 +1,13 @@
+{
+  "inputs": [
+    "production/v2/output/scene-01-03-review-r1.mp4",
+    "production/v2/scene-04/output/scene-04-end-card-r1-720p.mp4"
+  ],
+  "frames": [
+    1298,
+    120
+  ],
+  "fps": 24,
+  "output": "production/v2/output/scene-01-04-review-r1.mp4",
+  "workDir": "out/v2-scenes01-04-r1"
+}

@@ -1,0 +1,20 @@
+{
+  "output": "production/v2/output/scene-01-02-review-r1.mp4",
+  "sourceSHA256": {
+    "out/v2-scene1-dashboard-full-r1/review/scene-01-dashboard-720p-r1.mp4": "d2caa2ef1a79b4715fe26db56828b81f41c76d43498a2574136f64d17696b6a9",
+    "out/v2-segment2-r4/review/segment-02-r4-preview-720p.mp4": "cdfa645d73f755fe142c575653e4d75afc3bdde139d4490bb402833fb8d66ef1"
+  },
+  "frames": 889,
+  "fps": 24,
+  "durationSeconds": 37.041666666666664,
+  "resolution": [
+    1280,
+    720
+  ],
+  "cutFrame": 505,
+  "cutSeconds": 21.041666666666668,
+  "decodedVideoIdenticalToInputs": true,
+  "fullDecode": "passed",
+  "audio": "Original dialogue retained; padded to exact Scene 1 video duration and joined to silent Scene 2; AAC re-encoded at 48kHz/192kbps. No music added.",
+  "sourcesUnchanged": true
+}

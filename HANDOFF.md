@@ -201,3 +201,81 @@ The latest review film is `output/scene-01-10-preview-v5-scene8-9-color-match.mp
 ## Git LFS repair for production-v1
 
 The initial production-v1 tag push was rejected because the three lossless full-film v3/v4/v5 MP4s exceed the remote’s ordinary-file size limit. These three files now use Git LFS via explicit `.gitattributes` entries. Their bytes and all validation hashes remain unchanged. Git LFS is required to retrieve them (`git lfs install`, `git lfs pull`). The rejected checkpoint was unpublished, so only its local commit was amended and the local production-v1 tag recreated; earlier baseline history and tags remain intact. Do not restore the rejected ordinary-blob commit/tag.
+
+## Latest work — V2 Segment 2 showcase preview
+
+V2 has four scene/segment folders. Approved Segment 1 is `production/v2/scene-01/output/scene-01.mp4`: 1284×724, 24fps, 505 frames / 21.041667s; SHA256 `0260e671fd1757db2b030a22cfa82642ded971f7debe59f32faa3420a73b67af`. It must remain untouched.
+
+Segment 2 is implemented separately in `src/v2/Segment2.jsx` / `src/v2/index.jsx`, with centralized `manifests/v2-segment2-r1.json`. It reuses the existing phone shell, projective transform and two-phase transition math, real dashboard/SIP/CAS/reports recordings and real logo. The phone shell gained optional recording children and a plain bezel style; old callers’ defaults stay unchanged. The current dependency inventory reflects those code/package changes. No approved media or existing composition entries were changed.
+
+Review outputs and report live in `production/v2/scene-02/output/`. Duration is 384 frames / 16 seconds, including a 36-frame push/settle from the exact frozen final Segment 1 frame. A boundary preview adds the last 48 frames of Segment 1 before Segment 2. A complete Segments 1–2 composition is available but no full-resolution render is authorized. Segments 3–4 are untouched.
+
+CAS is limited to the actual import-opening recording [1.416667,2.541667), then the actual Secure Local Import still. Reports uses [4,5.5), then its last Custom-range frame. Audit every CAS output frame: an internal draft exposed a nested Freeze offset issue, fixed by freezing only outgoing overlap frames and compensating for Remotion 4’s sequence offset reset. Final CAS contact sheet is the review evidence; drafts stay ignored under out/. No PAN/file picker/personal import completion may appear.
+
+No licensed music asset exists. `music.file` remains null; the standalone preview is digitally silent. See the scene report for exact files and reproducible commands. Nothing has been committed for this V2 stage; wait for preview review before any full-resolution render.
+
+### V2 Segment 2 r2 — fit review
+
+The user reported an inset-looking dashboard and no dashboard on the opening frame. Inspection found that the recording filled the glass, but the 56-unit bezel was thick (~15px per side at 720p), and the r1 screen opacity began at zero. The approved Segment 1 endpoint contains a placeholder. R2 (`manifests/v2-segment2-r2.json`) reduces bezel to 24, matches the outer radius to 94, uses aspect-preserving cover for the negligible fit gap, and shows the dashboard from Segment 2 frame 0. Approved Segment 1 remains byte-identical and its original final frame is still a placeholder. No overlay was added inside Segment 1. Existing r1 media/config stay preserved.
+
+The separate V2 entry and preparation/render/validation helpers now default to r2; the render helper accepts --manifest and passes it as config props, so r1 is reproducible explicitly. Timing, captions, recordings, CAS privacy selection and music-null setting are unchanged. Only low-resolution previews are authorized; see `production/v2/scene-02/output/segment-02-r2-report.md`.
+
+### V2 Scene 2 r3 — approved alpha mask, native 720p, no notch (9 November)
+
+The user supplied a matching 1280×720 reference PNG and transparent white phone mask and approved the single OpenCV composite as fitting perfectly. `scripts/composite_reference_mask.py` extracts straight-side corner intersections, uses getPerspectiveTransform/warpPerspective, composites only through the original alpha, and preserves all outside-mask pixels. Inputs were not resized/cropped/moved. Approved snapshots and mapping are preserved in `production/v2/scene-02/references/approved-phone-*`. The source video itself remains 1284×724; do not confuse its native dimensions with the approved 1280×720 reference.
+
+The user explicitly requested completion at 720p and NO NOTCH ANYWHERE in the regenerated Scene 2. R3 (`manifests/v2-segment2-r3.json`) is a native 1280×720 composition, starting pixel-identically on the approved composite. The opening push uses its exact alpha mask to clip a high-resolution dashboard layer; the established two-phase motion and shared display/bezel plane continue into a fully notch-free mockup. PhoneMockup’s new showNotch=false bypasses the entire notch/camera subtree; earlier caller defaults stay unchanged. Text layout is scaled from the established design grid, with the same timing and content.
+
+The static approved dashboard stays during the 36-frame transition, then the genuine dashboard recording plays at natural speed for the remaining 6.5s of the aggregation slot. SIP/CAS/Reports/privacy timings and safe source selections are unchanged. Music remains unavailable/configurable. Scene 1 original video/audio and Scenes 3/4 are untouched. Do not add a notch to the physical transition or final showcase.
+
+Preparation/render/validation helpers and the separate V2 entry now default to r3. Review outputs go under `out/v2-segment2-r3/review/`. The original r1/r2 files and manifests are retained and can be selected explicitly. No full-film assembly or commit was requested. See `docs/v2-segment2-r3.md` for results.
+
+### V2 Scene 2 r4 — fix enlarged raster-mask edges
+
+An mpv screenshot in the r3 review directory identified frame 20 / 0.833s. The native alpha boundary and frozen plate were magnified 3.568×, turning one-pixel edge steps into visible staircase artifacts. The screenshot matches the actual decoded video; mpv is not the cause.
+
+User authorized the fix. R4 (`manifests/v2-segment2-r4.json`) does not enlarge the native mask during the zoom. After a four-frame entrance, the existing clean phone plane projects the original dashboard directly into the current zoomed/morphing quadrilateral. Its narrow geometric bezel covers the old raster fringe locally inside the original phone rim. The original photo/hand stay behind it; no finger synthesis or global blur. The same plane handles the later mockup. The approved composite remains the frame-0 starting plate. No notch/camera subtree is drawn.
+
+R4 uses 2× render sampling as a disposable antialiasing intermediate, then downsamples to the only deliverable resolution, 1280×720. Helpers default to r4 and honor renderSupersampling while preserving old revision support. Source files, masks, reference geometry, text, timing and source recording selections remain unchanged. Review output: `out/v2-segment2-r4/review/`. No commit requested.
+
+### V2 Scene 1 — one-second phone-turn POC (9 November)
+
+The user accepted Scene 2 r4’s appearance and requested a report on using v1 Scene 4 compositing for the new Scene 1, then authorized a one-second turn test only. Source [420,444) = 17.5–18.5s is processed into `out/v2-scene1-turn-poc-r1/review/`. `manifests/v2-scene1-turn-poc-r1.json` stores native-coordinate per-frame reviewed corners; `scripts/composite_phone_turn_poc.py` uses perspective warps, 4× aperture sampling, original finger holdouts and independent adjacent-frame flow/RANSAC diagnostics. Back/edge-on frames 420–425 are unchanged before encoding; dashboard reveal is 426–428. No synthetic notch. The blurred 426–429 interval uses manual geometry; weak optical-flow candidates are rejected, not applied. Later checks around frame 435 onward agree to about one native pixel, a diagnostic rather than accuracy proof.
+
+The source video remains byte-identical. Native working output is 1284×724; the 720p review is aspect-fitted with small side padding. Original AAC excerpt is stream-copied; zero-lag audio correlation is 1.0. All three outputs decode, with 24 video frames / exactly one second. The actual Scene 1 endpoint / Scene 2 reference handoff is outside this sample and still needs alignment during any authorized extension. No full-scene processing was requested yet. Read `docs/v2-scene1-turn-poc-r1.md` and review the before/after and contact sheet before continuing.
+
+### V2 Scene 1 — full dashboard composite r1
+
+User approved the one-second POC and authorized the complete Scene 1. Completed copies are `out/v2-scene1-dashboard-full-r1/review/scene-01-dashboard-720p-r1.mp4` and `scene-01-dashboard-native-r1.mp4`, 505 frames / 21.041667s at 24fps. Original source and POC media remain untouched. Accepted turn geometry 426–443 is retained; reviewed measured corners extend through frame 504, with a subpixel endpoint aperture correction after the POC. Original fingers/hand motion are preserved; no added notch. Full original AAC is stream-copied and decoded PCM is byte-identical.
+
+Fixed proportional native-to-reference alignment makes the 720p endpoint match the approved Scene 2 opening geometry; minor resampling differences remain. A three-second boundary review joins the last second to Scene 2 r4’s first two seconds. No existing assembly or Scene 2 media changed. `scripts/composite_scene1_full.py` and `manifests/v2-scene1-dashboard-full-r1.json` reproduce the processing using the accepted POC compositor. See `docs/v2-scene1-dashboard-full-r1.md` and contact sheets. Asset verification and whitespace checks pass. Await review; no commit requested.
+
+### V2 Scenes 01–02 full review
+
+User accepted completed Scene 1 and requested a full join in `production/v2/output/` (explicit output-location exception). `scene-01-02-review-r1.mp4` joins the full accepted Scene 1 dashboard 720p r1 to Scene 2 r4: 889 frames, 37.041667s, 1280×720 at 24fps. Direct cut at frame 505 / 21.041667s; all decoded video frames match their inputs exactly. Original dialogue is retained, padded through the exact first-scene duration, then silent Scene 2; AAC is re-encoded at 48kHz/192kbps. No added music. Full decode passed and input checksums are unchanged. Reproduce with `python3 scripts/assemble_v2_review.py manifests/v2-scenes01-02-review-r1.json`; renderer refuses overwrites. Validation report accompanies the MP4. No commit requested.
+
+### V2 Scenes 01–03 review
+
+User requested appending Scene 03. `production/v2/output/scene-01-03-review-r1.mp4` appends the complete `production/v2/scene-03/output/scene-03.mp4` (409 frames, 17.041667s, native 1284×724 at 24fps) to the accepted 889-frame Scenes 01–02 preview. Output: 1298 frames / 54.083333s, 1280×720, 24fps. Direct cut at frame 889 / 37.041667s; no trimming or added transition/music. Scene 03 uses proportional Lanczos fit with tiny white side margins; original AAC copied to the fitting intermediate, then joined soundtracks encoded at 48kHz/192kbps. Previous media remain untouched. Manifest `manifests/v2-scenes01-03-review-r1.json` records original-source hash and preparation; assembly uses `scripts/assemble_v2_review.py`. Disposable fitted source and intermediates remain under `out/v2-scenes01-03-r1/`. No commit requested.
+
+### V2 Scene 04 — white end card and complete review
+
+User requested a five-second white Remotion end card and append to the accepted film. `src/v2/EndCard.jsx` / separate `src/v2/end-card-entry.jsx` and `manifests/v2-scene4-end-card-r1.json` implement the exact requested text, real showcase logo, matching DejaVu Sans/navy typography, blue privacy line and left-to-right underline. Full visibility from frame 36 through 119. No music asset is configured; current output is silent, with configurable music/end fade.
+
+Standalone: `production/v2/scene-04/output/scene-04-end-card-r1-720p.mp4` (120 frames / 5s), final PNG alongside. Combined: `production/v2/output/scene-01-04-review-r1.mp4` (1418 frames / 59.083333s), 1280×720 at 24fps. Earlier 1298 decoded video frames are identical; direct append at 54.083333s, original dialogue retained in re-encoded AAC. Full decode/hash/asset checks pass. Actual Chrome render succeeded outside sandbox after restricted socket failure. No preceding scenes changed. Reproduction and timing details: `docs/v2-scene4-end-card-r1.md`. Stop for review; no commit requested.
+
+### V2 original theme soundtrack r1
+
+User supplied `production/v2/audio/mynetworth-theme.wav` (FluidSynth/Let'sNotate composition) and authorized mixing across the full film. Preview: `production/v2/output/scene-01-04-review-music-r1.mp4`, unchanged 1418 visual frames / 59.083333s, 1280×720 at 24fps. Video is stream-copied and every decoded frame matches; approved film and WAV hashes are unchanged. Existing dialogue/notification track is retained sample-aligned.
+
+`manifests/v2-soundtrack-r1.json` configures music gains (dialogue −10dB, showcase +4dB, end card +6dB), 0.6s gain ramps, 0.8s entrance and 2s final fade. Raise after dialogue ends; duck before incoming dialogue. Actual WAV duration is 43.6375510204s; two copies overlap for 1s at 42.637551–43.637551s. Independent music stem remains under `out/v2-soundtrack-r1-review/`. Original track is unity before a configurable shared −0.5dB headroom trim; no limiter or timing changes. AAC256kbps/48kHz mixed output.
+
+`scripts/mix_v2_soundtrack.py` reproduces with standard Python/FFmpeg only. Technical checks cover video identity, source hashes, full decode, sample-aligned summation, loop endpoint continuity and end fade. Decoded peak approximately −0.39dBFS. See `docs/v2-soundtrack-r1.md`; balance and musical loop remain for listening review. Earlier no-music notes are historical. No commit requested.
+
+### V2 updated theme soundtrack r2
+
+User replaced the theme WAV and requested a rerender with the same settings. New preview: `production/v2/output/scene-01-04-review-music-r2.mp4`; config `manifests/v2-soundtrack-r2.json`. Updated audio SHA256 `62166abfe8c88404aaa311f26d5cbf023d5f759bc05df584ef75efefda88c654`, actual duration 32.0029024943s. Two copies now overlap at 31.002902–32.002902s. Existing gains, 0.5dB headroom trim, scene envelopes and end fade are unchanged. Output remains 1418 frames / 59.083333s, 1280×720 at 24fps. All decoded video frames identical, source hashes unchanged, full decode passed, audio sum residual below 1e−6 with no dialogue offset; decoded peak −0.459dBFS. Detailed report accompanies the MP4. No commit requested.
+
+### V2 complete reproducible checkpoint before edge correction
+
+User requested checking in everything required for the current full V2 video before attempting the white-edge fix. Accepted Scene 1 native/720 composites, Scene 2 r4, Scene 3 fitted media and review evidence are now preserved under production/v2/ scene folders. `manifests/v2-production-checkpoint.json` lists authoritative masters; `manifests/v2-production-checksums.json` inventories 104 files including inputs, code and outputs. `scripts/reproduce_v2.py` validates those dependencies and regenerates the latest music-r2 film from the tracked pre-music assembly and updated WAV. Fresh reproduction under out/v2-checkpoint-reproduction matched the current MP4 byte-for-byte. Documentation: production/v2/README.md. Existing V1 baseline/media remain untouched. Locked npm ci succeeded outside the sandbox after restricted esbuild EPERM; approved asset verification passes. Commit this state before any edge fix.

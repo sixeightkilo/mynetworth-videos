@@ -1,0 +1,831 @@
+{
+  "manifest": "manifests/v2-scene1-dashboard-full-r1.json",
+  "frames": 505,
+  "fps": 24,
+  "videoSeconds": 21.041666666666668,
+  "originalSourceUnchanged": true,
+  "inputSHA256": {
+    "production/v2/scene-01/output/scene-01.mp4": "0260e671fd1757db2b030a22cfa82642ded971f7debe59f32faa3420a73b67af",
+    "public/screenshots/dashboard-original.png": "c18dbb6c48477db17535c1d3bcd1c9d4b230ae9398582ce77af0193e4d033edd"
+  },
+  "visibleStartFrame": 426,
+  "acceptedPOCGeometryPreservedThroughFrame": 443,
+  "noAddedNotch": true,
+  "outsideMattePixelsUnchangedBeforeEncoding": true,
+  "framesBefore426UnchangedBeforeEncodingAndOutputSizing": true,
+  "decodedAudioIdenticalToOriginal": true,
+  "outputAlignment": {
+    "referenceToNativeSimilarity": [
+      [
+        1.0055131934931654,
+        -1.8259669841677797e-05,
+        -2.00963920703994
+      ],
+      [
+        1.8259669841677797e-05,
+        1.0055131934931654,
+        0.008415432080815535
+      ]
+    ],
+    "nativeToReferenceSimilarity": [
+      [
+        0.9945170348249913,
+        1.8059984518693594e-05,
+        1.9986202732708345
+      ],
+      [
+        -1.8059984518693594e-05,
+        0.9945170348249913,
+        -0.008405584612751075
+      ]
+    ],
+    "featureInliers": 1106,
+    "featureMatches": 1161,
+    "uniformScale": 1.0055131936589592,
+    "nativeEndpointQuad": [
+      [
+        568.883544921875,
+        253.02720642089844
+      ],
+      [
+        611.0259399414062,
+        257.43994140625
+      ],
+      [
+        586.271728515625,
+        365.7462158203125
+      ],
+      [
+        543.4459838867188,
+        359.6875
+      ]
+    ],
+    "outsidePhoneMeanRGBDifference": 2.330074317772016,
+    "outsidePhoneMeanRGBShift": [
+      -0.4401863562038923,
+      -0.898506554210086,
+      -0.6123727691305814
+    ]
+  },
+  "endpointCalibration": {
+    "startFrame": 444,
+    "endFrame": 504,
+    "nativeCorrectionAtEnd": [
+      [
+        0.10406494140625,
+        0.120941162109375
+      ],
+      [
+        -0.6971435546875,
+        -0.098114013671875
+      ],
+      [
+        -0.3316650390625,
+        -0.15875244140625
+      ],
+      [
+        -0.2440185546875,
+        -0.9619140625
+      ]
+    ],
+    "maxCorrectionPixels": 0.992382824420929,
+    "method": "Small smooth aperture-definition residual, added to independently measured per-frame poses; accepted POC frames unchanged. No trajectory smoothing."
+  },
+  "flowChecks": [
+    {
+      "frame": 427,
+      "status": "weak check rejected; manual geometry retained",
+      "features": 8,
+      "valid": 4,
+      "inliers": 4,
+      "estimateRejected": true
+    },
+    {
+      "frame": 428,
+      "status": "weak check rejected; manual geometry retained",
+      "features": 11,
+      "valid": 6,
+      "inliers": 5,
+      "estimateRejected": true
+    },
+    {
+      "frame": 429,
+      "status": "weak check rejected; manual geometry retained",
+      "features": 11,
+      "valid": 9,
+      "inliers": 6,
+      "estimateRejected": true
+    },
+    {
+      "frame": 430,
+      "status": "independent motion check",
+      "features": 19,
+      "valid": 11,
+      "inliers": 8,
+      "maxCornerDisagreementPixels": 1.5747921466827393
+    },
+    {
+      "frame": 431,
+      "status": "independent motion check",
+      "features": 16,
+      "valid": 12,
+      "inliers": 11,
+      "maxCornerDisagreementPixels": 2.441779613494873
+    },
+    {
+      "frame": 432,
+      "status": "independent motion check",
+      "features": 18,
+      "valid": 15,
+      "inliers": 13,
+      "maxCornerDisagreementPixels": 1.5944913625717163
+    },
+    {
+      "frame": 433,
+      "status": "independent motion check",
+      "features": 27,
+      "valid": 25,
+      "inliers": 22,
+      "maxCornerDisagreementPixels": 2.9719724655151367
+    },
+    {
+      "frame": 434,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 28,
+      "inliers": 26,
+      "maxCornerDisagreementPixels": 3.9543869495391846
+    },
+    {
+      "frame": 435,
+      "status": "independent motion check",
+      "features": 24,
+      "valid": 24,
+      "inliers": 23,
+      "maxCornerDisagreementPixels": 0.30787792801856995
+    },
+    {
+      "frame": 436,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.6159912347793579
+    },
+    {
+      "frame": 437,
+      "status": "independent motion check",
+      "features": 28,
+      "valid": 28,
+      "inliers": 28,
+      "maxCornerDisagreementPixels": 0.5154405832290649
+    },
+    {
+      "frame": 438,
+      "status": "independent motion check",
+      "features": 28,
+      "valid": 28,
+      "inliers": 28,
+      "maxCornerDisagreementPixels": 0.8604720234870911
+    },
+    {
+      "frame": 439,
+      "status": "independent motion check",
+      "features": 33,
+      "valid": 33,
+      "inliers": 32,
+      "maxCornerDisagreementPixels": 0.42315009236335754
+    },
+    {
+      "frame": 440,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.5307844877243042
+    },
+    {
+      "frame": 441,
+      "status": "independent motion check",
+      "features": 33,
+      "valid": 33,
+      "inliers": 33,
+      "maxCornerDisagreementPixels": 1.0047880411148071
+    },
+    {
+      "frame": 442,
+      "status": "independent motion check",
+      "features": 26,
+      "valid": 26,
+      "inliers": 26,
+      "maxCornerDisagreementPixels": 0.41267237067222595
+    },
+    {
+      "frame": 443,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.5592109560966492
+    },
+    {
+      "frame": 444,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.5857371687889099
+    },
+    {
+      "frame": 445,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 25,
+      "maxCornerDisagreementPixels": 1.1438989639282227
+    },
+    {
+      "frame": 446,
+      "status": "independent motion check",
+      "features": 25,
+      "valid": 25,
+      "inliers": 25,
+      "maxCornerDisagreementPixels": 0.5034208297729492
+    },
+    {
+      "frame": 447,
+      "status": "independent motion check",
+      "features": 27,
+      "valid": 27,
+      "inliers": 27,
+      "maxCornerDisagreementPixels": 0.6102230548858643
+    },
+    {
+      "frame": 448,
+      "status": "independent motion check",
+      "features": 28,
+      "valid": 28,
+      "inliers": 28,
+      "maxCornerDisagreementPixels": 0.8386934995651245
+    },
+    {
+      "frame": 449,
+      "status": "independent motion check",
+      "features": 32,
+      "valid": 32,
+      "inliers": 32,
+      "maxCornerDisagreementPixels": 0.3845331072807312
+    },
+    {
+      "frame": 450,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.662847638130188
+    },
+    {
+      "frame": 451,
+      "status": "independent motion check",
+      "features": 32,
+      "valid": 32,
+      "inliers": 32,
+      "maxCornerDisagreementPixels": 0.3621078133583069
+    },
+    {
+      "frame": 452,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.8914983868598938
+    },
+    {
+      "frame": 453,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.4421985447406769
+    },
+    {
+      "frame": 454,
+      "status": "independent motion check",
+      "features": 27,
+      "valid": 27,
+      "inliers": 27,
+      "maxCornerDisagreementPixels": 0.5730970501899719
+    },
+    {
+      "frame": 455,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.3189864158630371
+    },
+    {
+      "frame": 456,
+      "status": "independent motion check",
+      "features": 33,
+      "valid": 33,
+      "inliers": 33,
+      "maxCornerDisagreementPixels": 0.550761878490448
+    },
+    {
+      "frame": 457,
+      "status": "independent motion check",
+      "features": 25,
+      "valid": 25,
+      "inliers": 25,
+      "maxCornerDisagreementPixels": 0.13959456980228424
+    },
+    {
+      "frame": 458,
+      "status": "independent motion check",
+      "features": 33,
+      "valid": 33,
+      "inliers": 33,
+      "maxCornerDisagreementPixels": 0.20340821146965027
+    },
+    {
+      "frame": 459,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.25783035159111023
+    },
+    {
+      "frame": 460,
+      "status": "independent motion check",
+      "features": 26,
+      "valid": 26,
+      "inliers": 26,
+      "maxCornerDisagreementPixels": 0.5706349611282349
+    },
+    {
+      "frame": 461,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.491128534078598
+    },
+    {
+      "frame": 462,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.44418609142303467
+    },
+    {
+      "frame": 463,
+      "status": "independent motion check",
+      "features": 32,
+      "valid": 32,
+      "inliers": 32,
+      "maxCornerDisagreementPixels": 0.6419978141784668
+    },
+    {
+      "frame": 464,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.8674011826515198
+    },
+    {
+      "frame": 465,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.29240962862968445
+    },
+    {
+      "frame": 466,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.24492326378822327
+    },
+    {
+      "frame": 467,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.6523094177246094
+    },
+    {
+      "frame": 468,
+      "status": "independent motion check",
+      "features": 28,
+      "valid": 28,
+      "inliers": 28,
+      "maxCornerDisagreementPixels": 0.46129241585731506
+    },
+    {
+      "frame": 469,
+      "status": "independent motion check",
+      "features": 32,
+      "valid": 32,
+      "inliers": 32,
+      "maxCornerDisagreementPixels": 0.39937639236450195
+    },
+    {
+      "frame": 470,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.7078908085823059
+    },
+    {
+      "frame": 471,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 1.317596673965454
+    },
+    {
+      "frame": 472,
+      "status": "independent motion check",
+      "features": 32,
+      "valid": 32,
+      "inliers": 32,
+      "maxCornerDisagreementPixels": 0.6051816940307617
+    },
+    {
+      "frame": 473,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.7264147996902466
+    },
+    {
+      "frame": 474,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.49302878975868225
+    },
+    {
+      "frame": 475,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.5687850117683411
+    },
+    {
+      "frame": 476,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.7499111294746399
+    },
+    {
+      "frame": 477,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.5625333786010742
+    },
+    {
+      "frame": 478,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.7192027568817139
+    },
+    {
+      "frame": 479,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 1.29452645778656
+    },
+    {
+      "frame": 480,
+      "status": "independent motion check",
+      "features": 34,
+      "valid": 34,
+      "inliers": 34,
+      "maxCornerDisagreementPixels": 0.5210497975349426
+    },
+    {
+      "frame": 481,
+      "status": "independent motion check",
+      "features": 32,
+      "valid": 32,
+      "inliers": 32,
+      "maxCornerDisagreementPixels": 0.482476145029068
+    },
+    {
+      "frame": 482,
+      "status": "independent motion check",
+      "features": 27,
+      "valid": 27,
+      "inliers": 27,
+      "maxCornerDisagreementPixels": 0.18860787153244019
+    },
+    {
+      "frame": 483,
+      "status": "independent motion check",
+      "features": 24,
+      "valid": 24,
+      "inliers": 24,
+      "maxCornerDisagreementPixels": 0.5596176385879517
+    },
+    {
+      "frame": 484,
+      "status": "independent motion check",
+      "features": 27,
+      "valid": 27,
+      "inliers": 27,
+      "maxCornerDisagreementPixels": 0.4730030298233032
+    },
+    {
+      "frame": 485,
+      "status": "independent motion check",
+      "features": 26,
+      "valid": 26,
+      "inliers": 26,
+      "maxCornerDisagreementPixels": 0.5520175695419312
+    },
+    {
+      "frame": 486,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.35194405913352966
+    },
+    {
+      "frame": 487,
+      "status": "independent motion check",
+      "features": 28,
+      "valid": 28,
+      "inliers": 28,
+      "maxCornerDisagreementPixels": 0.5482100248336792
+    },
+    {
+      "frame": 488,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.24664078652858734
+    },
+    {
+      "frame": 489,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.361418753862381
+    },
+    {
+      "frame": 490,
+      "status": "independent motion check",
+      "features": 35,
+      "valid": 35,
+      "inliers": 35,
+      "maxCornerDisagreementPixels": 0.08236180990934372
+    },
+    {
+      "frame": 491,
+      "status": "independent motion check",
+      "features": 34,
+      "valid": 34,
+      "inliers": 34,
+      "maxCornerDisagreementPixels": 0.30187177658081055
+    },
+    {
+      "frame": 492,
+      "status": "independent motion check",
+      "features": 35,
+      "valid": 35,
+      "inliers": 35,
+      "maxCornerDisagreementPixels": 0.14886634051799774
+    },
+    {
+      "frame": 493,
+      "status": "independent motion check",
+      "features": 34,
+      "valid": 34,
+      "inliers": 34,
+      "maxCornerDisagreementPixels": 0.24954397976398468
+    },
+    {
+      "frame": 494,
+      "status": "independent motion check",
+      "features": 34,
+      "valid": 34,
+      "inliers": 34,
+      "maxCornerDisagreementPixels": 0.04220394417643547
+    },
+    {
+      "frame": 495,
+      "status": "independent motion check",
+      "features": 35,
+      "valid": 35,
+      "inliers": 35,
+      "maxCornerDisagreementPixels": 0.027195122092962265
+    },
+    {
+      "frame": 496,
+      "status": "independent motion check",
+      "features": 35,
+      "valid": 35,
+      "inliers": 35,
+      "maxCornerDisagreementPixels": 0.1959061175584793
+    },
+    {
+      "frame": 497,
+      "status": "independent motion check",
+      "features": 34,
+      "valid": 34,
+      "inliers": 34,
+      "maxCornerDisagreementPixels": 0.1875961869955063
+    },
+    {
+      "frame": 498,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.2164270430803299
+    },
+    {
+      "frame": 499,
+      "status": "independent motion check",
+      "features": 32,
+      "valid": 32,
+      "inliers": 32,
+      "maxCornerDisagreementPixels": 0.25828179717063904
+    },
+    {
+      "frame": 500,
+      "status": "independent motion check",
+      "features": 29,
+      "valid": 29,
+      "inliers": 29,
+      "maxCornerDisagreementPixels": 0.39285504817962646
+    },
+    {
+      "frame": 501,
+      "status": "independent motion check",
+      "features": 28,
+      "valid": 28,
+      "inliers": 28,
+      "maxCornerDisagreementPixels": 0.4878878891468048
+    },
+    {
+      "frame": 502,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.38395583629608154
+    },
+    {
+      "frame": 503,
+      "status": "independent motion check",
+      "features": 30,
+      "valid": 30,
+      "inliers": 30,
+      "maxCornerDisagreementPixels": 0.550777018070221
+    },
+    {
+      "frame": 504,
+      "status": "independent motion check",
+      "features": 31,
+      "valid": 31,
+      "inliers": 31,
+      "maxCornerDisagreementPixels": 0.18302850425243378
+    }
+  ],
+  "skinPixelsInsideDisplay": {
+    "426": 65,
+    "427": 101,
+    "428": 52,
+    "429": 48,
+    "430": 35,
+    "431": 70,
+    "432": 28,
+    "433": 1,
+    "434": 2,
+    "435": 6,
+    "436": 8,
+    "437": 3,
+    "438": 3,
+    "439": 5,
+    "440": 3,
+    "441": 1,
+    "442": 5,
+    "443": 4,
+    "444": 1,
+    "445": 2,
+    "446": 1,
+    "447": 2,
+    "448": 2,
+    "449": 3,
+    "450": 0,
+    "451": 1,
+    "452": 0,
+    "453": 0,
+    "454": 0,
+    "455": 0,
+    "456": 0,
+    "457": 1,
+    "458": 1,
+    "459": 1,
+    "460": 1,
+    "461": 0,
+    "462": 2,
+    "463": 2,
+    "464": 0,
+    "465": 0,
+    "466": 2,
+    "467": 2,
+    "468": 1,
+    "469": 1,
+    "470": 1,
+    "471": 2,
+    "472": 0,
+    "473": 0,
+    "474": 1,
+    "475": 0,
+    "476": 2,
+    "477": 4,
+    "478": 1,
+    "479": 2,
+    "480": 1,
+    "481": 0,
+    "482": 1,
+    "483": 1,
+    "484": 0,
+    "485": 1,
+    "486": 0,
+    "487": 0,
+    "488": 1,
+    "489": 2,
+    "490": 2,
+    "491": 2,
+    "492": 2,
+    "493": 2,
+    "494": 1,
+    "495": 1,
+    "496": 1,
+    "497": 0,
+    "498": 1,
+    "499": 0,
+    "500": 2,
+    "501": 0,
+    "502": 0,
+    "503": 0,
+    "504": 0
+  },
+  "outputs": [
+    {
+      "path": "out/v2-scene1-dashboard-full-r1/review/scene-01-dashboard-native-r1.mp4",
+      "frames": 505,
+      "fps": 24,
+      "videoSeconds": 21.041666666666668,
+      "resolution": [
+        1284,
+        724
+      ],
+      "audioPresent": true,
+      "decodedAudioIdenticalToSource": true,
+      "fullDecode": "passed",
+      "sha256": "a924fa7b58d1dfc56353571fbe22c354c049304d7a305a7e99fb18996778d8b5"
+    },
+    {
+      "path": "out/v2-scene1-dashboard-full-r1/review/scene-01-dashboard-720p-r1.mp4",
+      "frames": 505,
+      "fps": 24,
+      "videoSeconds": 21.041666666666668,
+      "resolution": [
+        1280,
+        720
+      ],
+      "audioPresent": true,
+      "decodedAudioIdenticalToSource": true,
+      "fullDecode": "passed",
+      "sha256": "d2caa2ef1a79b4715fe26db56828b81f41c76d43498a2574136f64d17696b6a9"
+    }
+  ]
+}
