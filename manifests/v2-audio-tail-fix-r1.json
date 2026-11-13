@@ -1,0 +1,9 @@
+{
+  "videoSource": "production/v2/output/scene-01-04-review-music-r4-tagline.mp4",
+  "musicManifest": "manifests/v2-soundtrack-r2.json",
+  "output": "production/v2/output/scene-01-04-review-music-r5-audio-cleanup.mp4",
+  "workDir": "out/v2-audio-tail-baseline-r1-build2",
+  "fadeStartSeconds": 20.48,
+  "fadeDurationSeconds": 0.08,
+  "sceneEndFrame": 505
+}

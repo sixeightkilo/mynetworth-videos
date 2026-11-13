@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "scripts/fix_v2_audio_tail.py",
+      "sha256": "9a8dd038326d20feb53c686dafe2fae33a611a77f30302b6348d0add182e63d4"
+    },
+    {
+      "path": "scripts/mix_v2_soundtrack.py",
+      "sha256": "2e7a8050ed311a131e7b43c6d8ee1db52b15ad56fe88973b33f5f237ed5dcee2"
+    },
+    {
+      "path": "manifests/v2-audio-tail-fix-r1.json",
+      "sha256": "5e137cf74ba18af47b2074e4f674b13e6994196b40a3fabad806cc65be1b1af1"
+    },
+    {
+      "path": "manifests/v2-soundtrack-r2.json",
+      "sha256": "f238ffea86cbf5fcb7f89915c789797a2ff953979a62c37de7d6f51fde477c4d"
+    },
+    {
+      "path": "production/v2/output/scene-01-04-review-music-r4-tagline.mp4",
+      "sha256": "b64ad167dff0397c032acd7771905c20061c4b1a16d9847502948f3e2765cdaf"
+    },
+    {
+      "path": "production/v2/output/scene-01-04-review-r1.mp4",
+      "sha256": "c1f6c80330292e9f5c5e00ced844fa6b4c980e43004c9fe8def9379c00604716"
+    },
+    {
+      "path": "production/v2/audio/mynetworth-theme.wav",
+      "sha256": "62166abfe8c88404aaa311f26d5cbf023d5f759bc05df584ef75efefda88c654"
+    },
+    {
+      "path": "production/v2/output/scene-01-04-review-music-r5-audio-cleanup.mp4",
+      "sha256": "3a68bbec5da42ff426e25ceb7a409c3d562aa9c455611962b5b378471517b99a"
+    },
+    {
+      "path": "release/mynetworth-promo-v2.2-720p.mp4",
+      "sha256": "3a68bbec5da42ff426e25ceb7a409c3d562aa9c455611962b5b378471517b99a"
+    }
+  ]
+}

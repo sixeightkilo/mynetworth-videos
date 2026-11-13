@@ -1,6 +1,8 @@
 # V2 full-film checkpoint
 
-Current approved output: `output/scene-01-04-review-music-r3-edge-fixed.mp4`. The edge correction is documented in `docs/v2-edge-fix-r1.md` (repository root), including fresh-path reproduction commands and tracked before/after evidence. It retains the soundtrack and framing while extending four adjacent columns across each padded edge.
+Current approved baseline: `output/scene-01-04-review-music-r5-audio-cleanup.mp4`. It includes the edge correction, two-line tagline and approved removal of the unwanted Scene 1 audio burst near 21 seconds. See `docs/v2-audio-tail-fix-r1.md` for reproduction and verification.
+
+Earlier edge-corrected output: `output/scene-01-04-review-music-r3-edge-fixed.mp4`. The edge correction is documented in `docs/v2-edge-fix-r1.md` (repository root), including fresh-path reproduction commands and tracked before/after evidence. It retains the soundtrack and framing while extending four adjacent columns across each padded edge.
 
 The preserved pre-correction checkpoint follows.
 
@@ -8,7 +10,7 @@ Four scenes, 1280×720 at 24fps, 1418 frames / 59.083333s. Pre-correction soundt
 
 `../../manifests/v2-production-checkpoint.json` lists authoritative scene masters. Scene 1 dashboard composite and Scene 2 r4 baked outputs have been promoted from disposable out/ into their scene output folders, alongside source footage, masks and references. Scene 3 fitted output and Scene 4 end card are also preserved. Assembly/reproduction no longer requires recovering those accepted masters from an ignored cache. Optional compositing dependencies are pinned in `scripts/requirements-screen-compositing.txt`; OpenCV is not required to reproduce the film from these baked inputs.
 
-From the repository root, reproduce the exact latest video:
+From the repository root, reproduce the preserved pre-correction checkpoint:
 
 ```sh
 npm ci

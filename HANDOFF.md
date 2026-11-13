@@ -295,3 +295,9 @@ User requested “All Your Investments.” / “One Clean Dashboard.” as two d
 ### V2 tagline revision approved for commit
 
 User requested check-in/commit of the two-line tagline revision. Current film: `production/v2/output/scene-01-04-review-music-r4-tagline.mp4`. Updated source/config, native rendered patch, full-film patch script, output/report and documentation are retained. Tracked verification still: docs/validation/v2-tagline-r5.png. Same 1418 frames / 59.083333s / 720p24 and identical decoded soundtrack; no push/tag requested.
+
+### V2 audio-tail cleanup approved baseline (13 November)
+
+User identified an unwanted low-frequency burst around 20.6–21.0 seconds in the original Scene 1 soundtrack, accepted the cleaned listening review and requested a new baseline. Current film: `production/v2/output/scene-01-04-review-music-r5-audio-cleanup.mp4`. Original dialogue track fades 20.48–20.56s, then is muted through 21.041667s; music and later dialogue retain their settings. Video packets copy r4-tagline unchanged, preserving all 1418 frames / 59.083333s / 1280×720 / 24fps, edge correction and two-line tagline. Reproduction uses `scripts/fix_v2_audio_tail.py` with `manifests/v2-audio-tail-fix-r1.json`, regenerating the music stem from tracked sources. See docs/v2-audio-tail-fix-r1.md and output JSON for checks. Earlier media remain untouched. No commit/push requested.
+
+User subsequently requested check-in, tag and push of this approved baseline. Checkpoint tag: `production-v2.2`. Exact production dependencies are inventoried in `manifests/v2-audio-tail-fix-checksums.json`; fresh reproduction is verified byte-for-byte. The unrelated r4 thumbnail remains outside this commit.
